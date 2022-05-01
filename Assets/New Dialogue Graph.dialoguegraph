@@ -1,0 +1,245 @@
+{
+  "DGVersion": 1,
+  "ObjectID": "3ed414276e5ab654289f9fc041a2b021",
+  "Nodes": [
+    {
+      "ID": "e4dd80f428657ea4c99e560976b3a62e",
+      "Type": "Celezt.DialogueSystem.Editor.OutputNode"
+    },
+    {
+      "ID": "07d7213c747fc2249a950453a94beb7a",
+      "Type": "Celezt.DialogueSystem.Editor.OutputNode"
+    },
+    {
+      "ID": "da2ada424e17a294780077b44368fbd6",
+      "Type": "Celezt.DialogueSystem.Editor.OutputNode"
+    },
+    {
+      "ID": "f0000f65d6eebe045b402e2dcfadb827",
+      "Type": "Celezt.DialogueSystem.Editor.InputNode"
+    },
+    {
+      "ID": "566a2ad35b298f746ae6a29be3b56bcf",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode"
+    },
+    {
+      "ID": "3ad0e7752b1ce1045be16e52cd8762b6",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode"
+    },
+    {
+      "ID": "b444b8536e18c4240b4c5f0cd28dc058",
+      "Type": "Celezt.DialogueSystem.Editor.BlendNode"
+    },
+    {
+      "ID": "257e8822e975f8941bab021ed52e4892",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode"
+    },
+    {
+      "ID": "788b0ada01a2b7f4a961e18947ac9c61",
+      "Type": "Celezt.DialogueSystem.Editor.ActionNode"
+    },
+    {
+      "ID": "f0c886624ea741049ad6a8f2284716d9",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode"
+    }
+  ],
+  "Edges": [
+    {
+      "OutputPort": {
+        "NodeID": "257e8822e975f8941bab021ed52e4892",
+        "PortNumber": -1
+      },
+      "InputPort": {
+        "NodeID": "788b0ada01a2b7f4a961e18947ac9c61",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "f0c886624ea741049ad6a8f2284716d9",
+        "PortNumber": -1
+      },
+      "InputPort": {
+        "NodeID": "788b0ada01a2b7f4a961e18947ac9c61",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "f0c886624ea741049ad6a8f2284716d9",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "b444b8536e18c4240b4c5f0cd28dc058",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "b444b8536e18c4240b4c5f0cd28dc058",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "257e8822e975f8941bab021ed52e4892",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "f0c886624ea741049ad6a8f2284716d9",
+        "PortNumber": 1
+      },
+      "InputPort": {
+        "NodeID": "3ad0e7752b1ce1045be16e52cd8762b6",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "788b0ada01a2b7f4a961e18947ac9c61",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "07d7213c747fc2249a950453a94beb7a",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "788b0ada01a2b7f4a961e18947ac9c61",
+        "PortNumber": 1
+      },
+      "InputPort": {
+        "NodeID": "e4dd80f428657ea4c99e560976b3a62e",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "257e8822e975f8941bab021ed52e4892",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "da2ada424e17a294780077b44368fbd6",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "566a2ad35b298f746ae6a29be3b56bcf",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "f0c886624ea741049ad6a8f2284716d9",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "f0000f65d6eebe045b402e2dcfadb827",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "566a2ad35b298f746ae6a29be3b56bcf",
+        "PortNumber": 0
+      }
+    }
+  ],
+  "Positions": [
+    {
+      "x": 334,
+      "y": 1001
+    },
+    {
+      "x": 817,
+      "y": 655
+    },
+    {
+      "x": 612,
+      "y": 382
+    },
+    {
+      "x": -740,
+      "y": 361
+    },
+    {
+      "x": -505,
+      "y": 304
+    },
+    {
+      "x": 128,
+      "y": -288
+    },
+    {
+      "x": 137,
+      "y": 361
+    },
+    {
+      "x": 290,
+      "y": 328
+    },
+    {
+      "x": 86,
+      "y": 609
+    },
+    {
+      "x": -120,
+      "y": 304
+    }
+  ],
+  "CustomSaveData": [
+    {
+      "_id": "ID"
+    },
+    {
+      "_id": "ID"
+    },
+    {
+      "_id": "EXPLOSION!!!"
+    },
+    {
+      "_id": "ID"
+    },
+    {
+      "_actorID": "Steve",
+      "_text": "Wow a day without rain, not every day I'm this lucky!",
+      "_choices": []
+    },
+    {
+      "_actorID": "Steve",
+      "_text": "LOOK OUT, A CREEPER!!!",
+      "_choices": [
+        {
+          "Text": "New Choice"
+        }
+      ]
+    },
+    {
+      "_timeOffset": 0.4
+    },
+    {
+      "_actorID": "Alex",
+      "_text": "I'm not falling for that old tric-",
+      "_choices": []
+    },
+    {
+      "_choices": [
+        {
+          "Text": "New Choice"
+        },
+        {
+          "Text": "New Choice"
+        }
+      ]
+    },
+    {
+      "_actorID": "Steve",
+      "_text": "LOOK OUT, A CREEPER!!!",
+      "_choices": [
+        {
+          "Text": "New Choice"
+        }
+      ]
+    }
+  ]
+}
