@@ -17,8 +17,9 @@ public class DialogueUI : MonoBehaviour
     private VisualElement _bottom;
     private Label _topText;
     private Label _bottomText;
+    private Label _topActor;
+    private Label _bottomActor;
     private VisualElement _root;
-    [NonSerialized]
     private DialogueSystemBinder _binder;
 
     private enum Order
@@ -51,13 +52,13 @@ public class DialogueUI : MonoBehaviour
         _bottom = _root.Q<VisualElement>("Bottom");
         _topText = _top.Q<Label>("Text");
         _bottomText = _bottom.Q<Label>("Text");
+        _topActor = _top.Q<Label>("Actor");
+        _bottomActor = _bottom.Q<Label>("Actor");
 
-        _top.style.visibility = Visibility.Hidden;
-        _bottom.style.visibility = Visibility.Hidden;
-        _topText.text = "";
-        _bottomText.text = "";
+        Refresh();
 
         _nextButton.clicked += OnNextButtonPressed;
+        _binder.OnCreateTrackMixer.AddListener(() => Refresh());
         _binder.OnEnterClip.AddListener(OnEnterClip);
         _binder.OnExitClip.AddListener(OnExitClip);
     }
@@ -76,12 +77,14 @@ public class DialogueUI : MonoBehaviour
             {
                 _bottom.style.visibility = Visibility.Visible;
                 _bottomText.text = behaviour.Text;
+                _bottomActor.text = behaviour.Actor;
                 callback.UserData = Order.Bottom;
             }
             else
             {
                 _top.style.visibility = Visibility.Visible;
                 _topText.text = behaviour.Text;
+                _topActor.text = behaviour.Actor;
                 callback.UserData = Order.Top;
             }
         }
@@ -97,11 +100,24 @@ public class DialogueUI : MonoBehaviour
             case Order.Bottom:
                 _bottom.style.visibility = Visibility.Hidden;
                 _bottomText.text = "";
+                _bottomActor.text = "";
                 break;
             case Order.Top:
                 _top.style.visibility = Visibility.Hidden;
                 _topText.text = "";
+                _topActor.text = "";
                 break;
         }
+    }
+
+    private void Refresh()
+    {
+        _top.style.visibility = Visibility.Hidden;
+        _bottom.style.visibility = Visibility.Hidden;
+        _topText.text = "";
+        _bottomText.text = "";
+
+        for (int i = 0; i < _binder.TrackCount; i++)
+            _binder.SetUserData(i, null);
     }
 }

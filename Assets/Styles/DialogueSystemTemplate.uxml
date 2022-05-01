@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/DialogueSystem.uss?fileID=7433441132597879392&amp;guid=3a9fb316d5319d64ca96dd40ee43f0a2&amp;type=3#DialogueSystem" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; justify-content: space-between; align-items: stretch; background-color: rgba(0, 0, 0, 0); flex-direction: row; flex-wrap: wrap-reverse;">
+        <ui:VisualElement name="Left" style="flex-grow: 0; flex-shrink: 1; flex-basis: 20%;" />
+        <ui:VisualElement name="Center" style="flex-grow: 3; flex-wrap: wrap-reverse; justify-content: space-between; flex-basis: 50%;">
+            <ui:VisualElement name="Top" style="flex-grow: 1; align-items: stretch;">
+                <ui:VisualElement name="Box" class="dialogue-box">
+                    <ui:Label text="Text" display-tooltip-when-elided="true" name="Text" style="font-size: 50px; padding-top: 4px; padding-right: 2px;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-direction: row-reverse; margin-left: 100px; margin-right: 100px;">
+                    <ui:VisualElement name="Namecard" class="namecard">
+                        <ui:Label text="Label" display-tooltip-when-elided="true" name="Actor" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Bottom" style="flex-grow: 1; justify-content: flex-end;">
+                <ui:VisualElement style="margin-left: 100px; margin-right: 100px; flex-direction: row;">
+                    <ui:VisualElement name="Namecard" class="namecard">
+                        <ui:Label text="Label" display-tooltip-when-elided="true" name="Actor" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="Box" class="dialogue-box">
+                    <ui:Label text="Text" display-tooltip-when-elided="true" name="Text" style="font-size: 50px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Right" style="flex-grow: 0; flex-direction: column; justify-content: flex-end; align-items: stretch; flex-shrink: 1; flex-basis: 20%;">
+            <ui:Button text="Button" display-tooltip-when-elided="true" name="Next" class="button-next" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -94,6 +94,7 @@ MonoBehaviour:
     - rid: 8653645328991387652
       type: {class: ParagraphBehaviour, ns: Celezt.DialogueSystem, asm: celezt.asyncdialogue.runtiime}
       data:
+        Actor: Jeff
         Text: Aha!!! I just interrupted you!
 --- !u!74 &-2715479490446887230
 AnimationClip:
@@ -282,6 +283,7 @@ MonoBehaviour:
     - rid: 8653645328991387651
       type: {class: ParagraphBehaviour, ns: Celezt.DialogueSystem, asm: celezt.asyncdialogue.runtiime}
       data:
+        Actor: Jeff
         Text: Whats Up?
 --- !u!114 &-285895854737276845
 MonoBehaviour:
@@ -303,6 +305,7 @@ MonoBehaviour:
     - rid: 8653645374828314625
       type: {class: ParagraphBehaviour, ns: Celezt.DialogueSystem, asm: celezt.asyncdialogue.runtiime}
       data:
+        Actor: Hank
         Text: Hi
 --- !u!114 &-52684485980333077
 MonoBehaviour:
@@ -324,6 +327,7 @@ MonoBehaviour:
     - rid: 8653645385695494145
       type: {class: ParagraphBehaviour, ns: Celezt.DialogueSystem, asm: celezt.asyncdialogue.runtiime}
       data:
+        Actor: Hank
         Text: Nothing, you?
 --- !u!114 &11400000
 MonoBehaviour:
@@ -335,7 +339,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
-  m_Name: New Timeline
+  m_Name: TestTimeline
   m_EditorClassIdentifier: 
   m_Version: 0
   m_Tracks:
@@ -409,6 +413,7 @@ MonoBehaviour:
     - rid: 8653645328991387653
       type: {class: ParagraphBehaviour, ns: Celezt.DialogueSystem, asm: celezt.asyncdialogue.runtiime}
       data:
+        Actor: Jeff
         Text: Hello
 --- !u!114 &5162729368001557855
 MonoBehaviour:
@@ -515,75 +520,6 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0.4833333333333343
     m_PreExtrapolationTime: 0
     m_DisplayName: Whats Up?
-  - m_Version: 1
-    m_Start: 3.333333333333334
-    m_ClipIn: 0
-    m_Asset: {fileID: -285895854737276845}
-    m_Duration: 1.75
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 5162729368001557855}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: Hi
   - m_Version: 1
     m_Start: 8.666666666666666
     m_ClipIn: 0
@@ -721,7 +657,76 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Shut up
+    m_DisplayName: SHUT UP!
+  - m_Version: 1
+    m_Start: 3.333333333333334
+    m_ClipIn: 0
+    m_Asset: {fileID: -285895854737276845}
+    m_Duration: 1.75
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5162729368001557855}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Hi
   m_Markers:
     m_Objects: []
 --- !u!114 &7698024849392388385
@@ -744,4 +749,5 @@ MonoBehaviour:
     - rid: 7058942753681965057
       type: {class: ParagraphBehaviour, ns: Celezt.DialogueSystem, asm: celezt.asyncdialogue.runtiime}
       data:
-        Text: Shut up
+        Actor: Hank
+        Text: SHUT UP!

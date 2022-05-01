@@ -1,6 +1,4 @@
 .button-next {
-    height: 91px;
-    width: 336px;
     border-top-left-radius: 47px;
     border-bottom-left-radius: 47px;
     border-top-right-radius: 47px;
@@ -13,19 +11,10 @@
     font-size: 50px;
     white-space: nowrap;
     -unity-text-align: upper-center;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    flex-grow: 0;
-    left: auto;
     margin-left: 4px;
     margin-right: 4px;
     margin-top: 4px;
     margin-bottom: 4px;
-    top: 124px;
-    position: absolute;
-    align-items: flex-end;
-    justify-content: flex-start;
-    right: -352px;
     border-left-width: 6px;
     border-right-width: 6px;
     border-top-width: 6px;
@@ -49,9 +38,22 @@
     border-bottom-right-radius: 126px;
     align-items: center;
     justify-content: center;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-bottom: 12px;
     flex-direction: column;
     margin-top: 12px;
+}
+
+.namecard {
+    height: 100px;
+    background-color: rgba(255, 255, 255, 255);
+    align-items: center;
+    width: 400px;
+    border-top-left-radius: 65px;
+    border-bottom-left-radius: 65px;
+    border-top-right-radius: 65px;
+    border-bottom-right-radius: 65px;
+    justify-content: center;
+    font-size: 46px;
 }
