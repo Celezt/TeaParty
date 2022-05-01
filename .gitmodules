@@ -1,0 +1,3 @@
+[submodule "Packages/UnityAsyncDialogueSystem"]
+	path = Packages/UnityAsyncDialogueSystem
+	url = https://github.com/Celezt/UnityAsyncDialogueSystem
