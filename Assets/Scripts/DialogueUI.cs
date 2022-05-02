@@ -2,24 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
-using UnityEngine.UIElements;
 using Celezt.DialogueSystem;
-using System;
-using System.Linq;
+using TMPro;
+using UnityEngine.UI;
 
 [ExecuteInEditMode]
 public class DialogueUI : MonoBehaviour
 {
-    [SerializeField] private PlayableDirector _director;
+    [SerializeField] private CanvasGroup _canvas;
+    [SerializeField] private CanvasGroup _top;
+    [SerializeField] private CanvasGroup _bottom;
+    [SerializeField] private TextMeshProUGUI _topText;
+    [SerializeField] private TextMeshProUGUI _bottomText;
+    [SerializeField] private TextMeshProUGUI _topActor;
+    [SerializeField] private TextMeshProUGUI _bottomActor;
 
-    private Button _nextButton;
-    private VisualElement _top;
-    private VisualElement _bottom;
-    private Label _topText;
-    private Label _bottomText;
-    private Label _topActor;
-    private Label _bottomActor;
-    private VisualElement _root;
     private DialogueSystemBinder _binder;
 
     private enum Order
@@ -44,20 +41,10 @@ public class DialogueUI : MonoBehaviour
 
     private void Initialize()
     {
-        _root = GetComponent<UIDocument>().rootVisualElement;
         _binder = GetComponent<DialogueSystemBinder>();
-
-        _nextButton = _root.Q<Button>("Next");
-        _top = _root.Q<VisualElement>("Top");
-        _bottom = _root.Q<VisualElement>("Bottom");
-        _topText = _top.Q<Label>("Text");
-        _bottomText = _bottom.Q<Label>("Text");
-        _topActor = _top.Q<Label>("Actor");
-        _bottomActor = _bottom.Q<Label>("Actor");
 
         Refresh();
 
-        _nextButton.clicked += OnNextButtonPressed;
         _binder.OnCreateTrackMixer.AddListener(() => Refresh());
         _binder.OnEnterClip.AddListener(OnEnterClip);
         _binder.OnExitClip.AddListener(OnExitClip);
@@ -75,14 +62,14 @@ public class DialogueUI : MonoBehaviour
             if (callback.Binder[0].Mixer.IsAvailable ||
                (callback.UserData != null && (Order)callback.UserData == Order.Bottom))   // The first is currently not playing anything or is currently the bottom.
             {
-                _bottom.style.visibility = Visibility.Visible;
+                _bottom.alpha = 1;
                 _bottomText.text = behaviour.Text;
                 _bottomActor.text = behaviour.Actor;
                 callback.UserData = Order.Bottom;
             }
             else
             {
-                _top.style.visibility = Visibility.Visible;
+                _top.alpha = 1;
                 _topText.text = behaviour.Text;
                 _topActor.text = behaviour.Actor;
                 callback.UserData = Order.Top;
@@ -98,24 +85,26 @@ public class DialogueUI : MonoBehaviour
         switch ((Order)callback.UserData)
         {
             case Order.Bottom:
-                _bottom.style.visibility = Visibility.Hidden;
-                _bottomText.text = "";
-                _bottomActor.text = "";
+                _bottom.alpha = 0;
+                _bottomText.text = null;
+                _bottomActor.text = null;
                 break;
             case Order.Top:
-                _top.style.visibility = Visibility.Hidden;
-                _topText.text = "";
-                _topActor.text = "";
+                _top.alpha = 0;
+                _topText.text = null;
+                _topActor.text = null;
                 break;
         }
     }
 
     private void Refresh()
     {
-        _top.style.visibility = Visibility.Hidden;
-        _bottom.style.visibility = Visibility.Hidden;
-        _topText.text = "";
-        _bottomText.text = "";
+        _top.alpha = 0;
+        _bottom.alpha = 0;
+        _topText.text = null;
+        _bottomText.text = null;
+        _topActor.text = null;
+        _bottomActor.text = null;
 
         for (int i = 0; i < _binder.TrackCount; i++)
             _binder.SetUserData(i, null);

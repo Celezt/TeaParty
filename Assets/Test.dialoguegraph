@@ -9,10 +9,22 @@
       "Value": true
     },
     {
+      "ID": "adb114f464314866898fa707f38b4e2a",
+      "Type": "System.Boolean",
+      "Name": "New bool 1",
+      "Value": false
+    },
+    {
       "ID": "8f6374d163e04f4c8932b00667331c24",
       "Type": "System.Int32",
       "Name": "New int",
       "Value": 4
+    },
+    {
+      "ID": "8a173897bb724eacb56d166494d9aafc",
+      "Type": "System.Boolean",
+      "Name": "New bool 2",
+      "Value": false
     }
   ],
   "Nodes": [
@@ -21,19 +33,15 @@
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode"
     },
     {
-      "ID": "f4cb4eafa5df426db0982d91ae33d4c5",
-      "Type": "Celezt.DialogueSystem.Editor.PropertyNode"
-    },
-    {
-      "ID": "32ea1ca002fb4fc3aa3de64cc00dd96d",
+      "ID": "3219feae1f86497fac2a089a62606999",
       "Type": "Celezt.DialogueSystem.Editor.ConditionNode"
     },
     {
-      "ID": "4d6cad458240427f8ea6c418141fb0ac",
-      "Type": "Celezt.DialogueSystem.Editor.PropertyNode"
+      "ID": "ca347879a5d849849420f291e13c4a7c",
+      "Type": "Celezt.DialogueSystem.Editor.BasicNode"
     },
     {
-      "ID": "ca347879a5d849849420f291e13c4a7c",
+      "ID": "9f277ba39b874b159904924896171b19",
       "Type": "Celezt.DialogueSystem.Editor.BasicNode"
     },
     {
@@ -41,28 +49,36 @@
       "Type": "Celezt.DialogueSystem.Editor.InputNode"
     },
     {
+      "ID": "32ea1ca002fb4fc3aa3de64cc00dd96d",
+      "Type": "Celezt.DialogueSystem.Editor.ConditionNode"
+    },
+    {
+      "ID": "8fed22c592d947d7b6bbcc1c3339ab47",
+      "Type": "Celezt.DialogueSystem.Editor.ConditionNode"
+    },
+    {
+      "ID": "d5faafb550424ff7a2ba3bcf41ece5f0",
+      "Type": "Celezt.DialogueSystem.Editor.PropertyNode"
+    },
+    {
+      "ID": "4d6cad458240427f8ea6c418141fb0ac",
+      "Type": "Celezt.DialogueSystem.Editor.PropertyNode"
+    },
+    {
       "ID": "f7172004a1794adeb9d2dfc0ef3e1ff7",
       "Type": "Celezt.DialogueSystem.Editor.ActionNode"
-    },
-    {
-      "ID": "9f277ba39b874b159904924896171b19",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode"
-    },
-    {
-      "ID": "a81465d1497a408688480bb11b16ee00",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode"
     },
     {
       "ID": "63f8f878775ab6e498d769a715c14459",
       "Type": "Celezt.DialogueSystem.Editor.OutputNode"
     },
     {
-      "ID": "61a0244c175c08242819a049d3559107",
-      "Type": "Celezt.DialogueSystem.Editor.BlendNode"
-    },
-    {
       "ID": "5dc9e115a40e3d0408ea328241630956",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode"
+    },
+    {
+      "ID": "61a0244c175c08242819a049d3559107",
+      "Type": "Celezt.DialogueSystem.Editor.BlendNode"
     },
     {
       "ID": "b8986deb38374ef897cb3be6c4874383",
@@ -71,6 +87,22 @@
     {
       "ID": "63bc2f6ec9c54976ba23ff092e132ae6",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode"
+    },
+    {
+      "ID": "d65056a3be1148129141e90c551c7210",
+      "Type": "Celezt.DialogueSystem.Editor.ActionNode"
+    },
+    {
+      "ID": "f7048008dba94221849d33855383382a",
+      "Type": "Celezt.DialogueSystem.Editor.PropertyNode"
+    },
+    {
+      "ID": "9ca8ead3d57745fabf9b9d17b26d5106",
+      "Type": "Celezt.DialogueSystem.Editor.OutputNode"
+    },
+    {
+      "ID": "a81465d1497a408688480bb11b16ee00",
+      "Type": "Celezt.DialogueSystem.Editor.BasicNode"
     }
   ],
   "Edges": [
@@ -106,32 +138,12 @@
     },
     {
       "OutputPort": {
-        "NodeID": "ca347879a5d849849420f291e13c4a7c",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "32ea1ca002fb4fc3aa3de64cc00dd96d",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
         "NodeID": "32ea1ca002fb4fc3aa3de64cc00dd96d",
         "PortNumber": 0
       },
       "InputPort": {
         "NodeID": "4cf97e0b03f19d045a79458983177e22",
         "PortNumber": 2
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "f4cb4eafa5df426db0982d91ae33d4c5",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "4cf97e0b03f19d045a79458983177e22",
-        "PortNumber": 1
       }
     },
     {
@@ -183,64 +195,224 @@
         "NodeID": "63bc2f6ec9c54976ba23ff092e132ae6",
         "PortNumber": 0
       }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "3219feae1f86497fac2a089a62606999",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "32ea1ca002fb4fc3aa3de64cc00dd96d",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "ca347879a5d849849420f291e13c4a7c",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "3219feae1f86497fac2a089a62606999",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "9f277ba39b874b159904924896171b19",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "3219feae1f86497fac2a089a62606999",
+        "PortNumber": 1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "4d6cad458240427f8ea6c418141fb0ac",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "8fed22c592d947d7b6bbcc1c3339ab47",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "8fed22c592d947d7b6bbcc1c3339ab47",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "4cf97e0b03f19d045a79458983177e22",
+        "PortNumber": 1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "d5faafb550424ff7a2ba3bcf41ece5f0",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "8fed22c592d947d7b6bbcc1c3339ab47",
+        "PortNumber": 1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "f7172004a1794adeb9d2dfc0ef3e1ff7",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "63bc2f6ec9c54976ba23ff092e132ae6",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "63bc2f6ec9c54976ba23ff092e132ae6",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "d65056a3be1148129141e90c551c7210",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "5dc9e115a40e3d0408ea328241630956",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "d65056a3be1148129141e90c551c7210",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "f7048008dba94221849d33855383382a",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "d65056a3be1148129141e90c551c7210",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "d65056a3be1148129141e90c551c7210",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "9ca8ead3d57745fabf9b9d17b26d5106",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "a81465d1497a408688480bb11b16ee00",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "f7172004a1794adeb9d2dfc0ef3e1ff7",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "4cf97e0b03f19d045a79458983177e22",
+        "PortNumber": 1
+      },
+      "InputPort": {
+        "NodeID": "63bc2f6ec9c54976ba23ff092e132ae6",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "63bc2f6ec9c54976ba23ff092e132ae6",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "5dc9e115a40e3d0408ea328241630956",
+        "PortNumber": 0
+      }
     }
   ],
   "Positions": [
     {
-      "x": 785,
+      "x": 797,
       "y": 559
     },
     {
-      "x": 551,
-      "y": 742
-    },
-    {
       "x": 527,
-      "y": 845
-    },
-    {
-      "x": 551,
-      "y": 691
-    },
-    {
-      "x": 375,
-      "y": 742
-    },
-    {
-      "x": 596,
-      "y": 562
-    },
-    {
-      "x": 785,
-      "y": 885
-    },
-    {
-      "x": 375,
       "y": 811
     },
     {
-      "x": 375,
-      "y": 880
+      "x": 404,
+      "y": 802
     },
     {
-      "x": 1585,
-      "y": 603
+      "x": 404,
+      "y": 873
     },
     {
-      "x": 1167,
-      "y": 622
+      "x": 695,
+      "y": 574
     },
     {
-      "x": 1343,
-      "y": 558
+      "x": 669,
+      "y": 839
     },
     {
-      "x": 1046,
+      "x": 669,
+      "y": 680
+    },
+    {
+      "x": 515,
       "y": 740
     },
     {
-      "x": 1029,
-      "y": 898
+      "x": 515,
+      "y": 680
+    },
+    {
+      "x": 797,
+      "y": 895
+    },
+    {
+      "x": 1548,
+      "y": 621
+    },
+    {
+      "x": 1302,
+      "y": 558
+    },
+    {
+      "x": 1160,
+      "y": 620
+    },
+    {
+      "x": 1046,
+      "y": 723
+    },
+    {
+      "x": 1046,
+      "y": 817
+    },
+    {
+      "x": 1302,
+      "y": 1097
+    },
+    {
+      "x": 1139,
+      "y": 1183
+    },
+    {
+      "x": 1539,
+      "y": 1144
+    },
+    {
+      "x": 545,
+      "y": 970
     }
   ],
   "Specialization": [
@@ -257,20 +429,30 @@
       ]
     },
     {
-      "_propertyID": "b57bff0152f34557b05f33dd7fc212d5"
-    },
-    {
-      "currentComparison": 0
-    },
-    {
-      "_propertyID": "b57bff0152f34557b05f33dd7fc212d5"
+      "currentComparison": 3
     },
     {
       "_type": "System.Single",
       "_value": 1.2
     },
     {
+      "_type": "System.Boolean",
+      "_value": true
+    },
+    {
       "_id": "ID"
+    },
+    {
+      "currentComparison": 0
+    },
+    {
+      "currentComparison": 4
+    },
+    {
+      "_propertyID": "adb114f464314866898fa707f38b4e2a"
+    },
+    {
+      "_propertyID": "b57bff0152f34557b05f33dd7fc212d5"
     },
     {
       "_choices": [
@@ -280,30 +462,39 @@
       ]
     },
     {
-      "_type": "System.Boolean",
-      "_value": true
-    },
-    {
-      "_type": "System.Int32",
-      "_value": 3
-    },
-    {
       "_id": "ID"
     },
-    {},
     {
       "_actorID": "actor_id",
       "_text": "Hello",
       "_choices": []
     },
+    {},
     {
       "_type": "System.Single",
       "_value": 2.0
     },
     {
       "_actorID": "actor_id",
-      "_text": "Hello",
+      "_text": "Dialogue text.",
       "_choices": []
+    },
+    {
+      "_choices": [
+        {
+          "Text": "New Choice"
+        }
+      ]
+    },
+    {
+      "_propertyID": "8a173897bb724eacb56d166494d9aafc"
+    },
+    {
+      "_id": "ID"
+    },
+    {
+      "_type": "System.Int32",
+      "_value": 3
     }
   ]
 }
