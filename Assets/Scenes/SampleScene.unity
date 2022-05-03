@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &36963159 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8030283755969801518, guid: acb5003a491689e46b88634cece96db2, type: 3}
+  m_PrefabInstance: {fileID: 818993099}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &185326879
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -130,6 +135,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1701189612}
     m_Modifications:
+    - target: {fileID: 5677108838445105785, guid: acb5003a491689e46b88634cece96db2, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8030283755969801517, guid: acb5003a491689e46b88634cece96db2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -235,6 +244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 428674794}
   - component: {fileID: 428674793}
+  - component: {fileID: 428674795}
   m_Layer: 0
   m_Name: Timeline
   m_TagString: Untagged
@@ -257,12 +267,13 @@ PlayableDirector:
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: 5162729368001557855, guid: 3433452348d07e546aa26da63e40454a, type: 2}
-    value: {fileID: 807391869}
-  - key: {fileID: -9076688667662421409, guid: 3433452348d07e546aa26da63e40454a, type: 2}
-    value: {fileID: 807391869}
+  - key: {fileID: 6231379950305229156, guid: 3433452348d07e546aa26da63e40454a, type: 2}
+    value: {fileID: 428674795}
+  - key: {fileID: -3751243475754371764, guid: 3433452348d07e546aa26da63e40454a, type: 2}
+    value: {fileID: 428674795}
   m_ExposedReferences:
-    m_References: []
+    m_References:
+    - 20bc677182864804bb4371337e5b4772: {fileID: 36963159}
 --- !u!4 &428674794
 Transform:
   m_ObjectHideFlags: 0
@@ -278,6 +289,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &428674795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428674792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bc2058b7b49aeb45acb6bd537099fa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnCreateTrackMixer:
+    m_PersistentCalls:
+      m_Calls: []
+  OnEnterClip:
+    m_PersistentCalls:
+      m_Calls: []
+  OnExitClip:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &452342336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -285,6 +317,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1701189612}
     m_Modifications:
+    - target: {fileID: 5677108838445105785, guid: acb5003a491689e46b88634cece96db2, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8030283755969801517, guid: acb5003a491689e46b88634cece96db2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -529,6 +565,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1701189612}
     m_Modifications:
+    - target: {fileID: 5677108838445105785, guid: acb5003a491689e46b88634cece96db2, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8030283755969801517, guid: acb5003a491689e46b88634cece96db2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -638,7 +678,6 @@ GameObject:
   - component: {fileID: 807391865}
   - component: {fileID: 807391871}
   - component: {fileID: 807391870}
-  - component: {fileID: 807391869}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -730,27 +769,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &807391869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 807391864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bc2058b7b49aeb45acb6bd537099fa3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnCreateTrackMixer:
-    m_PersistentCalls:
-      m_Calls: []
-  OnEnterClip:
-    m_PersistentCalls:
-      m_Calls: []
-  OnExitClip:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &807391870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -763,6 +781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97ddc785fb3f0ab49a9d8b4c55af3bc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _binder: {fileID: 428674795}
   _canvas: {fileID: 807391871}
   _top: {fileID: 1282261026}
   _bottom: {fileID: 5559012799086274364}
@@ -770,6 +789,7 @@ MonoBehaviour:
   _bottomText: {fileID: 2110817371}
   _topActor: {fileID: 1282261024}
   _bottomActor: {fileID: 1148499710}
+  _actions: {fileID: 1701189614}
 --- !u!225 &807391871
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -789,6 +809,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1701189612}
     m_Modifications:
+    - target: {fileID: 5677108838445105785, guid: acb5003a491689e46b88634cece96db2, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8030283755969801515, guid: acb5003a491689e46b88634cece96db2, type: 3}
       propertyPath: m_CullTransparentMesh
       value: 1
@@ -1337,6 +1361,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1701189612}
     m_Modifications:
+    - target: {fileID: 5677108838445105785, guid: acb5003a491689e46b88634cece96db2, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8030283755969801517, guid: acb5003a491689e46b88634cece96db2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1442,6 +1470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1701189612}
   - component: {fileID: 1701189613}
+  - component: {fileID: 1701189614}
   m_Layer: 5
   m_Name: Actions
   m_TagString: Untagged
@@ -1499,6 +1528,18 @@ MonoBehaviour:
   m_Spacing: {x: 7, y: 3}
   m_Constraint: 1
   m_ConstraintCount: 3
+--- !u!225 &1701189614
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701189611}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!114 &2110817371 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5559012800484057952, guid: 66b9a56af1cfa814f97b59b9a1d85a64, type: 3}
