@@ -310,6 +310,9 @@ MonoBehaviour:
   OnExitClip:
     m_PersistentCalls:
       m_Calls: []
+  OnProcessClip:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &452342336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -790,6 +793,7 @@ MonoBehaviour:
   _topActor: {fileID: 1282261024}
   _bottomActor: {fileID: 1148499710}
   _actions: {fileID: 1701189614}
+  _autoTextOffset: 1.2
 --- !u!225 &807391871
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1026,10 +1030,6 @@ PrefabInstance:
     - target: {fileID: 5559012799287792781, guid: 66b9a56af1cfa814f97b59b9a1d85a64, type: 3}
       propertyPath: m_Name
       value: Dialogue Box Top
-      objectReference: {fileID: 0}
-    - target: {fileID: 5559012800087953861, guid: 66b9a56af1cfa814f97b59b9a1d85a64, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5559012800087953862, guid: 66b9a56af1cfa814f97b59b9a1d85a64, type: 3}
       propertyPath: m_Pivot.x
@@ -1649,6 +1649,22 @@ PrefabInstance:
     - target: {fileID: 5559012799287792781, guid: 66b9a56af1cfa814f97b59b9a1d85a64, type: 3}
       propertyPath: m_Name
       value: Dialogue Box Bottom
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559012800087953862, guid: 66b9a56af1cfa814f97b59b9a1d85a64, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559012800087953862, guid: 66b9a56af1cfa814f97b59b9a1d85a64, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559012800484057952, guid: 66b9a56af1cfa814f97b59b9a1d85a64, type: 3}
+      propertyPath: m_text
+      value: don't trust anyone who tries to sell you that stuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559012800484057952, guid: 66b9a56af1cfa814f97b59b9a1d85a64, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66b9a56af1cfa814f97b59b9a1d85a64, type: 3}

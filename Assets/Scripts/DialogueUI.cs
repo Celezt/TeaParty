@@ -19,17 +19,11 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _topActor;
     [SerializeField] private TextMeshProUGUI _bottomActor;
     [SerializeField] private CanvasGroup _actions;
+    [SerializeField] private float _textScroll = 1.0f;
 
     private CanvasGroup[] _actionButtons = new CanvasGroup[6];
 
     private bool _isInitialized;
-
-    private enum Order
-    {
-        None,
-        Top,
-        Bottom,
-    }
 
     private void Awake()
     {
@@ -45,18 +39,6 @@ public class DialogueUI : MonoBehaviour
 #endif
     }
 
-#if UNITY_EDITOR
-    [UnityEditor.Callbacks.DidReloadScripts]
-    private static void OnReaload()
-    {
-        foreach (var ui in FindObjectsOfType<DialogueUI>())
-        {
-            if (ui._isInitialized == false)
-                ui.Initialize();
-        }
-    }
-#endif
-
     private void Initialize()
     {
         _isInitialized = true;
@@ -69,6 +51,7 @@ public class DialogueUI : MonoBehaviour
 
         _binder.OnCreateTrackMixer.AddListener(() => Refresh());
         _binder.OnEnterClip.AddListener(OnEnterClip);
+        _binder.OnProcessClip.AddListener(OnProcessClip);
         _binder.OnExitClip.AddListener(OnExitClip);
     }
 
@@ -76,41 +59,56 @@ public class DialogueUI : MonoBehaviour
     {
         if (callback.Behaviour is DialogueBehaviour behaviour)
         {
-            if (!callback.Binder.UserData.Any(x => (Order)x == Order.Bottom))   // The first is currently not playing anything or is currently the bottom.
+            if (callback.Index == 0)   // The first is currently not playing anything or is currently the bottom.
             {
                 _bottom.alpha = 1;
                 _bottomText.text = behaviour.Text;
                 _bottomActor.text = behaviour.Actor;
-                callback.UserData = Order.Bottom;
             }
             else
             {
                 _top.alpha = 1;
                 _topText.text = behaviour.Text;
                 _topActor.text = behaviour.Actor;
-                callback.UserData = Order.Top;
+            }
+        }
+    }
+
+    private void OnProcessClip(DialogueSystemBinder.Callback callback)
+    {
+        if (callback.Behaviour is DialogueBehaviour behaviour)
+        {
+            double startTime = callback.Start;
+            double endTime = callback.End;
+            double currentTime = callback.Time;
+
+            float percentage = Mathf.Clamp01((float)((currentTime - startTime) / (endTime - _textScroll - startTime)));
+
+            if (callback.Index == 0)
+            {
+                _bottomText.maxVisibleCharacters = Mathf.CeilToInt(_bottomText.textInfo.characterCount * percentage);
+            }
+            else
+            {
+                _topText.maxVisibleCharacters = Mathf.CeilToInt(_topText.textInfo.characterCount * percentage);
             }
         }
     }
 
     private void OnExitClip(DialogueSystemBinder.Callback callback)
     {
-        switch ((Order)callback.UserData)
+        if (callback.Index == 0)
         {
-            case Order.Bottom:
-                _bottom.alpha = 0;
-                _bottomText.text = null;
-                _bottomActor.text = null;
-                
-                break;
-            case Order.Top:
-                _top.alpha = 0;
-                _topText.text = null;
-                _topActor.text = null;
-                break;
+            _bottom.alpha = 0;
+            _bottomText.text = null;
+            _bottomActor.text = null;
         }
-
-        callback.UserData = Order.None;
+        else
+        {
+            _top.alpha = 0;
+            _topText.text = null;
+            _topActor.text = null;
+        }
     }
 
     private void Refresh()
@@ -122,10 +120,10 @@ public class DialogueUI : MonoBehaviour
         _topActor.text = null;
         _bottomActor.text = null;
 
+        _topText.maxVisibleCharacters = 0;
+        _bottomText.maxVisibleCharacters = 0;
+
         foreach (CanvasGroup child in _actionButtons)
             child.alpha = 0;
-
-        for (int i = 0; i < _binder.TrackCount; i++)
-            _binder.SetUserData(i, Order.None);
     }
 }
