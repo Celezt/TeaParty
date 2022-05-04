@@ -271,9 +271,14 @@ PlayableDirector:
     value: {fileID: 428674795}
   - key: {fileID: -3751243475754371764, guid: 3433452348d07e546aa26da63e40454a, type: 2}
     value: {fileID: 428674795}
+  - key: {fileID: -7184808190446326491, guid: 3433452348d07e546aa26da63e40454a, type: 2}
+    value: {fileID: 428674795}
   m_ExposedReferences:
     m_References:
+    - 9c3ab1af2437ad847b3db1813695d084: {fileID: 818993101}
     - 20bc677182864804bb4371337e5b4772: {fileID: 36963159}
+    - e78f13e71aa4fc2468effbde329b2cb9: {fileID: 519420028}
+    - b8c717b4dd78398438d2ce97dc4b2581: {fileID: 1429407779}
 --- !u!4 &428674794
 Transform:
   m_ObjectHideFlags: 0
@@ -313,6 +318,8 @@ MonoBehaviour:
   OnProcessClip:
     m_PersistentCalls:
       m_Calls: []
+  _actionBinderDictionary:
+    list: []
 --- !u!1001 &452342336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -793,7 +800,7 @@ MonoBehaviour:
   _topActor: {fileID: 1282261024}
   _bottomActor: {fileID: 1148499710}
   _actions: {fileID: 1701189614}
-  _autoTextOffset: 1.2
+  _textScroll: 1
 --- !u!225 &807391871
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -909,6 +916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button
       objectReference: {fileID: 0}
+    - target: {fileID: 8030283757352310196, guid: acb5003a491689e46b88634cece96db2, type: 3}
+      propertyPath: m_text
+      value: Button
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acb5003a491689e46b88634cece96db2, type: 3}
 --- !u!224 &818993100 stripped
@@ -916,6 +927,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8030283755969801517, guid: acb5003a491689e46b88634cece96db2, type: 3}
   m_PrefabInstance: {fileID: 818993099}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &818993101 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7327013115307912257, guid: acb5003a491689e46b88634cece96db2, type: 3}
+  m_PrefabInstance: {fileID: 818993099}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36963159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &872756151 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5559012799287792780, guid: 66b9a56af1cfa814f97b59b9a1d85a64, type: 3}
@@ -1259,6 +1281,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1701189612}
     m_Modifications:
+    - target: {fileID: 5677108838445105785, guid: acb5003a491689e46b88634cece96db2, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8030283755969801517, guid: acb5003a491689e46b88634cece96db2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1536,7 +1562,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1701189611}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -1560,7 +1586,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2763707629284526270, guid: 66b9a56af1cfa814f97b59b9a1d85a64, type: 3}
       propertyPath: m_Alpha
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5559012799287792780, guid: 66b9a56af1cfa814f97b59b9a1d85a64, type: 3}
       propertyPath: m_Pivot.x

@@ -21,8 +21,6 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private CanvasGroup _actions;
     [SerializeField] private float _textScroll = 1.0f;
 
-    private CanvasGroup[] _actionButtons = new CanvasGroup[6];
-
     private bool _isInitialized;
 
     private void Awake()
@@ -42,10 +40,6 @@ public class DialogueUI : MonoBehaviour
     private void Initialize()
     {
         _isInitialized = true;
-
-        CanvasGroup[] children = _actions.GetComponentsInChildren<CanvasGroup>();
-        for (int i = 0; i < _actionButtons.Length; i++)
-            _actionButtons[i] = children[i];
 
         Refresh();
 
@@ -122,8 +116,5 @@ public class DialogueUI : MonoBehaviour
 
         _topText.maxVisibleCharacters = 0;
         _bottomText.maxVisibleCharacters = 0;
-
-        foreach (CanvasGroup child in _actionButtons)
-            child.alpha = 0;
     }
 }

@@ -22,6 +22,98 @@ MonoBehaviour:
       data:
         Actor: Sans
         Text: snow isn't food.
+--- !u!114 &-7184808190446326491
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf1cdbac6225364cb131bed9bc5b9bb, type: 3}
+  m_Name: Action Track
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 2.1
+    m_ClipIn: 0
+    m_Asset: {fileID: -3376110952707610000}
+    m_Duration: 2.9499999999999993
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -7184808190446326491}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Attack
+  m_Markers:
+    m_Objects: []
 --- !u!114 &-3751243475754371764
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -321,6 +413,30 @@ MonoBehaviour:
     m_DisplayName: Fair enough.
   m_Markers:
     m_Objects: []
+--- !u!114 &-3376110952707610000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eba5149f62d48da448b32d0d3833c359, type: 3}
+  m_Name: ButtonChoiceAsset
+  m_EditorClassIdentifier: 
+  _template:
+    rid: 7058942826318921742
+  references:
+    version: 2
+    RefIds:
+    - rid: 7058942826318921742
+      type: {class: ButtonChoiceBehaviour, ns: Celezt.DialogueSystem, asm: celezt.asyncdialogue.runtiime}
+      data:
+        ButtonReference:
+          exposedName: 9c3ab1af2437ad847b3db1813695d084
+          defaultValue: {fileID: 0}
+        ChoiceDescription: Attack
 --- !u!114 &-3036266450436110299
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -359,6 +475,7 @@ MonoBehaviour:
   m_Tracks:
   - {fileID: -3751243475754371764}
   - {fileID: 6231379950305229156}
+  - {fileID: -7184808190446326491}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
