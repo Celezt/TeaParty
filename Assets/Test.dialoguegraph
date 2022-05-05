@@ -103,6 +103,10 @@
     {
       "ID": "a81465d1497a408688480bb11b16ee00",
       "Type": "Celezt.DialogueSystem.Editor.BasicNode"
+    },
+    {
+      "ID": "e8df17d8fd064f5d8522de73710b6bcf",
+      "Type": "Celezt.DialogueSystem.Editor.EmotionNode"
     }
   ],
   "Edges": [
@@ -413,6 +417,10 @@
     {
       "x": 545,
       "y": 970
+    },
+    {
+      "x": 818,
+      "y": 375
     }
   ],
   "Specialization": [
@@ -495,6 +503,16 @@
     {
       "_type": "System.Int32",
       "_value": 3
+    },
+    {
+      "_choices": [
+        {
+          "Text": "New Outcome"
+        },
+        {
+          "Text": "New Outcome"
+        }
+      ]
     }
   ]
 }

@@ -8,6 +8,30 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 1673
+    y: 1440
+    width: 1920
+    height: 981
+  m_ShowMode: 0
+  m_Title: Test
+  m_RootView: {fileID: 4}
+  m_MinSize: {x: 100, y: 121}
+  m_MaxSize: {x: 4000, y: 4021}
+  m_Maximized: 0
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -20,11 +44,61 @@ MonoBehaviour:
     height: 1357
   m_ShowMode: 4
   m_Title: Timeline
-  m_RootView: {fileID: 2}
+  m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
---- !u!114 &2
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: DGEditorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 981
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 981
+  m_MinSize: {x: 100, y: 121}
+  m_MaxSize: {x: 4000, y: 4021}
+  vertical: 0
+  controlID: 7088
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,9 +111,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 3}
-  - {fileID: 5}
-  - {fileID: 4}
+  - {fileID: 6}
+  - {fileID: 8}
+  - {fileID: 7}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -52,7 +126,7 @@ MonoBehaviour:
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &3
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -74,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &4
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,7 +169,7 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &5
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,8 +182,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 6}
-  - {fileID: 14}
+  - {fileID: 9}
+  - {fileID: 17}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -119,8 +193,8 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 17
---- !u!114 &6
+  controlID: 166
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,8 +207,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
   - {fileID: 10}
+  - {fileID: 13}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -144,8 +218,8 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 134
---- !u!114 &7
+  controlID: 75
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,8 +232,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 8}
-  - {fileID: 9}
+  - {fileID: 11}
+  - {fileID: 12}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -169,8 +243,8 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 135
---- !u!114 &8
+  controlID: 93
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -191,12 +265,12 @@ MonoBehaviour:
     height: 981
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &9
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -217,13 +291,13 @@ MonoBehaviour:
     height: 981
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 25}
   m_Panes:
-  - {fileID: 16}
-  - {fileID: 21}
+  - {fileID: 20}
+  - {fileID: 25}
   m_Selected: 1
-  m_LastSelected: 0
---- !u!114 &10
+  m_LastSelected: 1
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -236,9 +310,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 11}
-  - {fileID: 12}
-  - {fileID: 13}
+  - {fileID: 14}
+  - {fileID: 15}
+  - {fileID: 16}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -248,8 +322,8 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 161
---- !u!114 &11
+  controlID: 76
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -270,12 +344,12 @@ MonoBehaviour:
     height: 326
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 21}
   m_Panes:
-  - {fileID: 17}
+  - {fileID: 21}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &12
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -294,14 +368,14 @@ MonoBehaviour:
     y: 0
     width: 1072
     height: 326
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 22}
   m_Panes:
-  - {fileID: 18}
+  - {fileID: 22}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &13
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -322,12 +396,12 @@ MonoBehaviour:
     height: 326
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 23}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 23}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &14
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -348,12 +422,187 @@ MonoBehaviour:
     height: 1307
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 24}
   m_Panes:
-  - {fileID: 20}
+  - {fileID: 24}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &15
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0284f4e56af02434db0524288a3b5000, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test
+    m_Image: {fileID: 2800000, guid: 5c662566f69202c439e0ff292ceffd36, type: 3}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1673
+    y: 1440
+    width: 1920
+    height: 960
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  _lastSerializedContent: "{\r\n  \"DGVersion\": 1,\r\n  \"ObjectID\": \"57f2da8944a69c74d91cb21a84715964\",\r\n 
+    \"Properties\": [\r\n    {\r\n      \"ID\": \"b57bff0152f34557b05f33dd7fc212d5\",\r\n     
+    \"Type\": \"System.Boolean\",\r\n      \"Name\": \"New bool\",\r\n      \"Value\":
+    true\r\n    },\r\n    {\r\n      \"ID\": \"adb114f464314866898fa707f38b4e2a\",\r\n     
+    \"Type\": \"System.Boolean\",\r\n      \"Name\": \"New bool 1\",\r\n      \"Value\":
+    false\r\n    },\r\n    {\r\n      \"ID\": \"8f6374d163e04f4c8932b00667331c24\",\r\n     
+    \"Type\": \"System.Int32\",\r\n      \"Name\": \"New int\",\r\n      \"Value\":
+    4\r\n    },\r\n    {\r\n      \"ID\": \"8a173897bb724eacb56d166494d9aafc\",\r\n     
+    \"Type\": \"System.Boolean\",\r\n      \"Name\": \"New bool 2\",\r\n      \"Value\":
+    false\r\n    }\r\n  ],\r\n  \"Nodes\": [\r\n    {\r\n      \"ID\": \"4cf97e0b03f19d045a79458983177e22\",\r\n     
+    \"Type\": \"Celezt.DialogueSystem.Editor.DialogueNode\"\r\n    },\r\n    {\r\n     
+    \"ID\": \"3219feae1f86497fac2a089a62606999\",\r\n      \"Type\": \"Celezt.DialogueSystem.Editor.ConditionNode\"\r\n   
+    },\r\n    {\r\n      \"ID\": \"ca347879a5d849849420f291e13c4a7c\",\r\n      \"Type\":
+    \"Celezt.DialogueSystem.Editor.BasicNode\"\r\n    },\r\n    {\r\n      \"ID\":
+    \"9f277ba39b874b159904924896171b19\",\r\n      \"Type\": \"Celezt.DialogueSystem.Editor.BasicNode\"\r\n   
+    },\r\n    {\r\n      \"ID\": \"c7d97b00106f8af4d88e5e9cc28aee47\",\r\n      \"Type\":
+    \"Celezt.DialogueSystem.Editor.InputNode\"\r\n    },\r\n    {\r\n      \"ID\":
+    \"32ea1ca002fb4fc3aa3de64cc00dd96d\",\r\n      \"Type\": \"Celezt.DialogueSystem.Editor.ConditionNode\"\r\n   
+    },\r\n    {\r\n      \"ID\": \"8fed22c592d947d7b6bbcc1c3339ab47\",\r\n      \"Type\":
+    \"Celezt.DialogueSystem.Editor.ConditionNode\"\r\n    },\r\n    {\r\n      \"ID\":
+    \"d5faafb550424ff7a2ba3bcf41ece5f0\",\r\n      \"Type\": \"Celezt.DialogueSystem.Editor.PropertyNode\"\r\n   
+    },\r\n    {\r\n      \"ID\": \"4d6cad458240427f8ea6c418141fb0ac\",\r\n      \"Type\":
+    \"Celezt.DialogueSystem.Editor.PropertyNode\"\r\n    },\r\n    {\r\n      \"ID\":
+    \"f7172004a1794adeb9d2dfc0ef3e1ff7\",\r\n      \"Type\": \"Celezt.DialogueSystem.Editor.ActionNode\"\r\n   
+    },\r\n    {\r\n      \"ID\": \"63f8f878775ab6e498d769a715c14459\",\r\n      \"Type\":
+    \"Celezt.DialogueSystem.Editor.OutputNode\"\r\n    },\r\n    {\r\n      \"ID\":
+    \"5dc9e115a40e3d0408ea328241630956\",\r\n      \"Type\": \"Celezt.DialogueSystem.Editor.DialogueNode\"\r\n   
+    },\r\n    {\r\n      \"ID\": \"61a0244c175c08242819a049d3559107\",\r\n      \"Type\":
+    \"Celezt.DialogueSystem.Editor.BlendNode\"\r\n    },\r\n    {\r\n      \"ID\":
+    \"b8986deb38374ef897cb3be6c4874383\",\r\n      \"Type\": \"Celezt.DialogueSystem.Editor.BasicNode\"\r\n   
+    },\r\n    {\r\n      \"ID\": \"63bc2f6ec9c54976ba23ff092e132ae6\",\r\n      \"Type\":
+    \"Celezt.DialogueSystem.Editor.DialogueNode\"\r\n    },\r\n    {\r\n      \"ID\":
+    \"d65056a3be1148129141e90c551c7210\",\r\n      \"Type\": \"Celezt.DialogueSystem.Editor.ActionNode\"\r\n   
+    },\r\n    {\r\n      \"ID\": \"f7048008dba94221849d33855383382a\",\r\n      \"Type\":
+    \"Celezt.DialogueSystem.Editor.PropertyNode\"\r\n    },\r\n    {\r\n      \"ID\":
+    \"9ca8ead3d57745fabf9b9d17b26d5106\",\r\n      \"Type\": \"Celezt.DialogueSystem.Editor.OutputNode\"\r\n   
+    },\r\n    {\r\n      \"ID\": \"a81465d1497a408688480bb11b16ee00\",\r\n      \"Type\":
+    \"Celezt.DialogueSystem.Editor.BasicNode\"\r\n    },\r\n    {\r\n      \"ID\":
+    \"e8df17d8fd064f5d8522de73710b6bcf\",\r\n      \"Type\": \"Celezt.DialogueSystem.Editor.EmotionNode\"\r\n   
+    }\r\n  ],\r\n  \"Edges\": [\r\n    {\r\n      \"OutputPort\": {\r\n        \"NodeID\":
+    \"c7d97b00106f8af4d88e5e9cc28aee47\",\r\n        \"PortNumber\": 0\r\n      },\r\n     
+    \"InputPort\": {\r\n        \"NodeID\": \"4cf97e0b03f19d045a79458983177e22\",\r\n       
+    \"PortNumber\": 0\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"5dc9e115a40e3d0408ea328241630956\",\r\n        \"PortNumber\":
+    0\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"63f8f878775ab6e498d769a715c14459\",\r\n       
+    \"PortNumber\": 0\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"a81465d1497a408688480bb11b16ee00\",\r\n        \"PortNumber\":
+    0\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"32ea1ca002fb4fc3aa3de64cc00dd96d\",\r\n       
+    \"PortNumber\": 1\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"32ea1ca002fb4fc3aa3de64cc00dd96d\",\r\n        \"PortNumber\":
+    0\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"4cf97e0b03f19d045a79458983177e22\",\r\n       
+    \"PortNumber\": 2\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"4cf97e0b03f19d045a79458983177e22\",\r\n        \"PortNumber\":
+    -2\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"f7172004a1794adeb9d2dfc0ef3e1ff7\",\r\n       
+    \"PortNumber\": -1\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"61a0244c175c08242819a049d3559107\",\r\n        \"PortNumber\":
+    0\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"5dc9e115a40e3d0408ea328241630956\",\r\n       
+    \"PortNumber\": 0\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"b8986deb38374ef897cb3be6c4874383\",\r\n        \"PortNumber\":
+    0\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"61a0244c175c08242819a049d3559107\",\r\n       
+    \"PortNumber\": 1\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"4cf97e0b03f19d045a79458983177e22\",\r\n        \"PortNumber\":
+    0\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"61a0244c175c08242819a049d3559107\",\r\n       
+    \"PortNumber\": 0\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"4cf97e0b03f19d045a79458983177e22\",\r\n        \"PortNumber\":
+    2\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"63bc2f6ec9c54976ba23ff092e132ae6\",\r\n       
+    \"PortNumber\": 0\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"3219feae1f86497fac2a089a62606999\",\r\n        \"PortNumber\":
+    0\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"32ea1ca002fb4fc3aa3de64cc00dd96d\",\r\n       
+    \"PortNumber\": 0\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"ca347879a5d849849420f291e13c4a7c\",\r\n        \"PortNumber\":
+    0\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"3219feae1f86497fac2a089a62606999\",\r\n       
+    \"PortNumber\": 0\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"9f277ba39b874b159904924896171b19\",\r\n        \"PortNumber\":
+    0\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"3219feae1f86497fac2a089a62606999\",\r\n       
+    \"PortNumber\": 1\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"4d6cad458240427f8ea6c418141fb0ac\",\r\n        \"PortNumber\":
+    0\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"8fed22c592d947d7b6bbcc1c3339ab47\",\r\n       
+    \"PortNumber\": 0\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"8fed22c592d947d7b6bbcc1c3339ab47\",\r\n        \"PortNumber\":
+    0\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"4cf97e0b03f19d045a79458983177e22\",\r\n       
+    \"PortNumber\": 1\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"d5faafb550424ff7a2ba3bcf41ece5f0\",\r\n        \"PortNumber\":
+    0\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"8fed22c592d947d7b6bbcc1c3339ab47\",\r\n       
+    \"PortNumber\": 1\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"f7172004a1794adeb9d2dfc0ef3e1ff7\",\r\n        \"PortNumber\":
+    0\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"63bc2f6ec9c54976ba23ff092e132ae6\",\r\n       
+    \"PortNumber\": 0\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"63bc2f6ec9c54976ba23ff092e132ae6\",\r\n        \"PortNumber\":
+    -2\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"d65056a3be1148129141e90c551c7210\",\r\n       
+    \"PortNumber\": -1\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"5dc9e115a40e3d0408ea328241630956\",\r\n        \"PortNumber\":
+    -2\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"d65056a3be1148129141e90c551c7210\",\r\n       
+    \"PortNumber\": -1\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"f7048008dba94221849d33855383382a\",\r\n        \"PortNumber\":
+    0\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"d65056a3be1148129141e90c551c7210\",\r\n       
+    \"PortNumber\": 0\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"d65056a3be1148129141e90c551c7210\",\r\n        \"PortNumber\":
+    0\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"9ca8ead3d57745fabf9b9d17b26d5106\",\r\n       
+    \"PortNumber\": 0\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"a81465d1497a408688480bb11b16ee00\",\r\n        \"PortNumber\":
+    0\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"f7172004a1794adeb9d2dfc0ef3e1ff7\",\r\n       
+    \"PortNumber\": 0\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"4cf97e0b03f19d045a79458983177e22\",\r\n        \"PortNumber\":
+    1\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"63bc2f6ec9c54976ba23ff092e132ae6\",\r\n       
+    \"PortNumber\": 0\r\n      }\r\n    },\r\n    {\r\n      \"OutputPort\": {\r\n       
+    \"NodeID\": \"63bc2f6ec9c54976ba23ff092e132ae6\",\r\n        \"PortNumber\":
+    0\r\n      },\r\n      \"InputPort\": {\r\n        \"NodeID\": \"5dc9e115a40e3d0408ea328241630956\",\r\n       
+    \"PortNumber\": 0\r\n      }\r\n    }\r\n  ],\r\n  \"Positions\": [\r\n    {\r\n     
+    \"x\": 797,\r\n      \"y\": 559\r\n    },\r\n    {\r\n      \"x\": 527,\r\n     
+    \"y\": 811\r\n    },\r\n    {\r\n      \"x\": 404,\r\n      \"y\": 802\r\n   
+    },\r\n    {\r\n      \"x\": 404,\r\n      \"y\": 873\r\n    },\r\n    {\r\n     
+    \"x\": 695,\r\n      \"y\": 574\r\n    },\r\n    {\r\n      \"x\": 669,\r\n     
+    \"y\": 839\r\n    },\r\n    {\r\n      \"x\": 669,\r\n      \"y\": 680\r\n   
+    },\r\n    {\r\n      \"x\": 515,\r\n      \"y\": 740\r\n    },\r\n    {\r\n     
+    \"x\": 515,\r\n      \"y\": 680\r\n    },\r\n    {\r\n      \"x\": 797,\r\n     
+    \"y\": 895\r\n    },\r\n    {\r\n      \"x\": 1548,\r\n      \"y\": 621\r\n   
+    },\r\n    {\r\n      \"x\": 1302,\r\n      \"y\": 558\r\n    },\r\n    {\r\n     
+    \"x\": 1160,\r\n      \"y\": 620\r\n    },\r\n    {\r\n      \"x\": 1046,\r\n     
+    \"y\": 723\r\n    },\r\n    {\r\n      \"x\": 1046,\r\n      \"y\": 817\r\n   
+    },\r\n    {\r\n      \"x\": 1302,\r\n      \"y\": 1097\r\n    },\r\n    {\r\n     
+    \"x\": 1139,\r\n      \"y\": 1183\r\n    },\r\n    {\r\n      \"x\": 1539,\r\n     
+    \"y\": 1144\r\n    },\r\n    {\r\n      \"x\": 545,\r\n      \"y\": 970\r\n   
+    },\r\n    {\r\n      \"x\": 818,\r\n      \"y\": 375\r\n    }\r\n  ],\r\n  \"Specialization\":
+    [\r\n    {\r\n      \"_actorID\": \"actor_id\",\r\n      \"_text\": \"Dialogue
+    text.\",\r\n      \"_choices\": [\r\n        {\r\n          \"Text\": \"New Choice\"\r\n       
+    },\r\n        {\r\n          \"Text\": \"New Choice\"\r\n        }\r\n      ]\r\n   
+    },\r\n    {\r\n      \"currentComparison\": 3\r\n    },\r\n    {\r\n      \"_type\":
+    \"System.Single\",\r\n      \"_value\": 1.2\r\n    },\r\n    {\r\n      \"_type\":
+    \"System.Boolean\",\r\n      \"_value\": true\r\n    },\r\n    {\r\n      \"_id\":
+    \"ID\"\r\n    },\r\n    {\r\n      \"currentComparison\": 0\r\n    },\r\n   
+    {\r\n      \"currentComparison\": 4\r\n    },\r\n    {\r\n      \"_propertyID\":
+    \"adb114f464314866898fa707f38b4e2a\"\r\n    },\r\n    {\r\n      \"_propertyID\":
+    \"b57bff0152f34557b05f33dd7fc212d5\"\r\n    },\r\n    {\r\n      \"_choices\":
+    [\r\n        {\r\n          \"Text\": \"New Choice\"\r\n        }\r\n      ]\r\n   
+    },\r\n    {\r\n      \"_id\": \"ID\"\r\n    },\r\n    {\r\n      \"_actorID\":
+    \"actor_id\",\r\n      \"_text\": \"Hello\",\r\n      \"_choices\": []\r\n   
+    },\r\n    {},\r\n    {\r\n      \"_type\": \"System.Single\",\r\n      \"_value\":
+    2.0\r\n    },\r\n    {\r\n      \"_actorID\": \"actor_id\",\r\n      \"_text\":
+    \"Dialogue text.\",\r\n      \"_choices\": []\r\n    },\r\n    {\r\n      \"_choices\":
+    [\r\n        {\r\n          \"Text\": \"New Choice\"\r\n        }\r\n      ]\r\n   
+    },\r\n    {\r\n      \"_propertyID\": \"8a173897bb724eacb56d166494d9aafc\"\r\n   
+    },\r\n    {\r\n      \"_id\": \"ID\"\r\n    },\r\n    {\r\n      \"_type\": \"System.Int32\",\r\n     
+    \"_value\": 3\r\n    },\r\n    {\r\n      \"_choices\": [\r\n        {\r\n         
+    \"Text\": \"New Outcome\"\r\n        },\r\n        {\r\n          \"Text\": \"New
+    Outcome\"\r\n        }\r\n      ]\r\n    }\r\n  ]\r\n}"
+  _checkAssetStatus: 0
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -384,9 +633,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7a71ffff
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2cfbffff
+      m_ExpandedIDs: d6e1ffff2cfbffff68740000a2740000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -402,7 +651,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 8}
+        m_ClientGUIView: {fileID: 11}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -410,7 +659,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &16
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -770,7 +1019,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &17
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -811,22 +1060,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Packages/com.celezt.asyncdialogue/Runtime/Playables/Action Playables
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Packages/com.celezt.asyncdialogue/Runtime/Playables/Action Playables
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\alfre\OneDrive\Saves\Unity Saves\TeaParty
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: e0760000
-    m_LastClickedID: 30432
-    m_ExpandedIDs: 00000000e0760000e2760000e4760000e6760000e8760000ea760000ec760000ee760000f0760000f2760000f4760000f6760000f8760000fa760000fc760000fe76000000770000027700000477000006770000087700000a7700000c7700000e77000010770000127700001477000016770000187700001a7700001c7700001e770000207700002277000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 611}
+    m_SelectedIDs: f4770000
+    m_LastClickedID: 30708
+    m_ExpandedIDs: 00000000f2760000f4760000f6760000f8760000fa760000fc760000fe76000000770000027700000477000006770000087700000a7700000c7700000e77000010770000127700001477000016770000187700001a7700001c7700001e77000020770000227700002477000026770000287700002a7700002c7700002e77000030770000327700003477000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -842,7 +1091,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 14}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -854,7 +1103,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e0760000e2760000e4760000e6760000e8760000ea760000ec760000ee760000f0760000f2760000f4760000f6760000f8760000fa760000fc760000fe76000000770000027700000477000006770000087700000a7700000c7700000e77000010770000127700001477000016770000187700001a7700001c7700001e7700002077000022770000
+    m_ExpandedIDs: 00000000f2760000f4760000f6760000f8760000fa760000fc760000fe76000000770000027700000477000006770000087700000a7700000c7700000e77000010770000127700001477000016770000187700001a7700001c7700001e77000020770000227700002477000026770000287700002a7700002c7700002e770000307700003277000034770000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -898,7 +1147,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -910,7 +1159,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 217
---- !u!114 &18
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -945,9 +1194,9 @@ MonoBehaviour:
     m_IsLocked: 1
   m_SequenceHierarchy: {fileID: 0}
   m_SequencePath:
-    m_SelectionRoot: 29764
+    m_SelectionRoot: 29770
     m_SubElements: []
---- !u!114 &19
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -975,7 +1224,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &20
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1016,7 +1265,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &21
+--- !u!114 &25
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
