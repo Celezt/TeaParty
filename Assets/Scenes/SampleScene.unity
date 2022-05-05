@@ -824,6 +824,10 @@ PrefabInstance:
       propertyPath: m_Alpha
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5677108838445105785, guid: acb5003a491689e46b88634cece96db2, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8030283755969801515, guid: acb5003a491689e46b88634cece96db2, type: 3}
       propertyPath: m_CullTransparentMesh
       value: 1

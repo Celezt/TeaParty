@@ -44,10 +44,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 2.1
+    m_Start: 0.4500000000000006
     m_ClipIn: 0
     m_Asset: {fileID: -3376110952707610000}
-    m_Duration: 2.9499999999999993
+    m_Duration: 6.2333333333333325
     m_TimeScale: 1
     m_ParentTrack: {fileID: -7184808190446326491}
     m_EaseInDuration: 0
@@ -437,6 +437,7 @@ MonoBehaviour:
           exposedName: 9c3ab1af2437ad847b3db1813695d084
           defaultValue: {fileID: 0}
         ChoiceDescription: Attack
+        Settings: {fileID: 11400000, guid: e9426999e7ed594458109f81f282b39f, type: 2}
 --- !u!114 &-3036266450436110299
 MonoBehaviour:
   m_ObjectHideFlags: 1
