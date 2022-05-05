@@ -6,6 +6,7 @@ using Celezt.DialogueSystem;
 using TMPro;
 using UnityEngine.UI;
 using System.Linq;
+using UnityEditor;
 
 [ExecuteInEditMode]
 public class DialogueUI : MonoBehaviour
@@ -26,28 +27,31 @@ public class DialogueUI : MonoBehaviour
     private void Awake()
     {
         if (_isInitialized == false)
-            Initialize();
+        {
+            Refresh();
+            _isInitialized = true;
+        }
     }
 
     private void Update()
     {
 #if UNITY_EDITOR
         if (_isInitialized == false)
-            Initialize();
+        {
+            Refresh();
+            _isInitialized = true;
+        }
 #endif
     }
 
-    private void Initialize()
+#if UNITY_EDITOR
+    [InitializeOnLoadMethod]
+    private static void CreateAssetWhenReady()
     {
-        _isInitialized = true;
-
-        Refresh();
-
-        _binder.OnCreateTrackMixer.AddListener(() => Refresh());
-        _binder.OnEnterClip.AddListener(OnEnterClip);
-        _binder.OnProcessClip.AddListener(OnProcessClip);
-        _binder.OnExitClip.AddListener(OnExitClip);
+        foreach (var ui in FindObjectsOfType<DialogueUI>())
+            ui.Refresh();
     }
+#endif
 
     private void OnEnterClip(DialogueSystemBinder.Callback callback)
     {
@@ -116,5 +120,12 @@ public class DialogueUI : MonoBehaviour
 
         _topText.maxVisibleCharacters = 0;
         _bottomText.maxVisibleCharacters = 0;
+
+        _binder.OnEnterClip.RemoveListener(OnEnterClip);
+        _binder.OnProcessClip.RemoveListener(OnProcessClip);
+        _binder.OnExitClip.RemoveListener(OnExitClip);
+        _binder.OnEnterClip.AddListener(OnEnterClip);
+        _binder.OnProcessClip.AddListener(OnProcessClip);
+        _binder.OnExitClip.AddListener(OnExitClip);
     }
 }

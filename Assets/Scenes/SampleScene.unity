@@ -245,6 +245,7 @@ GameObject:
   - component: {fileID: 428674794}
   - component: {fileID: 428674793}
   - component: {fileID: 428674795}
+  - component: {fileID: 428674796}
   m_Layer: 0
   m_Name: Timeline
   m_TagString: Untagged
@@ -271,13 +272,14 @@ PlayableDirector:
     value: {fileID: 428674795}
   - key: {fileID: -3751243475754371764, guid: 3433452348d07e546aa26da63e40454a, type: 2}
     value: {fileID: 428674795}
-  - key: {fileID: -7184808190446326491, guid: 3433452348d07e546aa26da63e40454a, type: 2}
-    value: {fileID: 428674795}
+  - key: {fileID: 2163080702222899230, guid: 3433452348d07e546aa26da63e40454a, type: 2}
+    value: {fileID: 428674796}
   m_ExposedReferences:
     m_References:
     - 9c3ab1af2437ad847b3db1813695d084: {fileID: 818993101}
     - 20bc677182864804bb4371337e5b4772: {fileID: 36963159}
     - e78f13e71aa4fc2468effbde329b2cb9: {fileID: 519420028}
+    - ce7a0b2ddc52bfb4b8e1ab0235b2e523: {fileID: 818993101}
     - b8c717b4dd78398438d2ce97dc4b2581: {fileID: 1429407779}
 --- !u!4 &428674794
 Transform:
@@ -306,9 +308,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bc2058b7b49aeb45acb6bd537099fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnCreateTrackMixer:
-    m_PersistentCalls:
-      m_Calls: []
   OnEnterClip:
     m_PersistentCalls:
       m_Calls: []
@@ -318,6 +317,18 @@ MonoBehaviour:
   OnProcessClip:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &428674796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428674792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3eadd5acffc75941b3720d0763299c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   _actionBinderDictionary:
     list: []
 --- !u!1001 &452342336
@@ -1590,7 +1601,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2763707629284526270, guid: 66b9a56af1cfa814f97b59b9a1d85a64, type: 3}
       propertyPath: m_Alpha
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5559012799287792780, guid: 66b9a56af1cfa814f97b59b9a1d85a64, type: 3}
       propertyPath: m_Pivot.x
