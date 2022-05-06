@@ -854,11 +854,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5677108838445105785, guid: acb5003a491689e46b88634cece96db2, type: 3}
       propertyPath: m_Alpha
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5677108838445105785, guid: acb5003a491689e46b88634cece96db2, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8030283755969801515, guid: acb5003a491689e46b88634cece96db2, type: 3}
       propertyPath: m_CullTransparentMesh
@@ -1637,7 +1637,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2763707629284526270, guid: 66b9a56af1cfa814f97b59b9a1d85a64, type: 3}
       propertyPath: m_Alpha
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5559012799287792780, guid: 66b9a56af1cfa814f97b59b9a1d85a64, type: 3}
       propertyPath: m_Pivot.x
