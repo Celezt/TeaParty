@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 3.25
+    m_Start: 3
     m_ClipIn: 0
     m_Asset: {fileID: 6232555825853689225}
     m_Duration: 7.933333333333334
@@ -614,6 +614,8 @@ MonoBehaviour:
         Text: Attack
         Condition: {fileID: 11400000, guid: 0e000167be3090d4b819f5f9eee899c7, type: 2}
         Settings: {fileID: 11400000, guid: e9426999e7ed594458109f81f282b39f, type: 2}
+        _isActive:
+          _value: 1
 --- !u!114 &6373743817612645365
 MonoBehaviour:
   m_ObjectHideFlags: 1

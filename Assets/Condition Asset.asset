@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4113dfffaa7023a4c88cd2d86e855635, type: 3}
+  m_Script: {fileID: 11500000, guid: af7061c7e71095b44bfaa3be99c77e2c, type: 3}
   m_Name: Condition Asset
   m_EditorClassIdentifier: 
   OnChanged:
@@ -17,6 +17,6 @@ MonoBehaviour:
       m_Calls: []
   _inputs:
   - {fileID: 11400000, guid: f52094a5940842d4f8e15b7fca503f3e, type: 2}
-  - {fileID: 11400000, guid: abce1bdc6843d5247b880fc9310e7f5b, type: 2}
+  - {fileID: 11400000, guid: 984a234771eb979449b76ab6cde61835, type: 2}
   _inputPortNumbers: 0000000000000000
   _comparison: 4
