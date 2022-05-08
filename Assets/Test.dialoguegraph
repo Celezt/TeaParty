@@ -29,45 +29,70 @@
   ],
   "Nodes": [
     {
-      "ID": "8262819b9f224aaeae2cb684f65f9da5",
-      "Type": "Celezt.DialogueSystem.Editor.ConditionNode",
-      "Binder": "Celezt.DialogueSystem.ConditionAsset"
+      "ID": "fe74bf656bf94260a655c44b0cbf2ef2",
+      "Type": "Celezt.DialogueSystem.Editor.InputNode",
+      "Binder": "Celezt.DialogueSystem.InputInterpreter"
     },
     {
-      "ID": "076339e3d68c4ec2ab55d6a431074243",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
-      "Binder": ""
+      "ID": "7e820724f54b4e4db9dbfedbc8e05059",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "d6e9119b306c43118a433de71a0ae2c0",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     }
   ],
   "Edges": [
     {
       "OutputPort": {
-        "NodeID": "076339e3d68c4ec2ab55d6a431074243",
+        "NodeID": "fe74bf656bf94260a655c44b0cbf2ef2",
         "PortNumber": 0
       },
       "InputPort": {
-        "NodeID": "8262819b9f224aaeae2cb684f65f9da5",
+        "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "d6e9119b306c43118a433de71a0ae2c0",
         "PortNumber": 0
       }
     }
   ],
   "Positions": [
     {
-      "x": 782,
-      "y": 813
+      "x": 702,
+      "y": 752
     },
     {
-      "x": 627,
-      "y": 813
+      "x": 923,
+      "y": 702
+    },
+    {
+      "x": 1207,
+      "y": 702
     }
   ],
   "Specialization": [
     {
-      "currentComparison": 0
+      "_id": "ID"
     },
     {
-      "_type": "System.Single",
-      "_value": 3.0
+      "_actorID": "actor_id",
+      "_text": "Dialogue text.",
+      "_choices": []
+    },
+    {
+      "_actorID": "actor_id",
+      "_text": "Dialogue text.",
+      "_choices": []
     }
   ]
 }

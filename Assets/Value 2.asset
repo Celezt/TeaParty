@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ee33e4d47fb51d4b930ab5b5c317f28, type: 3}
-  m_Name: Basic 1
+  m_Script: {fileID: 11500000, guid: 28069731694293041b90f6011f08da86, type: 3}
+  m_Name: Value 2
   m_EditorClassIdentifier: 
   OnChanged:
     m_PersistentCalls:
       m_Calls: []
   _inputs: []
   _inputPortNumbers: 
-  _valueSerilaized: 3.0
+  _valueSerilaized: 1.0

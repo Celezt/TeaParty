@@ -854,7 +854,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5677108838445105785, guid: acb5003a491689e46b88634cece96db2, type: 3}
       propertyPath: m_Alpha
-      value: 0.65639025
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5677108838445105785, guid: acb5003a491689e46b88634cece96db2, type: 3}
       propertyPath: m_Interactable
