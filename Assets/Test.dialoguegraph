@@ -109,6 +109,16 @@
         "NodeID": "d6e9119b306c43118a433de71a0ae2c0",
         "PortNumber": 1
       }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "0abe964269744215b2870deddaea6663",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
+        "PortNumber": 1
+      }
     }
   ],
   "Positions": [
@@ -129,12 +139,12 @@
       "y": 473
     },
     {
-      "x": 867,
-      "y": 423
+      "x": 885,
+      "y": 442
     },
     {
-      "x": 1045,
-      "y": 865
+      "x": 646,
+      "y": 813
     }
   ],
   "Specialization": [
@@ -169,7 +179,11 @@
     {
       "_actorID": "Cooler Joey",
       "_text": "Do you got some of deez?",
-      "_choices": [],
+      "_choices": [
+        {
+          "Text": "Walk"
+        }
+      ],
       "_speed": 1.0,
       "_endOffset": 1.0
     },
