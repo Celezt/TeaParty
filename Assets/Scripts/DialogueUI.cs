@@ -13,16 +13,17 @@ public class DialogueUI : MonoBehaviour
 {
     public DialogueSystemBinder Binder
     {
-        get
+        get => _binder;
+        set
         {
-            if (_binder == null && _system != null)
-                _binder = _system.Binder;
-
-            return _binder;
+            if (_binder != value)
+            {
+                _binder = value;
+                UpdateBinder();
+            }
         }
     }
 
-    [SerializeField] private DialogueSystem _system;
     [SerializeField] private DialogueSystemBinder _binder;
     [SerializeField] private CanvasGroup _canvas;
     [SerializeField] private CanvasGroup _top;
@@ -32,17 +33,20 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _topActor;
     [SerializeField] private TextMeshProUGUI _bottomActor;
     [SerializeField] private CanvasGroup _actions;
-    [SerializeField] private float _textScroll = 1.0f;
 
     private bool _isInitialized;
 
-    private void Awake()
+    public void UpdateBinder()
     {
-        if (_isInitialized == false)
-        {
-            Refresh();
-            _isInitialized = true;
-        }
+        if (_binder == null)
+            return;
+
+        _binder.OnEnterClip.RemoveListener(OnEnterClip);
+        _binder.OnProcessClip.RemoveListener(OnProcessClip);
+        _binder.OnExitClip.RemoveListener(OnExitClip);
+        _binder.OnEnterClip.AddListener(OnEnterClip);
+        _binder.OnProcessClip.AddListener(OnProcessClip);
+        _binder.OnExitClip.AddListener(OnExitClip);
     }
 
     private void Update()
@@ -86,13 +90,13 @@ public class DialogueUI : MonoBehaviour
 
     private void OnProcessClip(DialogueSystemBinder.Callback callback)
     {
-        if (callback.Behaviour is DialogueBehaviour behaviour)
+        if (callback.Asset is DialogueAsset asset)
         {
             double startTime = callback.Start;
             double endTime = callback.End;
             double currentTime = callback.Time;
 
-            float percentage = Mathf.Clamp01((float)((currentTime - startTime) / (endTime - _textScroll - startTime)));
+            float percentage = Mathf.Clamp01((float)((currentTime - startTime) / (endTime - asset.EndOffset - startTime)));
 
             if (callback.Index == 0)
             {
@@ -133,11 +137,6 @@ public class DialogueUI : MonoBehaviour
         _topText.maxVisibleCharacters = 0;
         _bottomText.maxVisibleCharacters = 0;
 
-        Binder.OnEnterClip.RemoveListener(OnEnterClip);
-        Binder.OnProcessClip.RemoveListener(OnProcessClip);
-        Binder.OnExitClip.RemoveListener(OnExitClip);
-        Binder.OnEnterClip.AddListener(OnEnterClip);
-        Binder.OnProcessClip.AddListener(OnProcessClip);
-        Binder.OnExitClip.AddListener(OnExitClip);
+        UpdateBinder();
     }
 }

@@ -34,12 +34,12 @@
       "Binder": "Celezt.DialogueSystem.InputInterpreter"
     },
     {
-      "ID": "7e820724f54b4e4db9dbfedbc8e05059",
+      "ID": "d6e9119b306c43118a433de71a0ae2c0",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "d6e9119b306c43118a433de71a0ae2c0",
+      "ID": "7e820724f54b4e4db9dbfedbc8e05059",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     }
@@ -72,11 +72,11 @@
       "y": 752
     },
     {
-      "x": 923,
+      "x": 1207,
       "y": 702
     },
     {
-      "x": 1207,
+      "x": 923,
       "y": 702
     }
   ],
@@ -85,14 +85,18 @@
       "_id": "ID"
     },
     {
-      "_actorID": "actor_id",
-      "_text": "What's up?",
-      "_choices": []
+      "_actorID": "Joey",
+      "_text": "These what?",
+      "_choices": [],
+      "_speed": 2.0,
+      "_endOffset": 1.0
     },
     {
-      "_actorID": "actor_id",
-      "_text": "Dialogue text.",
-      "_choices": []
+      "_actorID": "Cooler Joey",
+      "_text": "Do you got some of deez?",
+      "_choices": [],
+      "_speed": 2.0,
+      "_endOffset": 1.0
     }
   ]
 }
