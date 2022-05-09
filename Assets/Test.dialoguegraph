@@ -54,7 +54,22 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
+      "ID": "c060f1d89ec34b39972a88d4e56dda41",
+      "Type": "Celezt.DialogueSystem.Editor.ConditionNode",
+      "Binder": "Celezt.DialogueSystem.ConditionProcessor"
+    },
+    {
       "ID": "0abe964269744215b2870deddaea6663",
+      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
+      "Binder": "Celezt.DialogueSystem.ValueProcessor"
+    },
+    {
+      "ID": "11708bf065f84290adcc58f7fc4721ca",
+      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
+      "Binder": "Celezt.DialogueSystem.ValueProcessor"
+    },
+    {
+      "ID": "89f3efc767324b8697431b4da384d4e5",
       "Type": "Celezt.DialogueSystem.Editor.BasicNode",
       "Binder": "Celezt.DialogueSystem.ValueProcessor"
     }
@@ -106,18 +121,38 @@
         "PortNumber": 0
       },
       "InputPort": {
+        "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
+        "PortNumber": 1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "c060f1d89ec34b39972a88d4e56dda41",
+        "PortNumber": 0
+      },
+      "InputPort": {
         "NodeID": "d6e9119b306c43118a433de71a0ae2c0",
         "PortNumber": 1
       }
     },
     {
       "OutputPort": {
-        "NodeID": "0abe964269744215b2870deddaea6663",
+        "NodeID": "89f3efc767324b8697431b4da384d4e5",
         "PortNumber": 0
       },
       "InputPort": {
-        "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
+        "NodeID": "c060f1d89ec34b39972a88d4e56dda41",
         "PortNumber": 1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "11708bf065f84290adcc58f7fc4721ca",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "c060f1d89ec34b39972a88d4e56dda41",
+        "PortNumber": 0
       }
     }
   ],
@@ -143,8 +178,20 @@
       "y": 442
     },
     {
-      "x": 646,
+      "x": 885,
       "y": 813
+    },
+    {
+      "x": 646,
+      "y": 633
+    },
+    {
+      "x": 694,
+      "y": 825
+    },
+    {
+      "x": 694,
+      "y": 896
     }
   ],
   "Specialization": [
@@ -188,8 +235,19 @@
       "_endOffset": 1.0
     },
     {
+      "currentComparison": 2
+    },
+    {
       "_type": "System.Boolean",
       "_value": true
+    },
+    {
+      "_type": "System.Single",
+      "_value": 3.0
+    },
+    {
+      "_type": "System.Single",
+      "_value": 1.0
     }
   ]
 }
