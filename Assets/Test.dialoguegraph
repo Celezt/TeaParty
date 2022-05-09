@@ -148,7 +148,7 @@
       "_text": "These what?",
       "_choices": [
         {
-          "Text": "New Choice"
+          "Text": "Run"
         }
       ],
       "_speed": 0.6,
