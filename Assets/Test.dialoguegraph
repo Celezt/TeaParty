@@ -29,16 +29,6 @@
   ],
   "Nodes": [
     {
-      "ID": "fe74bf656bf94260a655c44b0cbf2ef2",
-      "Type": "Celezt.DialogueSystem.Editor.InputNode",
-      "Binder": "Celezt.DialogueSystem.InputInterpreter"
-    },
-    {
-      "ID": "7e820724f54b4e4db9dbfedbc8e05059",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
       "ID": "f1aedfb3bef54cc3beba4c5fc72a7041",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
@@ -50,6 +40,16 @@
     },
     {
       "ID": "d6e9119b306c43118a433de71a0ae2c0",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "fe74bf656bf94260a655c44b0cbf2ef2",
+      "Type": "Celezt.DialogueSystem.Editor.InputNode",
+      "Binder": "Celezt.DialogueSystem.InputInterpreter"
+    },
+    {
+      "ID": "7e820724f54b4e4db9dbfedbc8e05059",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     }
@@ -98,14 +98,6 @@
   ],
   "Positions": [
     {
-      "x": 702,
-      "y": 752
-    },
-    {
-      "x": 923,
-      "y": 702
-    },
-    {
       "x": 1745,
       "y": 702
     },
@@ -116,19 +108,17 @@
     {
       "x": 1207,
       "y": 702
+    },
+    {
+      "x": 646,
+      "y": 473
+    },
+    {
+      "x": 867,
+      "y": 423
     }
   ],
   "Specialization": [
-    {
-      "_id": "ID"
-    },
-    {
-      "_actorID": "Cooler Joey",
-      "_text": "Do you got some of deez?",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 1.0
-    },
     {
       "_actorID": "Cooler Joey",
       "_text": "HA GOT EM´",
@@ -152,6 +142,16 @@
         }
       ],
       "_speed": 0.6,
+      "_endOffset": 1.0
+    },
+    {
+      "_id": "ID"
+    },
+    {
+      "_actorID": "Cooler Joey",
+      "_text": "Do you got some of deez?",
+      "_choices": [],
+      "_speed": 1.0,
       "_endOffset": 1.0
     }
   ]

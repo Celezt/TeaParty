@@ -276,6 +276,7 @@ PlayableDirector:
     value: {fileID: 428674796}
   m_ExposedReferences:
     m_References:
+    - 6616a13c0f6ea2d4d999cc6eba5b76ce: {fileID: 818993101}
     - 9c3ab1af2437ad847b3db1813695d084: {fileID: 818993101}
     - 1fc0014bd5d0d4845a98ce50b664b3b8: {fileID: 1644618847}
     - 51e84534260f7c04eaf0b1ee6e0563f8: {fileID: 818993101}

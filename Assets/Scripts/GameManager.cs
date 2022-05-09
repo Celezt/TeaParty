@@ -2,6 +2,7 @@ using Celezt.DialogueSystem;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         _ui.Binder = _system.Binder;
+
+        _system.Buttons.AddRange(_ui.GetComponentsInChildren<Button>());    // Give all buttons.
 
         if (_dialogue != null)
         {
