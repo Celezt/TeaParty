@@ -52,6 +52,11 @@
       "ID": "7e820724f54b4e4db9dbfedbc8e05059",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "0abe964269744215b2870deddaea6663",
+      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
+      "Binder": "Celezt.DialogueSystem.ValueProcessor"
     }
   ],
   "Edges": [
@@ -94,6 +99,16 @@
         "NodeID": "f1aedfb3bef54cc3beba4c5fc72a7041",
         "PortNumber": 0
       }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "0abe964269744215b2870deddaea6663",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "d6e9119b306c43118a433de71a0ae2c0",
+        "PortNumber": 1
+      }
     }
   ],
   "Positions": [
@@ -116,6 +131,10 @@
     {
       "x": 867,
       "y": 423
+    },
+    {
+      "x": 1045,
+      "y": 865
     }
   ],
   "Specialization": [
@@ -153,6 +172,10 @@
       "_choices": [],
       "_speed": 1.0,
       "_endOffset": 1.0
+    },
+    {
+      "_type": "System.Boolean",
+      "_value": true
     }
   ]
 }
