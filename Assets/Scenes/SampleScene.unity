@@ -252,7 +252,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!320 &428674793
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -344,15 +344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _actionBinderDictionary:
-    list:
-    - Key: {fileID: 0}
-      Value:
-        OnEnter:
-          m_PersistentCalls:
-            m_Calls: []
-        OnExit:
-          m_PersistentCalls:
-            m_Calls: []
+    list: []
 --- !u!1001 &452342336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -839,8 +831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97ddc785fb3f0ab49a9d8b4c55af3bc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _system: {fileID: 0}
-  _binder: {fileID: 428674795}
+  _binder: {fileID: 0}
   _canvas: {fileID: 807391871}
   _top: {fileID: 1282261026}
   _bottom: {fileID: 5559012799086274364}
@@ -849,7 +840,6 @@ MonoBehaviour:
   _topActor: {fileID: 1282261024}
   _bottomActor: {fileID: 1148499710}
   _actions: {fileID: 1701189614}
-  _textScroll: 1
 --- !u!225 &807391871
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -871,7 +861,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5677108838445105785, guid: acb5003a491689e46b88634cece96db2, type: 3}
       propertyPath: m_Alpha
-      value: 0.10302901
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5677108838445105785, guid: acb5003a491689e46b88634cece96db2, type: 3}
       propertyPath: m_Interactable
@@ -1036,6 +1026,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9de505f7c11224eadbb3591fbe32ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _system: {fileID: 11400000, guid: f1229af8f9eff804dbaabfaf3790a98c, type: 2}
+  _ui: {fileID: 807391870}
+  _dialogue: {fileID: -5475051401550479605, guid: 57f2da8944a69c74d91cb21a84715964, type: 3}
 --- !u!4 &1228394809
 Transform:
   m_ObjectHideFlags: 0
@@ -1698,7 +1691,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2763707629284526270, guid: 66b9a56af1cfa814f97b59b9a1d85a64, type: 3}
       propertyPath: m_Alpha
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5559012799287792780, guid: 66b9a56af1cfa814f97b59b9a1d85a64, type: 3}
       propertyPath: m_Pivot.x

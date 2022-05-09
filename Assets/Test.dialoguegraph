@@ -34,12 +34,22 @@
       "Binder": "Celezt.DialogueSystem.InputInterpreter"
     },
     {
-      "ID": "d6e9119b306c43118a433de71a0ae2c0",
+      "ID": "7e820724f54b4e4db9dbfedbc8e05059",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "7e820724f54b4e4db9dbfedbc8e05059",
+      "ID": "f1aedfb3bef54cc3beba4c5fc72a7041",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "4bb2d24b43e8444f85ab5b4686c2d656",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "d6e9119b306c43118a433de71a0ae2c0",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     }
@@ -64,6 +74,26 @@
         "NodeID": "d6e9119b306c43118a433de71a0ae2c0",
         "PortNumber": 0
       }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "d6e9119b306c43118a433de71a0ae2c0",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "4bb2d24b43e8444f85ab5b4686c2d656",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "4bb2d24b43e8444f85ab5b4686c2d656",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "f1aedfb3bef54cc3beba4c5fc72a7041",
+        "PortNumber": 0
+      }
     }
   ],
   "Positions": [
@@ -72,11 +102,19 @@
       "y": 752
     },
     {
-      "x": 1207,
+      "x": 923,
       "y": 702
     },
     {
-      "x": 923,
+      "x": 1745,
+      "y": 702
+    },
+    {
+      "x": 1478,
+      "y": 702
+    },
+    {
+      "x": 1207,
       "y": 702
     }
   ],
@@ -85,17 +123,35 @@
       "_id": "ID"
     },
     {
-      "_actorID": "Joey",
-      "_text": "These what?",
+      "_actorID": "Cooler Joey",
+      "_text": "Do you got some of deez?",
       "_choices": [],
-      "_speed": 2.0,
+      "_speed": 1.0,
       "_endOffset": 1.0
     },
     {
       "_actorID": "Cooler Joey",
-      "_text": "Do you got some of deez?",
+      "_text": "HA GOT EM´",
       "_choices": [],
-      "_speed": 2.0,
+      "_speed": 1.0,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "Cooler Joey",
+      "_text": "DEEZ NUTS!",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "Joey",
+      "_text": "These what?",
+      "_choices": [
+        {
+          "Text": "New Choice"
+        }
+      ],
+      "_speed": 0.6,
       "_endOffset": 1.0
     }
   ]

@@ -16,6 +16,8 @@ MonoBehaviour:
     rid: 7058942849162412075
   Actor: Sans
   Text: snow isn't food
+  Speed: 1
+  EndOffset: 1
   references:
     version: 2
     RefIds:
@@ -37,6 +39,8 @@ MonoBehaviour:
     rid: 7058942849162412074
   Actor: Frisk
   Text: But you were trying to sell me fried snow earlier...
+  Speed: 1
+  EndOffset: 1
   references:
     version: 2
     RefIds:
@@ -58,6 +62,8 @@ MonoBehaviour:
     rid: 7058942849162412073
   Actor: Sans
   Text: don't trust anyone who tries to sell you that stuff.
+  Speed: 1
+  EndOffset: 1
   references:
     version: 2
     RefIds:
@@ -629,6 +635,8 @@ MonoBehaviour:
     rid: 7058942849162412072
   Actor: Sans
   Text: fried dog food? nah, don't ya know fried food's unhealthy?
+  Speed: 1
+  EndOffset: 1
   references:
     version: 2
     RefIds:
@@ -650,6 +658,8 @@ MonoBehaviour:
     rid: 7058942849162412076
   Actor: Frisk
   Text: Fair enough
+  Speed: 1
+  EndOffset: 1
   references:
     version: 2
     RefIds:
