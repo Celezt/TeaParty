@@ -16,5 +16,5 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _inputs: []
-  _inputPortNumbers: 
+  _outputPortNumbers: 
   _valueSerilaized: 1.0

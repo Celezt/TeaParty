@@ -18,5 +18,5 @@ MonoBehaviour:
   _inputs:
   - {fileID: 11400000, guid: f52094a5940842d4f8e15b7fca503f3e, type: 2}
   - {fileID: 11400000, guid: 984a234771eb979449b76ab6cde61835, type: 2}
-  _inputPortNumbers: 0000000000000000
+  _outputPortNumbers: 0000000000000000
   _comparison: 4

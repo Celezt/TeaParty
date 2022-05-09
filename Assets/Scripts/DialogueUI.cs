@@ -11,6 +11,18 @@ using UnityEditor;
 [ExecuteInEditMode]
 public class DialogueUI : MonoBehaviour
 {
+    public DialogueSystemBinder Binder
+    {
+        get
+        {
+            if (_binder == null && _system != null)
+                _binder = _system.Binder;
+
+            return _binder;
+        }
+    }
+
+    [SerializeField] private DialogueSystem _system;
     [SerializeField] private DialogueSystemBinder _binder;
     [SerializeField] private CanvasGroup _canvas;
     [SerializeField] private CanvasGroup _top;
@@ -55,19 +67,19 @@ public class DialogueUI : MonoBehaviour
 
     private void OnEnterClip(DialogueSystemBinder.Callback callback)
     {
-        if (callback.Behaviour is DialogueBehaviour behaviour)
+        if (callback.Asset is DialogueAsset asset)
         {
             if (callback.Index == 0)   // The first is currently not playing anything or is currently the bottom.
             {
                 _bottom.alpha = 1;
-                _bottomText.text = behaviour.Text;
-                _bottomActor.text = behaviour.Actor;
+                _bottomText.text = asset.Text;
+                _bottomActor.text = asset.Actor;
             }
             else
             {
                 _top.alpha = 1;
-                _topText.text = behaviour.Text;
-                _topActor.text = behaviour.Actor;
+                _topText.text = asset.Text;
+                _topActor.text = asset.Actor;
             }
         }
     }
@@ -121,11 +133,11 @@ public class DialogueUI : MonoBehaviour
         _topText.maxVisibleCharacters = 0;
         _bottomText.maxVisibleCharacters = 0;
 
-        _binder.OnEnterClip.RemoveListener(OnEnterClip);
-        _binder.OnProcessClip.RemoveListener(OnProcessClip);
-        _binder.OnExitClip.RemoveListener(OnExitClip);
-        _binder.OnEnterClip.AddListener(OnEnterClip);
-        _binder.OnProcessClip.AddListener(OnProcessClip);
-        _binder.OnExitClip.AddListener(OnExitClip);
+        Binder.OnEnterClip.RemoveListener(OnEnterClip);
+        Binder.OnProcessClip.RemoveListener(OnProcessClip);
+        Binder.OnExitClip.RemoveListener(OnExitClip);
+        Binder.OnEnterClip.AddListener(OnEnterClip);
+        Binder.OnProcessClip.AddListener(OnProcessClip);
+        Binder.OnExitClip.AddListener(OnExitClip);
     }
 }
