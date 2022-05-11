@@ -92,6 +92,11 @@
       "ID": "7e820724f54b4e4db9dbfedbc8e05059",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "215afa8fc50044abb3ac1553cce66fa7",
+      "Type": "Celezt.DialogueSystem.Editor.ActionNode",
+      "Binder": "Celezt.DialogueSystem.ActionInterpreter"
     }
   ],
   "Edges": [
@@ -214,6 +219,16 @@
         "NodeID": "d8fa14a061a94842a06680388a885cc5",
         "PortNumber": 0
       }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "215afa8fc50044abb3ac1553cce66fa7",
+        "PortNumber": -1
+      }
     }
   ],
   "Positions": [
@@ -268,6 +283,10 @@
     {
       "x": 885,
       "y": 442
+    },
+    {
+      "x": 866,
+      "y": 1028
     }
   ],
   "Specialization": [
@@ -340,6 +359,13 @@
       ],
       "_speed": 1.0,
       "_endOffset": 1.0
+    },
+    {
+      "_choices": [
+        {
+          "Text": "Foo"
+        }
+      ]
     }
   ]
 }

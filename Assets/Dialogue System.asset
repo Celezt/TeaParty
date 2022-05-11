@@ -19,8 +19,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e9426999e7ed594458109f81f282b39f, type: 2}
   - {fileID: 11400000, guid: e9426999e7ed594458109f81f282b39f, type: 2}
   - {fileID: 11400000, guid: e9426999e7ed594458109f81f282b39f, type: 2}
-  _buttons: []
   _object: {fileID: 0}
   _director: {fileID: 0}
   _binder: {fileID: 0}
   _currentDialogue: {fileID: -5475051401550479605, guid: 57f2da8944a69c74d91cb21a84715964, type: 3}
+  _currentInputID: 
+  _buttons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
