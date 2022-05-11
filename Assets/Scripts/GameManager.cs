@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private DialogueSystem _system;
     [SerializeField] private DialogueUI _ui;
     [SerializeField] private Dialogue _dialogue;
+    [SerializeField] private string _inputID = "default";
 
     private void Start()
     {
@@ -18,7 +19,8 @@ public class GameManager : MonoBehaviour
 
         if (_dialogue != null)
         {
-            _system.CreateDialogue(_dialogue, "ID");
+            _system.CreateDialogue(_dialogue, _inputID);
+            _system.Play();
         }
     }
 }

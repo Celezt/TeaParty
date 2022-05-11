@@ -29,11 +29,6 @@
   ],
   "Nodes": [
     {
-      "ID": "fe74bf656bf94260a655c44b0cbf2ef2",
-      "Type": "Celezt.DialogueSystem.Editor.InputNode",
-      "Binder": "Celezt.DialogueSystem.InputInterpreter"
-    },
-    {
       "ID": "4bb2d24b43e8444f85ab5b4686c2d656",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
@@ -94,14 +89,19 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
+      "ID": "ed52db634bc547f2878dc3f114744956",
+      "Type": "Celezt.DialogueSystem.Editor.ActionNode",
+      "Binder": "Celezt.DialogueSystem.ActionInterpreter"
+    },
+    {
       "ID": "215afa8fc50044abb3ac1553cce66fa7",
       "Type": "Celezt.DialogueSystem.Editor.ActionNode",
       "Binder": "Celezt.DialogueSystem.ActionInterpreter"
     },
     {
-      "ID": "ed52db634bc547f2878dc3f114744956",
-      "Type": "Celezt.DialogueSystem.Editor.ActionNode",
-      "Binder": "Celezt.DialogueSystem.ActionInterpreter"
+      "ID": "fe74bf656bf94260a655c44b0cbf2ef2",
+      "Type": "Celezt.DialogueSystem.Editor.InputNode",
+      "Binder": "Celezt.DialogueSystem.InputInterpreter"
     }
   ],
   "Edges": [
@@ -207,47 +207,7 @@
     },
     {
       "OutputPort": {
-        "NodeID": "d6e9119b306c43118a433de71a0ae2c0",
-        "PortNumber": -2
-      },
-      "InputPort": {
-        "NodeID": "215afa8fc50044abb3ac1553cce66fa7",
-        "PortNumber": -1
-      }
-    },
-    {
-      "OutputPort": {
         "NodeID": "f1aedfb3bef54cc3beba4c5fc72a7041",
-        "PortNumber": -2
-      },
-      "InputPort": {
-        "NodeID": "215afa8fc50044abb3ac1553cce66fa7",
-        "PortNumber": -1
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "d6e9119b306c43118a433de71a0ae2c0",
-        "PortNumber": -2
-      },
-      "InputPort": {
-        "NodeID": "ed52db634bc547f2878dc3f114744956",
-        "PortNumber": -1
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
-        "PortNumber": -2
-      },
-      "InputPort": {
-        "NodeID": "ed52db634bc547f2878dc3f114744956",
-        "PortNumber": -1
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
         "PortNumber": -2
       },
       "InputPort": {
@@ -274,13 +234,49 @@
         "NodeID": "d8fa14a061a94842a06680388a885cc5",
         "PortNumber": 0
       }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "f1aedfb3bef54cc3beba4c5fc72a7041",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "ed52db634bc547f2878dc3f114744956",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "d6e9119b306c43118a433de71a0ae2c0",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "ed52db634bc547f2878dc3f114744956",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "ed52db634bc547f2878dc3f114744956",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "4bb2d24b43e8444f85ab5b4686c2d656",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "215afa8fc50044abb3ac1553cce66fa7",
+        "PortNumber": -1
+      }
     }
   ],
   "Positions": [
-    {
-      "x": 646,
-      "y": 473
-    },
     {
       "x": 2031,
       "y": 646
@@ -326,22 +322,23 @@
       "y": 627
     },
     {
-      "x": 890,
-      "y": 455
+      "x": 877,
+      "y": 427
     },
     {
-      "x": 1489,
-      "y": 1213
+      "x": 1417,
+      "y": 1229
     },
     {
-      "x": 1031,
-      "y": 1213
+      "x": 2054,
+      "y": 1153
+    },
+    {
+      "x": 646,
+      "y": 473
     }
   ],
   "Specialization": [
-    {
-      "_id": "ID"
-    },
     {
       "_actorID": "Cooler Joey",
       "_text": "DEEZ NUTS!",
@@ -354,7 +351,11 @@
     {
       "_actorID": "Cooler Joey",
       "_text": "HA GOT EM´",
-      "_choices": [],
+      "_choices": [
+        {
+          "Text": "THE END"
+        }
+      ],
       "_speed": 1.0,
       "_endOffset": 1.0
     },
@@ -412,6 +413,13 @@
     {
       "_choices": [
         {
+          "Text": "ööö"
+        }
+      ]
+    },
+    {
+      "_choices": [
+        {
           "Text": "Foo"
         },
         {
@@ -420,11 +428,7 @@
       ]
     },
     {
-      "_choices": [
-        {
-          "Text": "ööö"
-        }
-      ]
+      "_id": "default"
     }
   ]
 }

@@ -256,8 +256,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 944517effeb58f8439011f698fd7830b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _button: {fileID: 0}
-  _owner: {fileID: 0}
 --- !u!1 &428674792
 GameObject:
   m_ObjectHideFlags: 0
@@ -503,8 +501,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 944517effeb58f8439011f698fd7830b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _button: {fileID: 0}
-  _owner: {fileID: 0}
 --- !u!1 &469658465 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8030283755969801518, guid: acb5003a491689e46b88634cece96db2, type: 3}
@@ -1037,8 +1033,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 944517effeb58f8439011f698fd7830b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _button: {fileID: 0}
-  _owner: {fileID: 0}
 --- !u!1 &846874781 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8030283755969801518, guid: acb5003a491689e46b88634cece96db2, type: 3}
@@ -1092,6 +1086,7 @@ MonoBehaviour:
   _system: {fileID: 11400000, guid: f1229af8f9eff804dbaabfaf3790a98c, type: 2}
   _ui: {fileID: 807391870}
   _dialogue: {fileID: -5475051401550479605, guid: 57f2da8944a69c74d91cb21a84715964, type: 3}
+  _inputID: default
 --- !u!4 &1228394809
 Transform:
   m_ObjectHideFlags: 0
@@ -1545,8 +1540,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 944517effeb58f8439011f698fd7830b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _button: {fileID: 0}
-  _owner: {fileID: 0}
 --- !u!1 &1577426310 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8030283755969801518, guid: acb5003a491689e46b88634cece96db2, type: 3}
@@ -1564,8 +1557,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 944517effeb58f8439011f698fd7830b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _button: {fileID: 0}
-  _owner: {fileID: 0}
 --- !u!1001 &1644618845
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1699,8 +1690,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 944517effeb58f8439011f698fd7830b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _button: {fileID: 0}
-  _owner: {fileID: 0}
 --- !u!1 &1701189611
 GameObject:
   m_ObjectHideFlags: 0
