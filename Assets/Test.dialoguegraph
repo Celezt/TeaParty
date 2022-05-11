@@ -99,11 +99,6 @@
       "Binder": "Celezt.DialogueSystem.ActionInterpreter"
     },
     {
-      "ID": "41050faf898e441fbc5807cf1afb42ba",
-      "Type": "Celezt.DialogueSystem.Editor.ActionNode",
-      "Binder": "Celezt.DialogueSystem.ActionInterpreter"
-    },
-    {
       "ID": "ed52db634bc547f2878dc3f114744956",
       "Type": "Celezt.DialogueSystem.Editor.ActionNode",
       "Binder": "Celezt.DialogueSystem.ActionInterpreter"
@@ -279,16 +274,6 @@
         "NodeID": "d8fa14a061a94842a06680388a885cc5",
         "PortNumber": 0
       }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "d6e9119b306c43118a433de71a0ae2c0",
-        "PortNumber": -2
-      },
-      "InputPort": {
-        "NodeID": "41050faf898e441fbc5807cf1afb42ba",
-        "PortNumber": -1
-      }
     }
   ],
   "Positions": [
@@ -346,10 +331,6 @@
     },
     {
       "x": 1489,
-      "y": 1213
-    },
-    {
-      "x": 1263,
       "y": 1213
     },
     {
@@ -435,13 +416,6 @@
         },
         {
           "Text": "Ty"
-        }
-      ]
-    },
-    {
-      "_choices": [
-        {
-          "Text": "ll"
         }
       ]
     },
