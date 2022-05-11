@@ -41,12 +41,14 @@ public class DialogueUI : MonoBehaviour
         if (_binder == null)
             return;
 
-        _binder.OnEnterClip.RemoveListener(OnEnterClip);
-        _binder.OnProcessClip.RemoveListener(OnProcessClip);
-        _binder.OnExitClip.RemoveListener(OnExitClip);
-        _binder.OnEnterClip.AddListener(OnEnterClip);
-        _binder.OnProcessClip.AddListener(OnProcessClip);
-        _binder.OnExitClip.AddListener(OnExitClip);
+        _binder.OnEnterDialogueClip.RemoveListener(OnEnterClip);
+        _binder.OnProcessDialogueClip.RemoveListener(OnProcessClip);
+        _binder.OnExitDialogueClip.RemoveListener(OnExitClip);
+        _binder.OnDeleteTimeline.RemoveListener(Refresh);
+        _binder.OnEnterDialogueClip.AddListener(OnEnterClip);
+        _binder.OnProcessDialogueClip.AddListener(OnProcessClip);
+        _binder.OnExitDialogueClip.AddListener(OnExitClip);
+        _binder.OnDeleteTimeline.AddListener(Refresh);
     }
 
     private void Update()

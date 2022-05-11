@@ -29,59 +29,14 @@
   ],
   "Nodes": [
     {
-      "ID": "4bb2d24b43e8444f85ab5b4686c2d656",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "0f38a6554c714cf6916be31b3ef4824d",
-      "Type": "Celezt.DialogueSystem.Editor.BlendNode",
-      "Binder": "Celezt.DialogueSystem.BlendInterpreter"
-    },
-    {
-      "ID": "d8fa14a061a94842a06680388a885cc5",
-      "Type": "Celezt.DialogueSystem.Editor.BlendNode",
-      "Binder": "Celezt.DialogueSystem.BlendInterpreter"
-    },
-    {
-      "ID": "f1aedfb3bef54cc3beba4c5fc72a7041",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "51355d2618c442f89f02cf0ef6c2b9ad",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
-      "ID": "11708bf065f84290adcc58f7fc4721ca",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
-      "ID": "89f3efc767324b8697431b4da384d4e5",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
-      "ID": "d6e9119b306c43118a433de71a0ae2c0",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "6f865d463c994821b83bb776d8de0fd7",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
-      "ID": "c060f1d89ec34b39972a88d4e56dda41",
-      "Type": "Celezt.DialogueSystem.Editor.ConditionNode",
-      "Binder": "Celezt.DialogueSystem.ConditionProcessor"
-    },
-    {
       "ID": "0abe964269744215b2870deddaea6663",
       "Type": "Celezt.DialogueSystem.Editor.BasicNode",
       "Binder": "Celezt.DialogueSystem.ValueProcessor"
+    },
+    {
+      "ID": "fe74bf656bf94260a655c44b0cbf2ef2",
+      "Type": "Celezt.DialogueSystem.Editor.InputNode",
+      "Binder": "Celezt.DialogueSystem.InputInterpreter"
     },
     {
       "ID": "7e820724f54b4e4db9dbfedbc8e05059",
@@ -89,19 +44,24 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "ed52db634bc547f2878dc3f114744956",
-      "Type": "Celezt.DialogueSystem.Editor.ActionNode",
-      "Binder": "Celezt.DialogueSystem.ActionInterpreter"
+      "ID": "0904d0a0bbc546ab8a316f6bebd20b28",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "215afa8fc50044abb3ac1553cce66fa7",
-      "Type": "Celezt.DialogueSystem.Editor.ActionNode",
-      "Binder": "Celezt.DialogueSystem.ActionInterpreter"
+      "ID": "444cf48cbd524dcf9cbc3604f808cd1d",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "fe74bf656bf94260a655c44b0cbf2ef2",
-      "Type": "Celezt.DialogueSystem.Editor.InputNode",
-      "Binder": "Celezt.DialogueSystem.InputInterpreter"
+      "ID": "7eb2423800254775a2796237fe612187",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "f3aa17069fc242f5bb221c24387d4dab",
+      "Type": "Celezt.DialogueSystem.Editor.ActionNode",
+      "Binder": "Celezt.DialogueSystem.ActionInterpreter"
     }
   ],
   "Edges": [
@@ -117,86 +77,6 @@
     },
     {
       "OutputPort": {
-        "NodeID": "89f3efc767324b8697431b4da384d4e5",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "c060f1d89ec34b39972a88d4e56dda41",
-        "PortNumber": 1
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "11708bf065f84290adcc58f7fc4721ca",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "c060f1d89ec34b39972a88d4e56dda41",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "6f865d463c994821b83bb776d8de0fd7",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "0f38a6554c714cf6916be31b3ef4824d",
-        "PortNumber": 1
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "51355d2618c442f89f02cf0ef6c2b9ad",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "d8fa14a061a94842a06680388a885cc5",
-        "PortNumber": 1
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "0f38a6554c714cf6916be31b3ef4824d",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "d6e9119b306c43118a433de71a0ae2c0",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "4bb2d24b43e8444f85ab5b4686c2d656",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "f1aedfb3bef54cc3beba4c5fc72a7041",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "c060f1d89ec34b39972a88d4e56dda41",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "d6e9119b306c43118a433de71a0ae2c0",
-        "PortNumber": 1
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "d8fa14a061a94842a06680388a885cc5",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "4bb2d24b43e8444f85ab5b4686c2d656",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
         "NodeID": "0abe964269744215b2870deddaea6663",
         "PortNumber": 0
       },
@@ -207,52 +87,22 @@
     },
     {
       "OutputPort": {
-        "NodeID": "f1aedfb3bef54cc3beba4c5fc72a7041",
-        "PortNumber": -2
-      },
-      "InputPort": {
-        "NodeID": "215afa8fc50044abb3ac1553cce66fa7",
-        "PortNumber": -1
-      }
-    },
-    {
-      "OutputPort": {
         "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
-        "PortNumber": 0
+        "PortNumber": 1
       },
       "InputPort": {
-        "NodeID": "0f38a6554c714cf6916be31b3ef4824d",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "d6e9119b306c43118a433de71a0ae2c0",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "d8fa14a061a94842a06680388a885cc5",
+        "NodeID": "0904d0a0bbc546ab8a316f6bebd20b28",
         "PortNumber": 0
       }
     },
     {
       "OutputPort": {
-        "NodeID": "f1aedfb3bef54cc3beba4c5fc72a7041",
-        "PortNumber": -2
+        "NodeID": "0904d0a0bbc546ab8a316f6bebd20b28",
+        "PortNumber": 0
       },
       "InputPort": {
-        "NodeID": "ed52db634bc547f2878dc3f114744956",
-        "PortNumber": -1
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "d6e9119b306c43118a433de71a0ae2c0",
-        "PortNumber": -2
-      },
-      "InputPort": {
-        "NodeID": "ed52db634bc547f2878dc3f114744956",
-        "PortNumber": -1
+        "NodeID": "444cf48cbd524dcf9cbc3604f808cd1d",
+        "PortNumber": 0
       }
     },
     {
@@ -261,143 +111,78 @@
         "PortNumber": -2
       },
       "InputPort": {
-        "NodeID": "ed52db634bc547f2878dc3f114744956",
+        "NodeID": "f3aa17069fc242f5bb221c24387d4dab",
         "PortNumber": -1
       }
     },
     {
       "OutputPort": {
-        "NodeID": "4bb2d24b43e8444f85ab5b4686c2d656",
+        "NodeID": "0904d0a0bbc546ab8a316f6bebd20b28",
         "PortNumber": -2
       },
       "InputPort": {
-        "NodeID": "215afa8fc50044abb3ac1553cce66fa7",
+        "NodeID": "f3aa17069fc242f5bb221c24387d4dab",
         "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "444cf48cbd524dcf9cbc3604f808cd1d",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "f3aa17069fc242f5bb221c24387d4dab",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "f3aa17069fc242f5bb221c24387d4dab",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "7eb2423800254775a2796237fe612187",
+        "PortNumber": 0
       }
     }
   ],
   "Positions": [
     {
-      "x": 2031,
-      "y": 646
-    },
-    {
-      "x": 1257,
-      "y": 575
-    },
-    {
-      "x": 1859,
-      "y": 721
-    },
-    {
-      "x": 2298,
-      "y": 646
-    },
-    {
-      "x": 1750,
-      "y": 824
-    },
-    {
-      "x": 1092,
-      "y": 830
-    },
-    {
-      "x": 1092,
-      "y": 901
-    },
-    {
-      "x": 1489,
-      "y": 678
-    },
-    {
-      "x": 1140,
-      "y": 678
-    },
-    {
-      "x": 1301,
-      "y": 811
-    },
-    {
       "x": 662,
       "y": 627
+    },
+    {
+      "x": 646,
+      "y": 473
     },
     {
       "x": 877,
       "y": 427
     },
     {
-      "x": 1417,
-      "y": 1229
+      "x": 1150,
+      "y": 448
     },
     {
-      "x": 2054,
-      "y": 1153
+      "x": 1411,
+      "y": 448
     },
     {
-      "x": 646,
-      "y": 473
+      "x": 1403,
+      "y": 867
+    },
+    {
+      "x": 1150,
+      "y": 882
     }
   ],
   "Specialization": [
     {
-      "_actorID": "Cooler Joey",
-      "_text": "DEEZ NUTS!",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 1.0
-    },
-    {},
-    {},
-    {
-      "_actorID": "Cooler Joey",
-      "_text": "HA GOT EM´",
-      "_choices": [
-        {
-          "Text": "THE END"
-        }
-      ],
-      "_speed": 1.0,
-      "_endOffset": 1.0
-    },
-    {
-      "_type": "System.Single",
-      "_value": 0.5
-    },
-    {
-      "_type": "System.Single",
-      "_value": 3.0
-    },
-    {
-      "_type": "System.Single",
-      "_value": 1.0
-    },
-    {
-      "_actorID": "Joey",
-      "_text": "These what?",
-      "_choices": [
-        {
-          "Text": "Dance"
-        },
-        {
-          "Text": "Yeet"
-        },
-        {
-          "Text": "Fear"
-        }
-      ],
-      "_speed": 0.6,
-      "_endOffset": 1.0
-    },
-    {
-      "_type": "System.Single",
-      "_value": 0.5
-    },
-    {
-      "currentComparison": 2
-    },
-    {
       "_type": "System.Boolean",
       "_value": true
+    },
+    {
+      "_id": "default"
     },
     {
       "_actorID": "Cooler Joey",
@@ -411,24 +196,32 @@
       "_endOffset": 1.0
     },
     {
-      "_choices": [
-        {
-          "Text": "ööö"
-        }
-      ]
+      "_actorID": "(x_x)",
+      "_text": "Yooo WHATS UP?\n",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "Cooler Joey",
+      "_text": "DEEEEEEEEE",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": ":)",
+      "_text": "Thanks for pressing me!!!",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.0
     },
     {
       "_choices": [
         {
-          "Text": "Foo"
-        },
-        {
-          "Text": "Ty"
+          "Text": "Damn"
         }
       ]
-    },
-    {
-      "_id": "default"
     }
   ]
 }
