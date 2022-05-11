@@ -89,14 +89,19 @@
       "Binder": "Celezt.DialogueSystem.ValueProcessor"
     },
     {
+      "ID": "7e820724f54b4e4db9dbfedbc8e05059",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
       "ID": "215afa8fc50044abb3ac1553cce66fa7",
       "Type": "Celezt.DialogueSystem.Editor.ActionNode",
       "Binder": "Celezt.DialogueSystem.ActionInterpreter"
     },
     {
-      "ID": "7e820724f54b4e4db9dbfedbc8e05059",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+      "ID": "41050faf898e441fbc5807cf1afb42ba",
+      "Type": "Celezt.DialogueSystem.Editor.ActionNode",
+      "Binder": "Celezt.DialogueSystem.ActionInterpreter"
     },
     {
       "ID": "ed52db634bc547f2878dc3f114744956",
@@ -207,16 +212,6 @@
     },
     {
       "OutputPort": {
-        "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
-        "PortNumber": -2
-      },
-      "InputPort": {
-        "NodeID": "215afa8fc50044abb3ac1553cce66fa7",
-        "PortNumber": -1
-      }
-    },
-    {
-      "OutputPort": {
         "NodeID": "d6e9119b306c43118a433de71a0ae2c0",
         "PortNumber": -2
       },
@@ -237,16 +232,6 @@
     },
     {
       "OutputPort": {
-        "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "0f38a6554c714cf6916be31b3ef4824d",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
         "NodeID": "d6e9119b306c43118a433de71a0ae2c0",
         "PortNumber": -2
       },
@@ -262,6 +247,46 @@
       },
       "InputPort": {
         "NodeID": "ed52db634bc547f2878dc3f114744956",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "215afa8fc50044abb3ac1553cce66fa7",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "0f38a6554c714cf6916be31b3ef4824d",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "d6e9119b306c43118a433de71a0ae2c0",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "d8fa14a061a94842a06680388a885cc5",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "d6e9119b306c43118a433de71a0ae2c0",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "41050faf898e441fbc5807cf1afb42ba",
         "PortNumber": -1
       }
     }
@@ -316,16 +341,20 @@
       "y": 627
     },
     {
-      "x": 1444,
-      "y": 1199
-    },
-    {
       "x": 890,
       "y": 455
     },
     {
-      "x": 979,
-      "y": 1261
+      "x": 1489,
+      "y": 1213
+    },
+    {
+      "x": 1263,
+      "y": 1213
+    },
+    {
+      "x": 1031,
+      "y": 1213
     }
   ],
   "Specialization": [
@@ -389,6 +418,17 @@
       "_value": true
     },
     {
+      "_actorID": "Cooler Joey",
+      "_text": "Do you got some of deez?",
+      "_choices": [
+        {
+          "Text": "Bob"
+        }
+      ],
+      "_speed": 1.0,
+      "_endOffset": 1.0
+    },
+    {
       "_choices": [
         {
           "Text": "Foo"
@@ -399,15 +439,11 @@
       ]
     },
     {
-      "_actorID": "Cooler Joey",
-      "_text": "Do you got some of deez?",
       "_choices": [
         {
-          "Text": "Bob"
+          "Text": "ll"
         }
-      ],
-      "_speed": 1.0,
-      "_endOffset": 1.0
+      ]
     },
     {
       "_choices": [
