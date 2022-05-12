@@ -3,40 +3,17 @@
   "ObjectID": "57f2da8944a69c74d91cb21a84715964",
   "Properties": [
     {
-      "ID": "b57bff0152f34557b05f33dd7fc212d5",
+      "ID": "86ee475e45a34d82856550d723309118",
       "Type": "System.Boolean",
-      "Name": "BooleanValue",
+      "Name": "Some Boolean",
       "Value": true
-    },
-    {
-      "ID": "adb114f464314866898fa707f38b4e2a",
-      "Type": "System.Boolean",
-      "Name": "New bool 1",
-      "Value": false
-    },
-    {
-      "ID": "8f6374d163e04f4c8932b00667331c24",
-      "Type": "System.Int32",
-      "Name": "New int",
-      "Value": 4
-    },
-    {
-      "ID": "8a173897bb724eacb56d166494d9aafc",
-      "Type": "System.Boolean",
-      "Name": "New bool 2",
-      "Value": false
     }
   ],
   "Nodes": [
     {
-      "ID": "7e820724f54b4e4db9dbfedbc8e05059",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "0904d0a0bbc546ab8a316f6bebd20b28",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+      "ID": "f3aa17069fc242f5bb221c24387d4dab",
+      "Type": "Celezt.DialogueSystem.Editor.ActionNode",
+      "Binder": "Celezt.DialogueSystem.ActionInterpreter"
     },
     {
       "ID": "444cf48cbd524dcf9cbc3604f808cd1d",
@@ -49,9 +26,14 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "f3aa17069fc242f5bb221c24387d4dab",
-      "Type": "Celezt.DialogueSystem.Editor.ActionNode",
-      "Binder": "Celezt.DialogueSystem.ActionInterpreter"
+      "ID": "0904d0a0bbc546ab8a316f6bebd20b28",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "7e820724f54b4e4db9dbfedbc8e05059",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
       "ID": "fe74bf656bf94260a655c44b0cbf2ef2",
@@ -59,8 +41,18 @@
       "Binder": "Celezt.DialogueSystem.InputInterpreter"
     },
     {
-      "ID": "f1f0041fac0a4f238bf08ae8a94e9431",
+      "ID": "c16ece195bf740499bf340dbb6bdfa40",
+      "Type": "Celezt.DialogueSystem.Editor.SetNode",
+      "Binder": "Celezt.DialogueSystem.SetInterpreter"
+    },
+    {
+      "ID": "7a92883156184b52a75f210dc2732aa5",
       "Type": "Celezt.DialogueSystem.Editor.PropertyNode",
+      "Binder": "Celezt.DialogueSystem.ValueProcessor"
+    },
+    {
+      "ID": "9943bbea409748808a117b462d0af6b0",
+      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
       "Binder": "Celezt.DialogueSystem.ValueProcessor"
     }
   ],
@@ -72,16 +64,6 @@
       },
       "InputPort": {
         "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
-        "PortNumber": 1
-      },
-      "InputPort": {
-        "NodeID": "0904d0a0bbc546ab8a316f6bebd20b28",
         "PortNumber": 0
       }
     },
@@ -137,7 +119,37 @@
     },
     {
       "OutputPort": {
-        "NodeID": "f1f0041fac0a4f238bf08ae8a94e9431",
+        "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "c16ece195bf740499bf340dbb6bdfa40",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "c16ece195bf740499bf340dbb6bdfa40",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "0904d0a0bbc546ab8a316f6bebd20b28",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "7a92883156184b52a75f210dc2732aa5",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
+        "PortNumber": 1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "7a92883156184b52a75f210dc2732aa5",
         "PortNumber": 0
       },
       "InputPort": {
@@ -147,63 +159,60 @@
     },
     {
       "OutputPort": {
-        "NodeID": "f1f0041fac0a4f238bf08ae8a94e9431",
+        "NodeID": "9943bbea409748808a117b462d0af6b0",
         "PortNumber": 0
       },
       "InputPort": {
-        "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
+        "NodeID": "c16ece195bf740499bf340dbb6bdfa40",
         "PortNumber": 1
       }
     }
   ],
   "Positions": [
     {
-      "x": 877,
-      "y": 427
-    },
-    {
-      "x": 1150,
-      "y": 448
-    },
-    {
-      "x": 1411,
-      "y": 448
-    },
-    {
-      "x": 1403,
-      "y": 867
-    },
-    {
       "x": 1150,
       "y": 882
     },
     {
-      "x": 646,
-      "y": 473
+      "x": 1629,
+      "y": 448
     },
     {
-      "x": 727,
-      "y": 824
+      "x": 1690,
+      "y": 882
+    },
+    {
+      "x": 1343,
+      "y": 448
+    },
+    {
+      "x": 706,
+      "y": 459
+    },
+    {
+      "x": 475,
+      "y": 505
+    },
+    {
+      "x": 1085,
+      "y": 516
+    },
+    {
+      "x": 557,
+      "y": 870
+    },
+    {
+      "x": 965,
+      "y": 609
     }
   ],
   "Specialization": [
     {
-      "_actorID": "Cooler Joey",
-      "_text": "Do you got some of deez?",
       "_choices": [
         {
-          "Text": "Bob"
+          "Text": "Damn"
         }
-      ],
-      "_speed": 1.0,
-      "_endOffset": 1.0
-    },
-    {
-      "_actorID": "(x_x)",
-      "_text": "Yooo WHATS UP?\n",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 1.0
+      ]
     },
     {
       "_actorID": "Cooler Joey",
@@ -220,17 +229,35 @@
       "_endOffset": 1.0
     },
     {
+      "_actorID": "(x_x)",
+      "_text": "Yooo WHATS UP?\n",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "Cooler Joey",
+      "_text": "Do you got some of deez?",
       "_choices": [
         {
-          "Text": "Damn"
+          "Text": "Bob"
         }
-      ]
+      ],
+      "_speed": 1.0,
+      "_endOffset": 1.0
     },
     {
       "_id": "default"
     },
     {
-      "_propertyID": "b57bff0152f34557b05f33dd7fc212d5"
+      "_propertyName": "Some Boolean"
+    },
+    {
+      "_propertyID": "86ee475e45a34d82856550d723309118"
+    },
+    {
+      "_type": "System.Boolean",
+      "_value": false
     }
   ]
 }
