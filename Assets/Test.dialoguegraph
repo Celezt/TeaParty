@@ -5,7 +5,7 @@
     {
       "ID": "b57bff0152f34557b05f33dd7fc212d5",
       "Type": "System.Boolean",
-      "Name": "New bool",
+      "Name": "BooleanValue",
       "Value": true
     },
     {
@@ -28,16 +28,6 @@
     }
   ],
   "Nodes": [
-    {
-      "ID": "0abe964269744215b2870deddaea6663",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
-      "ID": "fe74bf656bf94260a655c44b0cbf2ef2",
-      "Type": "Celezt.DialogueSystem.Editor.InputNode",
-      "Binder": "Celezt.DialogueSystem.InputInterpreter"
-    },
     {
       "ID": "7e820724f54b4e4db9dbfedbc8e05059",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
@@ -62,6 +52,16 @@
       "ID": "f3aa17069fc242f5bb221c24387d4dab",
       "Type": "Celezt.DialogueSystem.Editor.ActionNode",
       "Binder": "Celezt.DialogueSystem.ActionInterpreter"
+    },
+    {
+      "ID": "fe74bf656bf94260a655c44b0cbf2ef2",
+      "Type": "Celezt.DialogueSystem.Editor.InputNode",
+      "Binder": "Celezt.DialogueSystem.InputInterpreter"
+    },
+    {
+      "ID": "f1f0041fac0a4f238bf08ae8a94e9431",
+      "Type": "Celezt.DialogueSystem.Editor.PropertyNode",
+      "Binder": "Celezt.DialogueSystem.ValueProcessor"
     }
   ],
   "Edges": [
@@ -73,16 +73,6 @@
       "InputPort": {
         "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
         "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "0abe964269744215b2870deddaea6663",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
-        "PortNumber": 1
       }
     },
     {
@@ -144,17 +134,29 @@
         "NodeID": "7eb2423800254775a2796237fe612187",
         "PortNumber": 0
       }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "f1f0041fac0a4f238bf08ae8a94e9431",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "f3aa17069fc242f5bb221c24387d4dab",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "f1f0041fac0a4f238bf08ae8a94e9431",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "7e820724f54b4e4db9dbfedbc8e05059",
+        "PortNumber": 1
+      }
     }
   ],
   "Positions": [
-    {
-      "x": 662,
-      "y": 627
-    },
-    {
-      "x": 646,
-      "y": 473
-    },
     {
       "x": 877,
       "y": 427
@@ -174,16 +176,17 @@
     {
       "x": 1150,
       "y": 882
+    },
+    {
+      "x": 646,
+      "y": 473
+    },
+    {
+      "x": 727,
+      "y": 824
     }
   ],
   "Specialization": [
-    {
-      "_type": "System.Boolean",
-      "_value": true
-    },
-    {
-      "_id": "default"
-    },
     {
       "_actorID": "Cooler Joey",
       "_text": "Do you got some of deez?",
@@ -222,6 +225,12 @@
           "Text": "Damn"
         }
       ]
+    },
+    {
+      "_id": "default"
+    },
+    {
+      "_propertyID": "b57bff0152f34557b05f33dd7fc212d5"
     }
   ]
 }
