@@ -16,7 +16,10 @@ public class GameManager : MonoBehaviour
         _ui.Binder = _system.Binder;
 
         _system.Buttons.AddRange(_ui.GetComponentsInChildren<ButtonBinder>());    // Give all buttons.
+    }
 
+    public void StartDialogue()
+    {
         if (_dialogue != null)
         {
             _system.CreateDialogue(_dialogue, _inputID);

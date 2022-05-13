@@ -33,6 +33,7 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _topActor;
     [SerializeField] private TextMeshProUGUI _bottomActor;
     [SerializeField] private CanvasGroup _actions;
+    [SerializeField] private SerializableDictionary<string, SpriteRenderer> _sprites = new SerializableDictionary<string, SpriteRenderer>();
 
     private bool _isInitialized;
 
@@ -77,6 +78,16 @@ public class DialogueUI : MonoBehaviour
         {
             if (callback.Index == 0)   // The first is currently not playing anything or is currently the bottom.
             {
+                if (_sprites.TryGetValue(asset.Actor, out SpriteRenderer sprite))
+                {
+                    sprite.enabled = true;
+                }
+
+                foreach (var (name, hideSprite) in _sprites.Where(x => x.Key.Trim() != asset.Actor))
+                {
+                    hideSprite.enabled = false;
+                }
+
                 _bottom.alpha = 1;
                 _bottomText.text = asset.Text;
                 _bottomActor.text = asset.Actor;
@@ -138,6 +149,11 @@ public class DialogueUI : MonoBehaviour
 
         _topText.maxVisibleCharacters = 0;
         _bottomText.maxVisibleCharacters = 0;
+
+        foreach (var (name, hideSprite) in _sprites)
+        {
+            hideSprite.enabled = false;
+        }
 
         UpdateBinder();
     }
