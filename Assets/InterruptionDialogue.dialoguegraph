@@ -269,11 +269,6 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "895bc448ea8049d7be49438a827971bc",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
       "ID": "1cf18e74ec16401aa5bf4153a42f4f1a",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
@@ -292,19 +287,14 @@
       "ID": "fe74bf656bf94260a655c44b0cbf2ef2",
       "Type": "Celezt.DialogueSystem.Editor.InputNode",
       "Binder": "Celezt.DialogueSystem.InputInterpreter"
+    },
+    {
+      "ID": "895bc448ea8049d7be49438a827971bc",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     }
   ],
   "Edges": [
-    {
-      "OutputPort": {
-        "NodeID": "895bc448ea8049d7be49438a827971bc",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "1cf18e74ec16401aa5bf4153a42f4f1a",
-        "PortNumber": 0
-      }
-    },
     {
       "OutputPort": {
         "NodeID": "16baf751c3d9492cb71510f7f00d9bf4",
@@ -834,6 +824,16 @@
         "NodeID": "895bc448ea8049d7be49438a827971bc",
         "PortNumber": 0
       }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "895bc448ea8049d7be49438a827971bc",
+        "PortNumber": 1
+      },
+      "InputPort": {
+        "NodeID": "1cf18e74ec16401aa5bf4153a42f4f1a",
+        "PortNumber": 0
+      }
     }
   ],
   "Positions": [
@@ -1030,10 +1030,6 @@
       "y": -64
     },
     {
-      "x": 826,
-      "y": -64
-    },
-    {
       "x": 1164,
       "y": -64
     },
@@ -1046,8 +1042,12 @@
       "y": 234
     },
     {
-      "x": 648,
+      "x": 223,
       "y": -12
+    },
+    {
+      "x": 401,
+      "y": -64
     }
   ],
   "Specialization": [
@@ -1371,13 +1371,6 @@
     },
     {
       "_actorID": "Madam",
-      "_text": "greetingssshh, my honored guessht.",
-      "_choices": [],
-      "_speed": 0.7,
-      "_endOffset": 1.0
-    },
-    {
-      "_actorID": "Madam",
       "_text": "Charleshh please escort the guessht to the garden,",
       "_choices": [],
       "_speed": 0.7,
@@ -1406,6 +1399,20 @@
     },
     {
       "_id": "default"
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "greetingssshh, my honored guessht.",
+      "_choices": [
+        {
+          "Text": "*GREET*"
+        },
+        {
+          "Text": "*GREET MORE*"
+        }
+      ],
+      "_speed": 0.7,
+      "_endOffset": 1.0
     }
   ]
 }
