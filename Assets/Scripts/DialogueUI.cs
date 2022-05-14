@@ -153,11 +153,6 @@ public class DialogueUI : MonoBehaviour
         _topText.maxVisibleCharacters = 0;
         _bottomText.maxVisibleCharacters = 0;
 
-        foreach (var (name, hideSprite) in _sprites)
-        {
-            hideSprite.enabled = false;
-        }
-
         UpdateBinder();
     }
 }
