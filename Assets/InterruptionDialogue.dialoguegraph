@@ -2120,7 +2120,7 @@
     },
     {
       "_propertyName": "Charles - Friendliness",
-      "_assignOption": "MinusAssign"
+      "_assignOption": "PlusAssign"
     },
     {
       "_type": "System.Int32",
