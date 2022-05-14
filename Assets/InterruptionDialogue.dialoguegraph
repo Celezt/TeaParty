@@ -1159,11 +1159,6 @@
       "Binder": "Celezt.DialogueSystem.ActionInterpreter"
     },
     {
-      "ID": "e3c4d31b2ba14502a696833ebc53586e",
-      "Type": "Celezt.DialogueSystem.Editor.InputNode",
-      "Binder": "Celezt.DialogueSystem.InputInterpreter"
-    },
-    {
       "ID": "4f94952579f544de9084160fd6522d3c",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
@@ -1182,6 +1177,11 @@
       "ID": "d92c9ec535c04358b947fc27b5a25626",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "e3c4d31b2ba14502a696833ebc53586e",
+      "Type": "Celezt.DialogueSystem.Editor.InputNode",
+      "Binder": "Celezt.DialogueSystem.InputInterpreter"
     }
   ],
   "Edges": [
@@ -3707,16 +3707,6 @@
     },
     {
       "OutputPort": {
-        "NodeID": "e3c4d31b2ba14502a696833ebc53586e",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "8dbcf84192e446f681ffe94db9a689d8",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
         "NodeID": "db1caf7f257d4183ab6216c84af4f041",
         "PortNumber": 0
       },
@@ -3732,6 +3722,16 @@
       },
       "InputPort": {
         "NodeID": "951cb30f7e5e472d99b1ead2d641222f",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "e3c4d31b2ba14502a696833ebc53586e",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "b210a20bd63d4af7b11b8ed935c9d168",
         "PortNumber": 0
       }
     }
@@ -4642,10 +4642,6 @@
       "y": 2585
     },
     {
-      "x": 22190,
-      "y": 2028
-    },
-    {
       "x": 22737,
       "y": 2127
     },
@@ -4660,6 +4656,10 @@
     {
       "x": 22924,
       "y": 2738
+    },
+    {
+      "x": 19231,
+      "y": 1613
     }
   ],
   "Specialization": [
@@ -5969,9 +5969,6 @@
       ]
     },
     {
-      "_id": "default"
-    },
-    {
       "_actorID": "Madam",
       "_text": "These matterssh are of great importance!",
       "_choices": [],
@@ -5998,6 +5995,9 @@
       "_choices": [],
       "_speed": 1.1,
       "_endOffset": 0.6
+    },
+    {
+      "_id": "default"
     }
   ]
 }
