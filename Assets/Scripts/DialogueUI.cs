@@ -78,14 +78,17 @@ public class DialogueUI : MonoBehaviour
         {
             if (callback.Index == 0)   // The first is currently not playing anything or is currently the bottom.
             {
-                if (_sprites.TryGetValue(asset.Actor, out SpriteRenderer sprite))
+                if (asset.Actor != "You")
                 {
-                    sprite.enabled = true;
-                }
+                    if (_sprites.TryGetValue(asset.Actor, out SpriteRenderer sprite))
+                    {
+                        sprite.enabled = true;
+                    }
 
-                foreach (var (name, hideSprite) in _sprites.Where(x => x.Key.Trim() != asset.Actor))
-                {
-                    hideSprite.enabled = false;
+                    foreach (var (name, hideSprite) in _sprites.Where(x => x.Key.Trim() != asset.Actor))
+                    {
+                        hideSprite.enabled = false;
+                    }
                 }
 
                 _bottom.alpha = 1;
