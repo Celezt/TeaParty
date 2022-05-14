@@ -1149,11 +1149,6 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "e3c4d31b2ba14502a696833ebc53586e",
-      "Type": "Celezt.DialogueSystem.Editor.InputNode",
-      "Binder": "Celezt.DialogueSystem.InputInterpreter"
-    },
-    {
       "ID": "a6f833bc35644ab5b80741c49e100435",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
@@ -1607,6 +1602,11 @@
       "ID": "3abda906d79946b49659d4b55e1ab53e",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "e3c4d31b2ba14502a696833ebc53586e",
+      "Type": "Celezt.DialogueSystem.Editor.InputNode",
+      "Binder": "Celezt.DialogueSystem.InputInterpreter"
     }
   ],
   "Edges": [
@@ -4522,16 +4522,6 @@
     },
     {
       "OutputPort": {
-        "NodeID": "e3c4d31b2ba14502a696833ebc53586e",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "9d25fe27370243c6a5e0521cd6480a53",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
         "NodeID": "e7c819b557b74c80b7c685663876ac5d",
         "PortNumber": 0
       },
@@ -5157,6 +5147,16 @@
       },
       "InputPort": {
         "NodeID": "6d79aef3b40343ac8865d7c1017cd1e4",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "e3c4d31b2ba14502a696833ebc53586e",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "895bc448ea8049d7be49438a827971bc",
         "PortNumber": 0
       }
     }
@@ -6059,10 +6059,6 @@
       "y": 1037
     },
     {
-      "x": 20695,
-      "y": 891
-    },
-    {
       "x": 21507,
       "y": 929
     },
@@ -6425,6 +6421,10 @@
     {
       "x": 30212,
       "y": 2587
+    },
+    {
+      "x": -475,
+      "y": 400
     }
   ],
   "Specialization": [
@@ -7720,9 +7720,6 @@
       "_endOffset": 1.0
     },
     {
-      "_id": "default"
-    },
-    {
       "_actorID": "Madam",
       "_text": "of different sspeciessh which lived sseparately, ",
       "_choices": [],
@@ -8292,6 +8289,9 @@
       "_choices": [],
       "_speed": 0.6,
       "_endOffset": 1.0
+    },
+    {
+      "_id": "default"
     }
   ]
 }
