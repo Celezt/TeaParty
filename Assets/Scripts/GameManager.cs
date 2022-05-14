@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private DialogueSystem _system;
     [SerializeField] private DialogueUI _ui;
+    [SerializeField] private CanvasGroup _gameplayCanvas;
     [SerializeField] private string _inputID = "default";
     [SerializeField] private List<Dialogue> _dialogues = new List<Dialogue>();
 
@@ -16,7 +17,7 @@ public class GameManager : MonoBehaviour
     {
         _ui.Binder = _system.Binder;
 
-        _system.Buttons.AddRange(_ui.GetComponentsInChildren<ButtonBinder>());    // Give all buttons.
+        _system.Buttons.AddRange(_gameplayCanvas.GetComponentsInChildren<ButtonBinder>(true));    // Give all buttons.
     }
 
     public void StartDialogue(int index)
