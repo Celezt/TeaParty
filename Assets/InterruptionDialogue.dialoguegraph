@@ -1294,21 +1294,6 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "e7c819b557b74c80b7c685663876ac5d",
-      "Type": "Celezt.DialogueSystem.Editor.ConditionNode",
-      "Binder": "Celezt.DialogueSystem.ConditionProcessor"
-    },
-    {
-      "ID": "74aff6ae11594dcdaec9c1d4accc32d4",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
-      "ID": "52bba2d1436d46129d6cfe215d906848",
-      "Type": "Celezt.DialogueSystem.Editor.PropertyNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
       "ID": "eb07496aac0a4c4d9e2ea74ae276bf06",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
@@ -1607,6 +1592,36 @@
       "ID": "7aa55b68cc2f4e5a81ee38654dd4e9de",
       "Type": "Celezt.DialogueSystem.Editor.ActionNode",
       "Binder": "Celezt.DialogueSystem.ActionInterpreter"
+    },
+    {
+      "ID": "e7c819b557b74c80b7c685663876ac5d",
+      "Type": "Celezt.DialogueSystem.Editor.ConditionNode",
+      "Binder": "Celezt.DialogueSystem.ConditionProcessor"
+    },
+    {
+      "ID": "52bba2d1436d46129d6cfe215d906848",
+      "Type": "Celezt.DialogueSystem.Editor.PropertyNode",
+      "Binder": "Celezt.DialogueSystem.ValueProcessor"
+    },
+    {
+      "ID": "74aff6ae11594dcdaec9c1d4accc32d4",
+      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
+      "Binder": "Celezt.DialogueSystem.ValueProcessor"
+    },
+    {
+      "ID": "cd6aa18a51dd4112b59ba0d631342263",
+      "Type": "Celezt.DialogueSystem.Editor.ConditionNode",
+      "Binder": "Celezt.DialogueSystem.ConditionProcessor"
+    },
+    {
+      "ID": "0d3b77fe032443379c4147cbbf5e1a9f",
+      "Type": "Celezt.DialogueSystem.Editor.PropertyNode",
+      "Binder": "Celezt.DialogueSystem.ValueProcessor"
+    },
+    {
+      "ID": "e65f0497ed5a4f4fa6bdb0eb4d6cd4df",
+      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
+      "Binder": "Celezt.DialogueSystem.ValueProcessor"
     }
   ],
   "Edges": [
@@ -5219,6 +5234,36 @@
         "NodeID": "0b3886d069d64b17a3eb0b3bbb09ff69",
         "PortNumber": 0
       }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "cd6aa18a51dd4112b59ba0d631342263",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "c974979ecee34b3b9e6cb273d6bfa7c9",
+        "PortNumber": 4
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "0d3b77fe032443379c4147cbbf5e1a9f",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "cd6aa18a51dd4112b59ba0d631342263",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "e65f0497ed5a4f4fa6bdb0eb4d6cd4df",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "cd6aa18a51dd4112b59ba0d631342263",
+        "PortNumber": 1
+      }
     }
   ],
   "Positions": [
@@ -6235,18 +6280,6 @@
       "y": 2691
     },
     {
-      "x": 25042,
-      "y": 2864
-    },
-    {
-      "x": 24886,
-      "y": 2975
-    },
-    {
-      "x": 24828,
-      "y": 2902
-    },
-    {
       "x": 23240,
       "y": 2738
     },
@@ -6485,6 +6518,30 @@
     {
       "x": 20410,
       "y": 2127
+    },
+    {
+      "x": 25035,
+      "y": 2837
+    },
+    {
+      "x": 24830,
+      "y": 2864
+    },
+    {
+      "x": 24871,
+      "y": 2906
+    },
+    {
+      "x": 25047,
+      "y": 2976
+    },
+    {
+      "x": 24857,
+      "y": 3013
+    },
+    {
+      "x": 24920,
+      "y": 3070
     }
   ],
   "Specialization": [
@@ -7973,16 +8030,6 @@
       "_endOffset": 1.0
     },
     {
-      "currentComparison": 3
-    },
-    {
-      "_type": "System.Int32",
-      "_value": 2
-    },
-    {
-      "_propertyID": "3705dfc1c2064c1b93466c9c81adb14f"
-    },
-    {
       "_actorID": "You",
       "_text": "I do wish you the best of luck.",
       "_choices": [],
@@ -8352,6 +8399,26 @@
           "Text": "*INTERRUPT*"
         }
       ]
+    },
+    {
+      "currentComparison": 3
+    },
+    {
+      "_propertyID": "3705dfc1c2064c1b93466c9c81adb14f"
+    },
+    {
+      "_type": "System.Int32",
+      "_value": 2
+    },
+    {
+      "currentComparison": 5
+    },
+    {
+      "_propertyID": "b67690be6b3345329b7c3e2f76fb605b"
+    },
+    {
+      "_type": "System.Int32",
+      "_value": 4
     }
   ]
 }
