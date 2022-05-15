@@ -37,6 +37,31 @@ public class DialogueUI : MonoBehaviour
 
     private bool _isInitialized;
 
+    public void Clear()
+    {
+        Refresh();
+
+        foreach (var sprite in _sprites.Values)
+        {
+            sprite.enabled = false;
+        }
+    }
+
+    public void Refresh()
+    {
+        _top.alpha = 0;
+        _bottom.alpha = 0;
+        _topText.text = null;
+        _bottomText.text = null;
+        _topActor.text = null;
+        _bottomActor.text = null;
+
+        _topText.maxVisibleCharacters = 0;
+        _bottomText.maxVisibleCharacters = 0;
+
+        UpdateBinder();
+    }
+
     public void UpdateBinder()
     {
         if (_binder == null)
@@ -139,20 +164,5 @@ public class DialogueUI : MonoBehaviour
             _topText.text = null;
             _topActor.text = null;
         }
-    }
-
-    private void Refresh()
-    {
-        _top.alpha = 0;
-        _bottom.alpha = 0;
-        _topText.text = null;
-        _bottomText.text = null;
-        _topActor.text = null;
-        _bottomActor.text = null;
-
-        _topText.maxVisibleCharacters = 0;
-        _bottomText.maxVisibleCharacters = 0;
-
-        UpdateBinder();
     }
 }

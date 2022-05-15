@@ -2,6 +2,7 @@ using Celezt.DialogueSystem;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Playables;
 using UnityEngine.UI;
 
@@ -9,6 +10,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private DialogueSystem _system;
     [SerializeField] private DialogueUI _ui;
+    [SerializeField] private CanvasGroup _mainMenuCanvas;
     [SerializeField] private CanvasGroup _gameplayCanvas;
     [SerializeField] private string _inputID = "default";
     [SerializeField] private List<Dialogue> _dialogues = new List<Dialogue>();
@@ -18,6 +20,14 @@ public class GameManager : MonoBehaviour
         _ui.Binder = _system.Binder;
 
         _system.Buttons.AddRange(_gameplayCanvas.GetComponentsInChildren<ButtonBinder>(true));    // Give all buttons.
+
+        _system.GetEvent("output", () =>
+        {
+            _system.Stop();
+            _ui.Clear();
+            _mainMenuCanvas.gameObject.SetActive(true);
+            _gameplayCanvas.gameObject.SetActive(false);
+        });
     }
 
     public void StartDialogue(int index)

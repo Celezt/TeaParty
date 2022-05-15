@@ -59,11 +59,6 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "895bc448ea8049d7be49438a827971bc",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
       "ID": "48434880eea14127b20c2c2460d50d8a",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
@@ -95,11 +90,6 @@
     },
     {
       "ID": "1dbab09e90d543519d29fd431e1fb91c",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "9a0c7d2e13ef4258a1666c5128667831",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
@@ -1614,14 +1604,39 @@
       "Binder": "Celezt.DialogueSystem.ValueProcessor"
     },
     {
-      "ID": "e3c4d31b2ba14502a696833ebc53586e",
-      "Type": "Celezt.DialogueSystem.Editor.InputNode",
-      "Binder": "Celezt.DialogueSystem.InputInterpreter"
-    },
-    {
       "ID": "6e7634f2f1e44a05be71ec4d656536cf",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "9a0c7d2e13ef4258a1666c5128667831",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "994fefc02e3e4c1b89eb362f553e42fc",
+      "Type": "Celezt.DialogueSystem.Editor.MarkerNode",
+      "Binder": "Celezt.DialogueSystem.MarkerInterpreter"
+    },
+    {
+      "ID": "dc95d231c3ff45138ae3a003ab37adc6",
+      "Type": "Celezt.DialogueSystem.Editor.MarkerNode",
+      "Binder": "Celezt.DialogueSystem.MarkerInterpreter"
+    },
+    {
+      "ID": "515948053a34446a8c26afd814d07d51",
+      "Type": "Celezt.DialogueSystem.Editor.MarkerNode",
+      "Binder": "Celezt.DialogueSystem.MarkerInterpreter"
+    },
+    {
+      "ID": "895bc448ea8049d7be49438a827971bc",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "e3c4d31b2ba14502a696833ebc53586e",
+      "Type": "Celezt.DialogueSystem.Editor.InputNode",
+      "Binder": "Celezt.DialogueSystem.InputInterpreter"
     }
   ],
   "Edges": [
@@ -2072,16 +2087,6 @@
       },
       "InputPort": {
         "NodeID": "1e50fe0341a94e64bbcb8e07f89fbe88",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "895bc448ea8049d7be49438a827971bc",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "1cf18e74ec16401aa5bf4153a42f4f1a",
         "PortNumber": 0
       }
     },
@@ -5257,11 +5262,51 @@
     },
     {
       "OutputPort": {
+        "NodeID": "635806b84bf94c90981ff8a318b85a29",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "994fefc02e3e4c1b89eb362f553e42fc",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "682b0ab561564fcb93a0adc1b6cc3fcd",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "dc95d231c3ff45138ae3a003ab37adc6",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "3abda906d79946b49659d4b55e1ab53e",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "515948053a34446a8c26afd814d07d51",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
         "NodeID": "e3c4d31b2ba14502a696833ebc53586e",
         "PortNumber": 0
       },
       "InputPort": {
         "NodeID": "895bc448ea8049d7be49438a827971bc",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "895bc448ea8049d7be49438a827971bc",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "1cf18e74ec16401aa5bf4153a42f4f1a",
         "PortNumber": 0
       }
     }
@@ -5292,10 +5337,6 @@
       "y": 340
     },
     {
-      "x": -305,
-      "y": 340
-    },
-    {
       "x": 5588,
       "y": 2279
     },
@@ -5322,10 +5363,6 @@
     {
       "x": 682,
       "y": 340
-    },
-    {
-      "x": 930,
-      "y": 638
     },
     {
       "x": 1226,
@@ -6536,12 +6573,32 @@
       "y": 3070
     },
     {
-      "x": -527,
-      "y": 406
-    },
-    {
       "x": 3436,
       "y": 1554
+    },
+    {
+      "x": 930,
+      "y": 638
+    },
+    {
+      "x": 31367,
+      "y": 1212
+    },
+    {
+      "x": 31889,
+      "y": 2018
+    },
+    {
+      "x": 30559,
+      "y": 2648
+    },
+    {
+      "x": -311,
+      "y": 340
+    },
+    {
+      "x": -491,
+      "y": 406
     }
   ],
   "Specialization": [
@@ -6574,13 +6631,6 @@
       "_choices": [],
       "_speed": 0.7,
       "_endOffset": 0.5
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "greetingssshh, my honored guessht.",
-      "_choices": [],
-      "_speed": 0.7,
-      "_endOffset": 1.0
     },
     {
       "_actorID": "Charles Bug",
@@ -6621,13 +6671,6 @@
       "_choices": [],
       "_speed": 1.0,
       "_endOffset": 2.0
-    },
-    {
-      "_actorID": "Charles Bug",
-      "_text": "Dear guest, please have a seat while I...",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 0.6
     },
     {
       "_actorID": "Charles Bug",
@@ -8411,14 +8454,37 @@
       "_value": 4
     },
     {
-      "_id": "default"
-    },
-    {
       "_actorID": "Madam",
       "_text": "Do you think that? I am flattered.",
       "_choices": [],
       "_speed": 0.6,
       "_endOffset": 1.0
+    },
+    {
+      "_actorID": "Charles Bug",
+      "_text": "Dear guest, please have a seat while I...",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 0.6
+    },
+    {
+      "_id": "output"
+    },
+    {
+      "_id": "output"
+    },
+    {
+      "_id": "output"
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "greetingssshh, my honored guessht.",
+      "_choices": [],
+      "_speed": 0.7,
+      "_endOffset": 1.0
+    },
+    {
+      "_id": "default"
     }
   ]
 }
