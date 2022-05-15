@@ -704,11 +704,6 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "070526da7d7d4a70b582c377ee9ad928",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
       "ID": "744b4e6ee0a7417f9a6df0734eb1d0a7",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
@@ -774,36 +769,6 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "c25ffb919e724b72b1f1820dee9e5531",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "9d25fe27370243c6a5e0521cd6480a53",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "a6f833bc35644ab5b80741c49e100435",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "f6f39e429c084517a1e0440dfd101355",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "2013a48de47f40a483e62b24c169440c",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "9c99607a952c4fbd9e329255751e283d",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
       "ID": "2c7202c5289f442aa3118ece07e403f2",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
@@ -834,31 +799,6 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "3a22da853a8d40c5ac2bc30ce0f73ce4",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "baacd4ad5c6d48c7ae8fd93e31addf9c",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "17f1ef0b92be432cae8631967fc5aef5",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "50d501d783eb4867a9f35171ed2e94be",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "8bc4f9cc24a24f88b6ab86d3e531cb00",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
       "ID": "13e0a744cb7c49fe8fdd2e8f3963dcac",
       "Type": "Celezt.DialogueSystem.Editor.ActionNode",
       "Binder": "Celezt.DialogueSystem.ActionInterpreter"
@@ -885,11 +825,6 @@
     },
     {
       "ID": "20039ee48dd4474996838bdbd6d169ce",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "79921d72e6904c4d896155034b41a848",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
@@ -1169,11 +1104,6 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "7126053567084c609ba0efb83670c658",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
       "ID": "db1caf7f257d4183ab6216c84af4f041",
       "Type": "Celezt.DialogueSystem.Editor.ActionNode",
       "Binder": "Celezt.DialogueSystem.ActionInterpreter"
@@ -1392,6 +1322,81 @@
       "ID": "994fefc02e3e4c1b89eb362f553e42fc",
       "Type": "Celezt.DialogueSystem.Editor.MarkerNode",
       "Binder": "Celezt.DialogueSystem.MarkerInterpreter"
+    },
+    {
+      "ID": "070526da7d7d4a70b582c377ee9ad928",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "540fcdcbcd6243f6b639a053ed15ae51",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "c25ffb919e724b72b1f1820dee9e5531",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "9d25fe27370243c6a5e0521cd6480a53",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "a6f833bc35644ab5b80741c49e100435",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "f6f39e429c084517a1e0440dfd101355",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "2013a48de47f40a483e62b24c169440c",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "9c99607a952c4fbd9e329255751e283d",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "3a22da853a8d40c5ac2bc30ce0f73ce4",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "baacd4ad5c6d48c7ae8fd93e31addf9c",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "17f1ef0b92be432cae8631967fc5aef5",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "50d501d783eb4867a9f35171ed2e94be",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "8bc4f9cc24a24f88b6ab86d3e531cb00",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "79921d72e6904c4d896155034b41a848",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "7126053567084c609ba0efb83670c658",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     }
   ],
   "Edges": [
@@ -2887,16 +2892,6 @@
     },
     {
       "OutputPort": {
-        "NodeID": "070526da7d7d4a70b582c377ee9ad928",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "7126053567084c609ba0efb83670c658",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
         "NodeID": "9d25fe27370243c6a5e0521cd6480a53",
         "PortNumber": 0
       },
@@ -4304,6 +4299,26 @@
         "NodeID": "3ca6f08dc9964b52b956c769bb302ff5",
         "PortNumber": 0
       }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "070526da7d7d4a70b582c377ee9ad928",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "540fcdcbcd6243f6b639a053ed15ae51",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "540fcdcbcd6243f6b639a053ed15ae51",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "7126053567084c609ba0efb83670c658",
+        "PortNumber": 0
+      }
     }
   ],
   "Positions": [
@@ -4848,10 +4863,6 @@
       "y": 1466
     },
     {
-      "x": 20188,
-      "y": 1466
-    },
-    {
       "x": 20686,
       "y": 2127
     },
@@ -4904,30 +4915,6 @@
       "y": 2127
     },
     {
-      "x": 21163,
-      "y": 1037
-    },
-    {
-      "x": 20838,
-      "y": 1037
-    },
-    {
-      "x": 21507,
-      "y": 929
-    },
-    {
-      "x": 21846,
-      "y": 929
-    },
-    {
-      "x": 22810,
-      "y": 929
-    },
-    {
-      "x": 22490,
-      "y": 929
-    },
-    {
       "x": 23811,
       "y": 1357
     },
@@ -4952,26 +4939,6 @@
       "y": 1358
     },
     {
-      "x": 23383,
-      "y": 846
-    },
-    {
-      "x": 23067,
-      "y": 846
-    },
-    {
-      "x": 23687,
-      "y": 846
-    },
-    {
-      "x": 24018,
-      "y": 985
-    },
-    {
-      "x": 24354,
-      "y": 985
-    },
-    {
       "x": 22268,
       "y": 1685
     },
@@ -4994,10 +4961,6 @@
     {
       "x": 23456,
       "y": 1786
-    },
-    {
-      "x": 22172,
-      "y": 929
     },
     {
       "x": 23416,
@@ -5220,10 +5183,6 @@
       "y": -404
     },
     {
-      "x": 20522,
-      "y": 1466
-    },
-    {
       "x": 22635,
       "y": 2585
     },
@@ -5398,6 +5357,66 @@
     {
       "x": 31087,
       "y": 1212
+    },
+    {
+      "x": 20188,
+      "y": 1466
+    },
+    {
+      "x": 20502,
+      "y": 1466
+    },
+    {
+      "x": 21462,
+      "y": 1033
+    },
+    {
+      "x": 21137,
+      "y": 1033
+    },
+    {
+      "x": 21806,
+      "y": 925
+    },
+    {
+      "x": 22145,
+      "y": 925
+    },
+    {
+      "x": 23109,
+      "y": 925
+    },
+    {
+      "x": 22789,
+      "y": 925
+    },
+    {
+      "x": 23682,
+      "y": 842
+    },
+    {
+      "x": 23366,
+      "y": 842
+    },
+    {
+      "x": 23986,
+      "y": 842
+    },
+    {
+      "x": 24317,
+      "y": 981
+    },
+    {
+      "x": 24653,
+      "y": 981
+    },
+    {
+      "x": 22471,
+      "y": 925
+    },
+    {
+      "x": 20828,
+      "y": 1466
     }
   ],
   "Specialization": [
@@ -6247,21 +6266,14 @@
     },
     {
       "_actorID": "Madam",
-      "_text": "This is why I want you on my side when I become the monarch.",
+      "_text": "Thiss issh why I want you on my sside when I become the monarch.",
       "_choices": [],
       "_speed": 0.7,
       "_endOffset": 1.0
     },
     {
       "_actorID": "Madam",
-      "_text": "I was already fascinated about you before but... ",
-      "_choices": [],
-      "_speed": 0.7,
-      "_endOffset": 1.0
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "Ssupport me during the Royal sselection and I… ",
+      "_text": "I wass already fashcinated by you before but... ",
       "_choices": [],
       "_speed": 0.7,
       "_endOffset": 1.0
@@ -6351,48 +6363,6 @@
       "_endOffset": 1.0
     },
     {
-      "_actorID": "Madam",
-      "_text": "It wassh jussht a gathering of ssmall tribessh…",
-      "_choices": [],
-      "_speed": 0.7,
-      "_endOffset": 0.6
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "Did you know that the kingdom didn’t exisssht 100 yearssh ago?",
-      "_choices": [],
-      "_speed": 0.7,
-      "_endOffset": 1.0
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "of different sspeciessh which lived sseparately, ",
-      "_choices": [],
-      "_speed": 0.8,
-      "_endOffset": 0.8
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "the only connection was that they lived geographically closshe…",
-      "_choices": [],
-      "_speed": 0.8,
-      "_endOffset": 0.6
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "are a part of today.",
-      "_choices": [],
-      "_speed": 0.7,
-      "_endOffset": 1.0
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "merged into one, building the foundation of the amazing kingdom that we…",
-      "_choices": [],
-      "_speed": 0.8,
-      "_endOffset": 0.6
-    },
-    {
       "_actorID": "You",
       "_text": "Could I have some time to think about it?",
       "_choices": [],
@@ -6435,48 +6405,9 @@
       "_endOffset": 2.0
     },
     {
-      "_actorID": "Madam",
-      "_text": "by doing ssmall thingssh I believe we can achieve greatnessh!",
-      "_choices": [],
-      "_speed": 0.7,
-      "_endOffset": 1.4
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "I want to change the kingdom in the ssame way.",
-      "_choices": [],
-      "_speed": 0.7,
-      "_endOffset": 1.0
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "Sso what do you think about the proposshal?",
       "_choices": [
         {
-          "Text": "ACCEPT"
-        }
-      ],
-      "_speed": 0.7,
-      "_endOffset": 1.0
-    },
-    {
-      "_actorID": "You",
-      "_text": "Your vision is very interesting, you got my support",
-      "_choices": [],
-      "_speed": 0.8,
-      "_endOffset": 1.0
-    },
-    {
-      "_actorID": "You",
-      "_text": "I’m looking forward to the country that you will create.",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 1.5
-    },
-    {
-      "_choices": [
-        {
-          "Text": "REJECT"
+          "Text": "*REJECT*"
         }
       ]
     },
@@ -6514,13 +6445,6 @@
       "_choices": [],
       "_speed": 1.1,
       "_endOffset": 1.0
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "but through one ssmall encounter they exchanged culture and eventually…",
-      "_choices": [],
-      "_speed": 0.8,
-      "_endOffset": 0.6
     },
     {
       "_choices": [
@@ -6825,7 +6749,7 @@
     {
       "_choices": [
         {
-          "Text": "*REJECT*"
+          "Text": "*INTERRUPT*"
         }
       ]
     },
@@ -6896,17 +6820,6 @@
       "_choices": [],
       "_speed": 0.9,
       "_endOffset": 0.5
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "will create the country that you desire.",
-      "_choices": [
-        {
-          "Text": "*LISTEN*"
-        }
-      ],
-      "_speed": 0.7,
-      "_endOffset": 1.0
     },
     {
       "_choices": [
@@ -7210,6 +7123,119 @@
     },
     {
       "_id": "output"
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "now I’m intrigued by your perssonality.",
+      "_choices": [],
+      "_speed": 0.7,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "Ssupport me during the Royal sseleshtion and I… ",
+      "_choices": [],
+      "_speed": 0.7,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "It wassh jussht a gathering of ssmall tribessh…",
+      "_choices": [],
+      "_speed": 0.7,
+      "_endOffset": 0.6
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "Did you know that the kingdom didn’t exisssht 100 yearssh ago?",
+      "_choices": [],
+      "_speed": 0.7,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "of different sspeciessh which lived sseparately, ",
+      "_choices": [],
+      "_speed": 0.8,
+      "_endOffset": 0.8
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "the only connection was that they lived geographically closshe…",
+      "_choices": [],
+      "_speed": 0.8,
+      "_endOffset": 0.6
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "are a part of today.",
+      "_choices": [],
+      "_speed": 0.7,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "merged into one, building the foundation of the amazing kingdom that we…",
+      "_choices": [],
+      "_speed": 0.8,
+      "_endOffset": 0.6
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "by doing ssmall thingssh I believe we can achieve greatnessh!",
+      "_choices": [],
+      "_speed": 0.7,
+      "_endOffset": 1.4
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "I want to change the kingdom in the ssame way.",
+      "_choices": [],
+      "_speed": 0.7,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "Sso what do you think about the proposshal?",
+      "_choices": [
+        {
+          "Text": "ACCEPT"
+        }
+      ],
+      "_speed": 0.7,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "You",
+      "_text": "Your vision is very interesting, you got my support",
+      "_choices": [],
+      "_speed": 0.8,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "You",
+      "_text": "I’m looking forward to the country that you will create.",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.5
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "but through one ssmall encounter they exchanged culture and eventually…",
+      "_choices": [],
+      "_speed": 0.8,
+      "_endOffset": 0.6
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "will create the shountry that you desssire.",
+      "_choices": [
+        {
+          "Text": "*LISTEN*"
+        }
+      ],
+      "_speed": 0.7,
+      "_endOffset": 1.0
     }
   ]
 }
