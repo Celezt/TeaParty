@@ -619,46 +619,6 @@
       "Binder": "Celezt.DialogueSystem.SetInterpreter"
     },
     {
-      "ID": "3c42480f210a41ecaf0da8fd8e0ffde1",
-      "Type": "Celezt.DialogueSystem.Editor.SetNode",
-      "Binder": "Celezt.DialogueSystem.SetInterpreter"
-    },
-    {
-      "ID": "5f41429973e34109b0f7dc16f21d17b7",
-      "Type": "Celezt.DialogueSystem.Editor.SetNode",
-      "Binder": "Celezt.DialogueSystem.SetInterpreter"
-    },
-    {
-      "ID": "85c7995c89a6465fbf9c95b5bb436bb2",
-      "Type": "Celezt.DialogueSystem.Editor.SetNode",
-      "Binder": "Celezt.DialogueSystem.SetInterpreter"
-    },
-    {
-      "ID": "e6693132bc954cb3ac1cd97791785c0c",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
-      "ID": "ee7d971cf12e410fb33bde2ab14ba40e",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
-      "ID": "f43cc49f45d445bab70895e004108a48",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
-      "ID": "3928e8c6ae014d1bbd0c1a6149f90525",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
-      "ID": "c7f02e1f903f496f900e208d4b2e0b86",
-      "Type": "Celezt.DialogueSystem.Editor.SetNode",
-      "Binder": "Celezt.DialogueSystem.SetInterpreter"
-    },
-    {
       "ID": "a63a0de417104c47a603eea74668a2cd",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
@@ -1039,11 +999,6 @@
       "Binder": "Celezt.DialogueSystem.ActionInterpreter"
     },
     {
-      "ID": "e7c819b557b74c80b7c685663876ac5d",
-      "Type": "Celezt.DialogueSystem.Editor.ConditionNode",
-      "Binder": "Celezt.DialogueSystem.ConditionProcessor"
-    },
-    {
       "ID": "52bba2d1436d46129d6cfe215d906848",
       "Type": "Celezt.DialogueSystem.Editor.PropertyNode",
       "Binder": "Celezt.DialogueSystem.ValueProcessor"
@@ -1397,6 +1352,31 @@
       "ID": "7126053567084c609ba0efb83670c658",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "85c7995c89a6465fbf9c95b5bb436bb2",
+      "Type": "Celezt.DialogueSystem.Editor.SetNode",
+      "Binder": "Celezt.DialogueSystem.SetInterpreter"
+    },
+    {
+      "ID": "e6693132bc954cb3ac1cd97791785c0c",
+      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
+      "Binder": "Celezt.DialogueSystem.ValueProcessor"
+    },
+    {
+      "ID": "ee7d971cf12e410fb33bde2ab14ba40e",
+      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
+      "Binder": "Celezt.DialogueSystem.ValueProcessor"
+    },
+    {
+      "ID": "c7f02e1f903f496f900e208d4b2e0b86",
+      "Type": "Celezt.DialogueSystem.Editor.SetNode",
+      "Binder": "Celezt.DialogueSystem.SetInterpreter"
+    },
+    {
+      "ID": "e7c819b557b74c80b7c685663876ac5d",
+      "Type": "Celezt.DialogueSystem.Editor.ConditionNode",
+      "Binder": "Celezt.DialogueSystem.ConditionProcessor"
     }
   ],
   "Edges": [
@@ -2732,41 +2712,11 @@
     },
     {
       "OutputPort": {
-        "NodeID": "330787a7d44c4260859e9d85ac52e668",
-        "PortNumber": 2
-      },
-      "InputPort": {
-        "NodeID": "3c42480f210a41ecaf0da8fd8e0ffde1",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "f43cc49f45d445bab70895e004108a48",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "3c42480f210a41ecaf0da8fd8e0ffde1",
-        "PortNumber": 1
-      }
-    },
-    {
-      "OutputPort": {
         "NodeID": "ee7d971cf12e410fb33bde2ab14ba40e",
         "PortNumber": 0
       },
       "InputPort": {
         "NodeID": "85c7995c89a6465fbf9c95b5bb436bb2",
-        "PortNumber": 1
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "3928e8c6ae014d1bbd0c1a6149f90525",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "5f41429973e34109b0f7dc16f21d17b7",
         "PortNumber": 1
       }
     },
@@ -2778,26 +2728,6 @@
       "InputPort": {
         "NodeID": "c7f02e1f903f496f900e208d4b2e0b86",
         "PortNumber": 1
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "3c42480f210a41ecaf0da8fd8e0ffde1",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "5f41429973e34109b0f7dc16f21d17b7",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "5f41429973e34109b0f7dc16f21d17b7",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "85c7995c89a6465fbf9c95b5bb436bb2",
-        "PortNumber": 0
       }
     },
     {
@@ -3258,16 +3188,6 @@
       "InputPort": {
         "NodeID": "2c7202c5289f442aa3118ece07e403f2",
         "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "e7c819b557b74c80b7c685663876ac5d",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "c974979ecee34b3b9e6cb273d6bfa7c9",
-        "PortNumber": 3
       }
     },
     {
@@ -3738,16 +3658,6 @@
       "InputPort": {
         "NodeID": "0b3886d069d64b17a3eb0b3bbb09ff69",
         "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "cd6aa18a51dd4112b59ba0d631342263",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "c974979ecee34b3b9e6cb273d6bfa7c9",
-        "PortNumber": 4
       }
     },
     {
@@ -4319,6 +4229,36 @@
         "NodeID": "7126053567084c609ba0efb83670c658",
         "PortNumber": 0
       }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "330787a7d44c4260859e9d85ac52e668",
+        "PortNumber": 2
+      },
+      "InputPort": {
+        "NodeID": "85c7995c89a6465fbf9c95b5bb436bb2",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "e7c819b557b74c80b7c685663876ac5d",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "c974979ecee34b3b9e6cb273d6bfa7c9",
+        "PortNumber": 3
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "cd6aa18a51dd4112b59ba0d631342263",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "c974979ecee34b3b9e6cb273d6bfa7c9",
+        "PortNumber": 4
+      }
     }
   ],
   "Positions": [
@@ -4795,38 +4735,6 @@
       "y": 1197
     },
     {
-      "x": 16170,
-      "y": 1466
-    },
-    {
-      "x": 16170,
-      "y": 1569
-    },
-    {
-      "x": 16170,
-      "y": 1672
-    },
-    {
-      "x": 16055,
-      "y": 1843
-    },
-    {
-      "x": 16055,
-      "y": 1740
-    },
-    {
-      "x": 16055,
-      "y": 1534
-    },
-    {
-      "x": 16055,
-      "y": 1637
-    },
-    {
-      "x": 16170,
-      "y": 1775
-    },
-    {
       "x": 16423,
       "y": 1466
     },
@@ -5131,10 +5039,6 @@
       "y": 2127
     },
     {
-      "x": 25035,
-      "y": 2837
-    },
-    {
       "x": 24830,
       "y": 2864
     },
@@ -5417,6 +5321,26 @@
     {
       "x": 20828,
       "y": 1466
+    },
+    {
+      "x": 16170,
+      "y": 1492
+    },
+    {
+      "x": 16055,
+      "y": 1663
+    },
+    {
+      "x": 16055,
+      "y": 1560
+    },
+    {
+      "x": 16170,
+      "y": 1595
+    },
+    {
+      "x": 25047,
+      "y": 2835
     }
   ],
   "Specialization": [
@@ -6066,7 +5990,7 @@
     },
     {
       "_actorID": "Madam",
-      "_text": "Shtop bothering our guessht Charleshh",
+      "_text": "Shtop bothering our guessht Charleshh.",
       "_choices": [],
       "_speed": 1.2,
       "_endOffset": 0.6
@@ -6141,7 +6065,7 @@
           "Text": "YES"
         },
         {
-          "Text": "No"
+          "Text": "NO"
         }
       ],
       "_speed": 0.9,
@@ -6181,38 +6105,6 @@
     },
     {
       "_propertyName": "Charles - Friendliness",
-      "_assignOption": "PlusAssign"
-    },
-    {
-      "_propertyName": "Madam - Friendliness",
-      "_assignOption": "MinusAssign"
-    },
-    {
-      "_propertyName": "Madam - Upset",
-      "_assignOption": "MinusAssign"
-    },
-    {
-      "_propertyName": "Charles - Friendliness",
-      "_assignOption": "MinusAssign"
-    },
-    {
-      "_type": "System.Int32",
-      "_value": 2
-    },
-    {
-      "_type": "System.Int32",
-      "_value": 1
-    },
-    {
-      "_type": "System.Int32",
-      "_value": 1
-    },
-    {
-      "_type": "System.Int32",
-      "_value": 1
-    },
-    {
-      "_propertyName": "Charles - Upset",
       "_assignOption": "PlusAssign"
     },
     {
@@ -6455,7 +6347,7 @@
     },
     {
       "_actorID": "Madam",
-      "_text": "But I mussht have missundersstood your eleganshe for ssomething elshe.",
+      "_text": "I mussht have missundersstood your eleganshe for ssomething elshe. ",
       "_choices": [
         {
           "Text": "ACCEPT OFFER"
@@ -6754,9 +6646,6 @@
       ]
     },
     {
-      "currentComparison": 3
-    },
-    {
       "_propertyID": "3705dfc1c2064c1b93466c9c81adb14f"
     },
     {
@@ -6919,7 +6808,7 @@
       "_endOffset": 0.6
     },
     {
-      "_actorID": "Madam",
+      "_actorID": "",
       "_text": "(It is getting a bit out of hand)",
       "_choices": [
         {
@@ -7236,6 +7125,25 @@
       ],
       "_speed": 0.7,
       "_endOffset": 1.0
+    },
+    {
+      "_propertyName": "Charles - Friendliness",
+      "_assignOption": "MinusAssign"
+    },
+    {
+      "_type": "System.Int32",
+      "_value": 2
+    },
+    {
+      "_type": "System.Int32",
+      "_value": 1
+    },
+    {
+      "_propertyName": "Charles - Upset",
+      "_assignOption": "PlusAssign"
+    },
+    {
+      "currentComparison": 3
     }
   ]
 }
