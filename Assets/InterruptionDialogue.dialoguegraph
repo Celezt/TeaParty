@@ -194,11 +194,6 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "6e7634f2f1e44a05be71ec4d656536cf",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
       "ID": "fcc70d244aa2482da5b78938951dc1af",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
@@ -1584,11 +1579,6 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "e3c4d31b2ba14502a696833ebc53586e",
-      "Type": "Celezt.DialogueSystem.Editor.InputNode",
-      "Binder": "Celezt.DialogueSystem.InputInterpreter"
-    },
-    {
       "ID": "7aa55b68cc2f4e5a81ee38654dd4e9de",
       "Type": "Celezt.DialogueSystem.Editor.ActionNode",
       "Binder": "Celezt.DialogueSystem.ActionInterpreter"
@@ -1622,6 +1612,16 @@
       "ID": "e65f0497ed5a4f4fa6bdb0eb4d6cd4df",
       "Type": "Celezt.DialogueSystem.Editor.BasicNode",
       "Binder": "Celezt.DialogueSystem.ValueProcessor"
+    },
+    {
+      "ID": "e3c4d31b2ba14502a696833ebc53586e",
+      "Type": "Celezt.DialogueSystem.Editor.InputNode",
+      "Binder": "Celezt.DialogueSystem.InputInterpreter"
+    },
+    {
+      "ID": "6e7634f2f1e44a05be71ec4d656536cf",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     }
   ],
   "Edges": [
@@ -5167,16 +5167,6 @@
     },
     {
       "OutputPort": {
-        "NodeID": "e3c4d31b2ba14502a696833ebc53586e",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "895bc448ea8049d7be49438a827971bc",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
         "NodeID": "9d25fe27370243c6a5e0521cd6480a53",
         "PortNumber": -2
       },
@@ -5263,6 +5253,16 @@
       "InputPort": {
         "NodeID": "cd6aa18a51dd4112b59ba0d631342263",
         "PortNumber": 1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "e3c4d31b2ba14502a696833ebc53586e",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "895bc448ea8049d7be49438a827971bc",
+        "PortNumber": 0
       }
     }
   ],
@@ -5398,10 +5398,6 @@
     {
       "x": 5127,
       "y": 1122
-    },
-    {
-      "x": 3436,
-      "y": 1554
     },
     {
       "x": 3762,
@@ -6512,10 +6508,6 @@
       "y": 2587
     },
     {
-      "x": -474,
-      "y": 400
-    },
-    {
       "x": 20410,
       "y": 2127
     },
@@ -6542,6 +6534,14 @@
     {
       "x": 24920,
       "y": 3070
+    },
+    {
+      "x": -527,
+      "y": 406
+    },
+    {
+      "x": 3436,
+      "y": 1554
     }
   ],
   "Specialization": [
@@ -6731,13 +6731,6 @@
       "_choices": [],
       "_speed": 0.8,
       "_endOffset": 1.5
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "Do you think that? I am truly honoured!",
-      "_choices": [],
-      "_speed": 0.6,
-      "_endOffset": 1.0
     },
     {
       "_actorID": "Madam",
@@ -8391,9 +8384,6 @@
       "_endOffset": 1.0
     },
     {
-      "_id": "default"
-    },
-    {
       "_choices": [
         {
           "Text": "*INTERRUPT*"
@@ -8419,6 +8409,16 @@
     {
       "_type": "System.Int32",
       "_value": 4
+    },
+    {
+      "_id": "default"
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "Do you think that? I am flattered.",
+      "_choices": [],
+      "_speed": 0.6,
+      "_endOffset": 1.0
     }
   ]
 }
