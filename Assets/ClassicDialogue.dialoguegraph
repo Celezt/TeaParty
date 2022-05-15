@@ -1339,11 +1339,6 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "81cf72276dc049ab8f591cf99d59acf8",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
       "ID": "e15fa3997f5f42d49425bfd9f57bf236",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
@@ -1377,6 +1372,11 @@
       "ID": "db1caf7f257d4183ab6216c84af4f041",
       "Type": "Celezt.DialogueSystem.Editor.ActionNode",
       "Binder": "Celezt.DialogueSystem.ActionInterpreter"
+    },
+    {
+      "ID": "81cf72276dc049ab8f591cf99d59acf8",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     }
   ],
   "Edges": [
@@ -5301,10 +5301,6 @@
       "y": 670
     },
     {
-      "x": 2548,
-      "y": 670
-    },
-    {
       "x": 3920,
       "y": 670
     },
@@ -5313,7 +5309,7 @@
       "y": -814
     },
     {
-      "x": 3609,
+      "x": 3610,
       "y": -424
     },
     {
@@ -5331,6 +5327,10 @@
     {
       "x": 22635,
       "y": 2585
+    },
+    {
+      "x": 2548,
+      "y": 670
     }
   ],
   "Specialization": [
@@ -6160,7 +6160,7 @@
       "_text": "Tea hass cultural importanshe to uss in this land. ",
       "_choices": [
         {
-          "Text": "*LISTEN"
+          "Text": "..."
         }
       ],
       "_speed": 0.7,
@@ -6417,7 +6417,7 @@
       "_text": "These matterssh are of great importance!",
       "_choices": [
         {
-          "Text": "CONTINUE"
+          "Text": "..."
         }
       ],
       "_speed": 0.8,
@@ -7034,24 +7034,10 @@
     },
     {
       "_actorID": "Madam",
-      "_text": "of elegant importansshe.",
-      "_choices": [
-        {
-          "Text": "*Compliment*"
-        },
-        {
-          "Text": "*Stay silent*"
-        }
-      ],
-      "_speed": 0.7,
-      "_endOffset": 1.0
-    },
-    {
-      "_actorID": "Madam",
       "_text": "I’m not ssure how you even came up here on your own, ",
       "_choices": [
         {
-          "Text": "*LET MADAM TALK*"
+          "Text": "..."
         },
         {
           "Text": "THE BACKDOOR"
@@ -7065,7 +7051,7 @@
       "_text": "",
       "_choices": [
         {
-          "Text": "CONTINUE"
+          "Text": "..."
         },
         {
           "Text": "*DESCALATE*"
@@ -7115,6 +7101,20 @@
           "Text": "OKAY"
         }
       ]
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "of elegant importansshe.",
+      "_choices": [
+        {
+          "Text": "*Compliment*"
+        },
+        {
+          "Text": "..."
+        }
+      ],
+      "_speed": 0.7,
+      "_endOffset": 1.0
     }
   ]
 }
