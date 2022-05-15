@@ -49,16 +49,6 @@
       "Binder": "Celezt.DialogueSystem.ValueProcessor"
     },
     {
-      "ID": "16baf751c3d9492cb71510f7f00d9bf4",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "1cf18e74ec16401aa5bf4153a42f4f1a",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
       "ID": "48434880eea14127b20c2c2460d50d8a",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
@@ -85,11 +75,6 @@
     },
     {
       "ID": "ef41b0b82a39434984f388ffbb96cbee",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "1dbab09e90d543519d29fd431e1fb91c",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
@@ -132,11 +117,6 @@
       "ID": "82db378818af420486a87424b396a6ab",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "a0bd994b26af4d5089ce86bfb07583cb",
-      "Type": "Celezt.DialogueSystem.Editor.BlendNode",
-      "Binder": "Celezt.DialogueSystem.BlendInterpreter"
     },
     {
       "ID": "6aa9814270624b7ea3aed67772f54f14",
@@ -1559,11 +1539,6 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "9a0c7d2e13ef4258a1666c5128667831",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
       "ID": "994fefc02e3e4c1b89eb362f553e42fc",
       "Type": "Celezt.DialogueSystem.Editor.MarkerNode",
       "Binder": "Celezt.DialogueSystem.MarkerInterpreter"
@@ -1577,16 +1552,6 @@
       "ID": "515948053a34446a8c26afd814d07d51",
       "Type": "Celezt.DialogueSystem.Editor.MarkerNode",
       "Binder": "Celezt.DialogueSystem.MarkerInterpreter"
-    },
-    {
-      "ID": "895bc448ea8049d7be49438a827971bc",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "e3c4d31b2ba14502a696833ebc53586e",
-      "Type": "Celezt.DialogueSystem.Editor.InputNode",
-      "Binder": "Celezt.DialogueSystem.InputInterpreter"
     },
     {
       "ID": "c974979ecee34b3b9e6cb273d6bfa7c9",
@@ -1660,6 +1625,41 @@
     },
     {
       "ID": "e399d4ca59f741b0852bbc10d6ffdc4c",
+      "Type": "Celezt.DialogueSystem.Editor.BlendNode",
+      "Binder": "Celezt.DialogueSystem.BlendInterpreter"
+    },
+    {
+      "ID": "16baf751c3d9492cb71510f7f00d9bf4",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "1cf18e74ec16401aa5bf4153a42f4f1a",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "1dbab09e90d543519d29fd431e1fb91c",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "9a0c7d2e13ef4258a1666c5128667831",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "895bc448ea8049d7be49438a827971bc",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "e3c4d31b2ba14502a696833ebc53586e",
+      "Type": "Celezt.DialogueSystem.Editor.InputNode",
+      "Binder": "Celezt.DialogueSystem.InputInterpreter"
+    },
+    {
+      "ID": "a0bd994b26af4d5089ce86bfb07583cb",
       "Type": "Celezt.DialogueSystem.Editor.BlendNode",
       "Binder": "Celezt.DialogueSystem.BlendInterpreter"
     }
@@ -5404,14 +5404,6 @@
       "y": 383
     },
     {
-      "x": 350,
-      "y": 340
-    },
-    {
-      "x": 11,
-      "y": 340
-    },
-    {
       "x": 5588,
       "y": 2279
     },
@@ -5434,10 +5426,6 @@
     {
       "x": 5870,
       "y": 2246
-    },
-    {
-      "x": 682,
-      "y": 340
     },
     {
       "x": 1226,
@@ -5470,10 +5458,6 @@
     {
       "x": 4862,
       "y": 666
-    },
-    {
-      "x": 2114,
-      "y": 51
     },
     {
       "x": 1994,
@@ -6612,10 +6596,6 @@
       "y": 1554
     },
     {
-      "x": 930,
-      "y": 638
-    },
-    {
       "x": 31367,
       "y": 1212
     },
@@ -6626,14 +6606,6 @@
     {
       "x": 30559,
       "y": 2648
-    },
-    {
-      "x": -311,
-      "y": 340
-    },
-    {
-      "x": -491,
-      "y": 406
     },
     {
       "x": 25201,
@@ -6694,6 +6666,34 @@
     {
       "x": 23369,
       "y": 2903
+    },
+    {
+      "x": 306,
+      "y": 340
+    },
+    {
+      "x": -33,
+      "y": 340
+    },
+    {
+      "x": 638,
+      "y": 340
+    },
+    {
+      "x": 886,
+      "y": 638
+    },
+    {
+      "x": -355,
+      "y": 340
+    },
+    {
+      "x": -535,
+      "y": 406
+    },
+    {
+      "x": 2114,
+      "y": 51
     }
   ],
   "Specialization": [
@@ -6703,29 +6703,15 @@
     },
     {
       "_propertyName": "Charles - Upset",
-      "_assignOption": "MinusAssign"
+      "_assignOption": "PlusAssign"
     },
     {
       "_propertyName": "Madam - Upset",
-      "_assignOption": "MinusAssign"
+      "_assignOption": "PlusAssign"
     },
     {
       "_type": "System.Int32",
       "_value": 2
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "we have important matterss to disshcussshh. ",
-      "_choices": [],
-      "_speed": 0.7,
-      "_endOffset": 1.0
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "Charleshh pleashse ehscort the guessht to the garden, ",
-      "_choices": [],
-      "_speed": 0.7,
-      "_endOffset": 0.5
     },
     {
       "_actorID": "Charles Bug",
@@ -6759,13 +6745,6 @@
       "_choices": [],
       "_speed": 1.0,
       "_endOffset": 1.5
-    },
-    {
-      "_actorID": "",
-      "_text": "*walks to the garden*",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 2.0
     },
     {
       "_actorID": "Charles Bug",
@@ -6824,7 +6803,6 @@
       "_speed": 0.7,
       "_endOffset": 1.5
     },
-    {},
     {
       "_type": "System.Single",
       "_value": 1.0
@@ -7844,7 +7822,7 @@
       "_text": "How can you not be? Do you not care what… ",
       "_choices": [],
       "_speed": 0.7,
-      "_endOffset": 1.0
+      "_endOffset": 0.6
     },
     {
       "_type": "System.Int32",
@@ -8473,13 +8451,6 @@
       "_endOffset": 1.0
     },
     {
-      "_actorID": "Charles Bug",
-      "_text": "Honourable guest,  please have a seat while I...",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 0.6
-    },
-    {
       "_id": "output"
     },
     {
@@ -8487,16 +8458,6 @@
     },
     {
       "_id": "output"
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "greetingssshh, my honourable guessht.",
-      "_choices": [],
-      "_speed": 0.7,
-      "_endOffset": 1.0
-    },
-    {
-      "_id": "default"
     },
     {
       "_actorID": "Madam",
@@ -8605,6 +8566,45 @@
       "_choices": [],
       "_speed": 1.1,
       "_endOffset": 0.6
+    },
+    {},
+    {
+      "_actorID": "Madam",
+      "_text": "we have important matterss to disshcussshh. ",
+      "_choices": [],
+      "_speed": 0.7,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "Charleshh pleashse ehscort the guessht to the garden, ",
+      "_choices": [],
+      "_speed": 0.7,
+      "_endOffset": 0.5
+    },
+    {
+      "_actorID": "",
+      "_text": "*walks to the garden*",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 2.0
+    },
+    {
+      "_actorID": "Charles Bug",
+      "_text": "Honourable guest,  please have a seat while I...",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 0.6
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "greetingssshh, my honourable guessht.",
+      "_choices": [],
+      "_speed": 0.7,
+      "_endOffset": 1.0
+    },
+    {
+      "_id": "default"
     },
     {}
   ]
