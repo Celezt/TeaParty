@@ -9528,7 +9528,7 @@
       "_text": "Glorious weather today, isn't it, Lady Madam. ",
       "_choices": [],
       "_speed": 1.3,
-      "_endOffset": 0.5
+      "_endOffset": 1.0
     },
     {
       "_actorID": "Charles Bug",
@@ -9540,7 +9540,7 @@
     {},
     {
       "_type": "System.Single",
-      "_value": 0.4
+      "_value": 1.0
     },
     {
       "_choices": [
