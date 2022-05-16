@@ -5464,6 +5464,26 @@
         "NodeID": "e9c096254d94448f8e85e632de14b2d7",
         "PortNumber": 1
       }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "100e57f8f0f842a59ed7ed3f21c72351",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "b07b674542d24e8196053e9e48351365",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "100e57f8f0f842a59ed7ed3f21c72351",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "da2dcf9ed47346c6a9fb276040b43b35",
+        "PortNumber": -1
+      }
     }
   ],
   "Positions": [
@@ -6784,12 +6804,12 @@
       "y": 681
     },
     {
-      "x": -548,
+      "x": -536,
       "y": 946
     },
     {
-      "x": 420,
-      "y": 946
+      "x": 1016,
+      "y": 968
     }
   ],
   "Specialization": [
@@ -8635,9 +8655,9 @@
     },
     {
       "_actorID": "Madam",
-      "_text": "Oh yes ... we haven't had this sunny in a long time.",
+      "_text": "...",
       "_choices": [],
-      "_speed": 1.0,
+      "_speed": 0.4,
       "_endOffset": 0.7
     },
     {

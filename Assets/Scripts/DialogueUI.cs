@@ -33,14 +33,17 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _topActor;
     [SerializeField] private TextMeshProUGUI _bottomActor;
     [SerializeField] private CanvasGroup _actions;
+    [SerializeField] private AudioSource[] _audioSource;
     [SerializeField] private SerializableDictionary<string, SpriteRenderer> _sprites = new SerializableDictionary<string, SpriteRenderer>();
 
     private bool _isInitialized;
+    private int _oldTopVisibleCharacterCount;
+    private int _oldBottomVisibleCharacterCount;
 
     public void Clear()
     {
         Refresh();
-
+        
         foreach (var sprite in _sprites.Values)
         {
             sprite.enabled = false;
@@ -141,11 +144,28 @@ public class DialogueUI : MonoBehaviour
 
             if (callback.Index == 0)
             {
-                _bottomText.maxVisibleCharacters = Mathf.CeilToInt(_bottomText.textInfo.characterCount * percentage);
+                int visibleCharacterCount = Mathf.CeilToInt(_bottomText.textInfo.characterCount * percentage);
+                _bottomText.maxVisibleCharacters = visibleCharacterCount;
+
+
+                if (visibleCharacterCount != _oldBottomVisibleCharacterCount)
+                {
+                    _audioSource[1].PlayOneShot(_audioSource[1].clip);
+                }
+
+                _oldBottomVisibleCharacterCount = visibleCharacterCount;
             }
             else
             {
-                _topText.maxVisibleCharacters = Mathf.CeilToInt(_topText.textInfo.characterCount * percentage);
+                int visibleCharacterCount = Mathf.CeilToInt(_topText.textInfo.characterCount * percentage);
+                _topText.maxVisibleCharacters = visibleCharacterCount;
+
+                if (visibleCharacterCount != _oldTopVisibleCharacterCount)
+                {
+                    _audioSource[1].PlayOneShot(_audioSource[0].clip);
+                }
+
+                _oldTopVisibleCharacterCount = visibleCharacterCount;
             }
         }
     }
