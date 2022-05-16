@@ -1892,7 +1892,7 @@ MonoBehaviour:
   _inputID: default
   _dialogues:
   - {fileID: -5475051401550479605, guid: 57f2da8944a69c74d91cb21a84715964, type: 3}
-  - {fileID: -5475051401550479605, guid: 8939faebab5dada4f9ad65fb50fbc11b, type: 3}
+  - {fileID: -5475051401550479605, guid: 3790a7bcb06a6974693bbb635c6d0238, type: 3}
 --- !u!4 &1228394809
 Transform:
   m_ObjectHideFlags: 0
