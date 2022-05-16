@@ -1389,26 +1389,6 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "cbec0e56c8aa42a3af147c433809c98c",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "0ce2548b31e746c38601307d5d56cbe6",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "f6f3894627744290852de8e24edceb95",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "f34591c407a745659787c2b9e6a515aa",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
       "ID": "a26b9f039cda42759913ad17f57729a6",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
@@ -2000,6 +1980,31 @@
     },
     {
       "ID": "6523b78c861b465faddeed3109db4763",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "cbec0e56c8aa42a3af147c433809c98c",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "0ce2548b31e746c38601307d5d56cbe6",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "f6f3894627744290852de8e24edceb95",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "f34591c407a745659787c2b9e6a515aa",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "334ae9ec78474ab4a5044d782c8990dc",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     }
@@ -7144,6 +7149,36 @@
         "NodeID": "1e50fe0341a94e64bbcb8e07f89fbe88",
         "PortNumber": 0
       }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "f34591c407a745659787c2b9e6a515aa",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "334ae9ec78474ab4a5044d782c8990dc",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "334ae9ec78474ab4a5044d782c8990dc",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "e1b8da430c31472dbde4662c70c17166",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "334ae9ec78474ab4a5044d782c8990dc",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "37a706ee343443e09dd10697dff12775",
+        "PortNumber": 0
+      }
     }
   ],
   "Positions": [
@@ -8236,22 +8271,6 @@
       "y": 966
     },
     {
-      "x": 8606,
-      "y": 556
-    },
-    {
-      "x": 8132,
-      "y": 556
-    },
-    {
-      "x": 8371,
-      "y": 556
-    },
-    {
-      "x": 8848,
-      "y": 556
-    },
-    {
       "x": 9506,
       "y": 514
     },
@@ -8726,6 +8745,26 @@
     {
       "x": 29742,
       "y": 3274
+    },
+    {
+      "x": 8422,
+      "y": 548
+    },
+    {
+      "x": 7948,
+      "y": 548
+    },
+    {
+      "x": 8187,
+      "y": 548
+    },
+    {
+      "x": 8664,
+      "y": 548
+    },
+    {
+      "x": 8902,
+      "y": 548
     }
   ],
   "Specialization": [
@@ -10277,34 +10316,6 @@
     },
     {
       "_actorID": "Madam",
-      "_text": "...",
-      "_choices": [],
-      "_speed": 0.4,
-      "_endOffset": 2.0
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "No need to sshkimp.",
-      "_choices": [],
-      "_speed": 0.8,
-      "_endOffset": 1.5
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "We got plenty.",
-      "_choices": [],
-      "_speed": 0.8,
-      "_endOffset": 2.0
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "Honourable gueshst?",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 2.0
-    },
-    {
-      "_actorID": "Madam",
       "_text": "Extravagant tasste, just assh mysshelf. ",
       "_choices": [],
       "_speed": 1.0,
@@ -11081,6 +11092,41 @@
       "_choices": [],
       "_speed": 0.4,
       "_endOffset": 2.0
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "...",
+      "_choices": [],
+      "_speed": 0.4,
+      "_endOffset": 2.0
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "No need to sshkimp.",
+      "_choices": [],
+      "_speed": 0.8,
+      "_endOffset": 1.5
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "We got plenty.",
+      "_choices": [],
+      "_speed": 0.8,
+      "_endOffset": 2.0
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "Honourable gueshst?",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 2.0
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "...",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.0
     }
   ]
 }
