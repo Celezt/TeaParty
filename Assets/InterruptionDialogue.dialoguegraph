@@ -139,16 +139,6 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "85e88c47cf8842108f4089b7a49d2ac8",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
-      "ID": "2c7202c5289f442aa3118ece07e403f2",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
       "ID": "13929eee583e4be591b23f79dfc219bd",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
@@ -259,102 +249,12 @@
       "Binder": "Celezt.DialogueSystem.ValueProcessor"
     },
     {
-      "ID": "754f6de23cab4a88a192b87cc9c16dd4",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
-      "ID": "9fa4ae7a8c594b118ae4b14f85865112",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "e7c819b557b74c80b7c685663876ac5d",
-      "Type": "Celezt.DialogueSystem.Editor.ConditionNode",
-      "Binder": "Celezt.DialogueSystem.ConditionProcessor"
-    },
-    {
-      "ID": "52bba2d1436d46129d6cfe215d906848",
-      "Type": "Celezt.DialogueSystem.Editor.PropertyNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
-      "ID": "74aff6ae11594dcdaec9c1d4accc32d4",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
-      "ID": "cd6aa18a51dd4112b59ba0d631342263",
-      "Type": "Celezt.DialogueSystem.Editor.ConditionNode",
-      "Binder": "Celezt.DialogueSystem.ConditionProcessor"
-    },
-    {
-      "ID": "0d3b77fe032443379c4147cbbf5e1a9f",
-      "Type": "Celezt.DialogueSystem.Editor.PropertyNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
-      "ID": "e65f0497ed5a4f4fa6bdb0eb4d6cd4df",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
       "ID": "c11959df00d64e569fcd235a5dce1e89",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
       "ID": "ad663cf45f2748beb0a72f69305ebefb",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "de330e5683b44521b1643584d3c738b4",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "ffa22fc4ab2b495fb16ee31b096d5909",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "7810991b65224dcab2f5bfebd5b69353",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "25a035ef6b7847f99dedde9d345c88ac",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "eb07496aac0a4c4d9e2ea74ae276bf06",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "0e27d4ad468548d7bf65c9aba0de8a1c",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
-      "ID": "951cb30f7e5e472d99b1ead2d641222f",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "e399d4ca59f741b0852bbc10d6ffdc4c",
-      "Type": "Celezt.DialogueSystem.Editor.BlendNode",
-      "Binder": "Celezt.DialogueSystem.BlendInterpreter"
-    },
-    {
-      "ID": "8dbcf84192e446f681ffe94db9a689d8",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "4f94952579f544de9084160fd6522d3c",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
@@ -389,11 +289,6 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "c974979ecee34b3b9e6cb273d6bfa7c9",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
       "ID": "e77132e14a0340ccbb5e8a8bbded4ff0",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
@@ -414,81 +309,6 @@
       "Binder": "Celezt.DialogueSystem.BlendInterpreter"
     },
     {
-      "ID": "44e7e6a25bee4703a14d081809e40d02",
-      "Type": "Celezt.DialogueSystem.Editor.BlendNode",
-      "Binder": "Celezt.DialogueSystem.BlendInterpreter"
-    },
-    {
-      "ID": "50d501d783eb4867a9f35171ed2e94be",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "8bc4f9cc24a24f88b6ab86d3e531cb00",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "4542622c158a454b981037f130f0faec",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "40bcd1b68dab45dea44799a9e01d82ef",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "90e8551afbf94f3fa860ab32a27d7e77",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "afb2fc1f5dbe46d0aef1d48fa1c5db7c",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "2b13ffc0eb8547ec9e41951c80473141",
-      "Type": "Celezt.DialogueSystem.Editor.BlendNode",
-      "Binder": "Celezt.DialogueSystem.BlendInterpreter"
-    },
-    {
-      "ID": "62bf59aaa3b5456fa61f4120f054ff06",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "578483b9cf80420a8b172daeaa97233b",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
-      "ID": "d968c3a1037a47bd9e65d26f2116303f",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "e1cb3edd7e1143c9aca7a236e95f4807",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "8f18d3c22f0a430c86ba742f7604903f",
-      "Type": "Celezt.DialogueSystem.Editor.BlendNode",
-      "Binder": "Celezt.DialogueSystem.BlendInterpreter"
-    },
-    {
-      "ID": "028f8c54b9f34e1a9c1d031bccf2c4dd",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "95bf878f2dbd4ae8b5c3b29145b0eedb",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
       "ID": "0ea2f214a73c47459e61c9e1730c53f6",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
@@ -499,22 +319,12 @@
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
-      "ID": "56f8a33ebc724404a59047d93a8900aa",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
       "ID": "fab1311a44464afcaa63f4ce0e94e8af",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
       "ID": "5cc1046ff3ad471c85ef3007b0ce5a37",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "952700aae1694b65bc56d9e3b44d4b50",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
@@ -567,26 +377,6 @@
       "ID": "dc95d231c3ff45138ae3a003ab37adc6",
       "Type": "Celezt.DialogueSystem.Editor.MarkerNode",
       "Binder": "Celezt.DialogueSystem.MarkerInterpreter"
-    },
-    {
-      "ID": "498fb3593d02459c834ef3da854b2e68",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "aef5586d50384732b5aade751237eea3",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "e567c5828d284aa6bb856ec0f3fa3d43",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "9b45ccd691e6437ca8e827fadd6f5465",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
       "ID": "4e68a84761a84f99a0b28622391f24cf",
@@ -1869,54 +1659,14 @@
       "Binder": "Celezt.DialogueSystem.ValueProcessor"
     },
     {
-      "ID": "d92c9ec535c04358b947fc27b5a25626",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "db1caf7f257d4183ab6216c84af4f041",
-      "Type": "Celezt.DialogueSystem.Editor.ActionNode",
-      "Binder": "Celezt.DialogueSystem.ActionInterpreter"
-    },
-    {
-      "ID": "a35765f311754fccb43b7c062d642b22",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
       "ID": "270bf7f1b9634d4b83c4298020263dc5",
       "Type": "Celezt.DialogueSystem.Editor.ActionNode",
       "Binder": "Celezt.DialogueSystem.ActionInterpreter"
     },
     {
-      "ID": "6b09fca563bf4e97980d87ecb7a3aff4",
-      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
-      "Binder": "Celezt.DialogueSystem.ValueProcessor"
-    },
-    {
-      "ID": "66039e8dbca54076967719ca25e6d6e5",
-      "Type": "Celezt.DialogueSystem.Editor.BlendNode",
-      "Binder": "Celezt.DialogueSystem.BlendInterpreter"
-    },
-    {
-      "ID": "79af1484f46a4908818e550006abd0fb",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
       "ID": "134d8837762246e087e2bce7acc8be21",
       "Type": "Celezt.DialogueSystem.Editor.ActionNode",
       "Binder": "Celezt.DialogueSystem.ActionInterpreter"
-    },
-    {
-      "ID": "17f1ef0b92be432cae8631967fc5aef5",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
-    },
-    {
-      "ID": "950a053a6b794efa9cdfc38135ed9643",
-      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
-      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     },
     {
       "ID": "9d25fe27370243c6a5e0521cd6480a53",
@@ -1965,6 +1715,291 @@
     },
     {
       "ID": "76781ff0d7f4416a8e98d70c79337e8f",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "ebb80d0872374a41bf62b0fe1c398377",
+      "Type": "Celezt.DialogueSystem.Editor.ActionNode",
+      "Binder": "Celezt.DialogueSystem.ActionInterpreter"
+    },
+    {
+      "ID": "40b17258db7a4d0f8003f4b1893435e7",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "2ea36e7df1374683930d06eb160c6298",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "85e88c47cf8842108f4089b7a49d2ac8",
+      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
+      "Binder": "Celezt.DialogueSystem.ValueProcessor"
+    },
+    {
+      "ID": "44e7e6a25bee4703a14d081809e40d02",
+      "Type": "Celezt.DialogueSystem.Editor.BlendNode",
+      "Binder": "Celezt.DialogueSystem.BlendInterpreter"
+    },
+    {
+      "ID": "40bcd1b68dab45dea44799a9e01d82ef",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "90e8551afbf94f3fa860ab32a27d7e77",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "afb2fc1f5dbe46d0aef1d48fa1c5db7c",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "4cf9f915fb9e4a958b3a1ad1b72797de",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "d968c3a1037a47bd9e65d26f2116303f",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "2b13ffc0eb8547ec9e41951c80473141",
+      "Type": "Celezt.DialogueSystem.Editor.BlendNode",
+      "Binder": "Celezt.DialogueSystem.BlendInterpreter"
+    },
+    {
+      "ID": "62bf59aaa3b5456fa61f4120f054ff06",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "2c7202c5289f442aa3118ece07e403f2",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "578483b9cf80420a8b172daeaa97233b",
+      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
+      "Binder": "Celezt.DialogueSystem.ValueProcessor"
+    },
+    {
+      "ID": "17f1ef0b92be432cae8631967fc5aef5",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "950a053a6b794efa9cdfc38135ed9643",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "3631bf73928145aeacdbaa00dd53eb8f",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "de330e5683b44521b1643584d3c738b4",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "ffa22fc4ab2b495fb16ee31b096d5909",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "7810991b65224dcab2f5bfebd5b69353",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "25a035ef6b7847f99dedde9d345c88ac",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "eb07496aac0a4c4d9e2ea74ae276bf06",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "0e27d4ad468548d7bf65c9aba0de8a1c",
+      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
+      "Binder": "Celezt.DialogueSystem.ValueProcessor"
+    },
+    {
+      "ID": "951cb30f7e5e472d99b1ead2d641222f",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "e399d4ca59f741b0852bbc10d6ffdc4c",
+      "Type": "Celezt.DialogueSystem.Editor.BlendNode",
+      "Binder": "Celezt.DialogueSystem.BlendInterpreter"
+    },
+    {
+      "ID": "8dbcf84192e446f681ffe94db9a689d8",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "4f94952579f544de9084160fd6522d3c",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "d92c9ec535c04358b947fc27b5a25626",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "db1caf7f257d4183ab6216c84af4f041",
+      "Type": "Celezt.DialogueSystem.Editor.ActionNode",
+      "Binder": "Celezt.DialogueSystem.ActionInterpreter"
+    },
+    {
+      "ID": "6b09fca563bf4e97980d87ecb7a3aff4",
+      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
+      "Binder": "Celezt.DialogueSystem.ValueProcessor"
+    },
+    {
+      "ID": "66039e8dbca54076967719ca25e6d6e5",
+      "Type": "Celezt.DialogueSystem.Editor.BlendNode",
+      "Binder": "Celezt.DialogueSystem.BlendInterpreter"
+    },
+    {
+      "ID": "79af1484f46a4908818e550006abd0fb",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "c974979ecee34b3b9e6cb273d6bfa7c9",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "88429d512af0488ab38dd264cbf20685",
+      "Type": "Celezt.DialogueSystem.Editor.ActionNode",
+      "Binder": "Celezt.DialogueSystem.ActionInterpreter"
+    },
+    {
+      "ID": "eaf60dea4d2a48d3b507fba5b6253285",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "408fe7511316422bae3c9875d8b2cf78",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "a35765f311754fccb43b7c062d642b22",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "aef5586d50384732b5aade751237eea3",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "028f8c54b9f34e1a9c1d031bccf2c4dd",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "ab2275e9187a4804bfe239722890d71e",
+      "Type": "Celezt.DialogueSystem.Editor.ActionNode",
+      "Binder": "Celezt.DialogueSystem.ActionInterpreter"
+    },
+    {
+      "ID": "9fa4ae7a8c594b118ae4b14f85865112",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "95bf878f2dbd4ae8b5c3b29145b0eedb",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "60bf83fbbe4b49a58c1ad637f8ab4159",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "56f8a33ebc724404a59047d93a8900aa",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "33a92b27b08249ada2fba3659a1293ad",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "d08c8b233bdd43f4970cf2115f9bab4a",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "498fb3593d02459c834ef3da854b2e68",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "4f82b7fea17c4bac9ae697b7ebccda63",
+      "Type": "Celezt.DialogueSystem.Editor.BasicNode",
+      "Binder": "Celezt.DialogueSystem.ValueProcessor"
+    },
+    {
+      "ID": "4506c321bb2040bab68c97f7b4980fed",
+      "Type": "Celezt.DialogueSystem.Editor.BlendNode",
+      "Binder": "Celezt.DialogueSystem.BlendInterpreter"
+    },
+    {
+      "ID": "33b6c830a7d247fe8ff9c4e0d7244bd7",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "b4284976d7cd4c9889fd73d4c1db8f48",
+      "Type": "Celezt.DialogueSystem.Editor.ActionNode",
+      "Binder": "Celezt.DialogueSystem.ActionInterpreter"
+    },
+    {
+      "ID": "e567c5828d284aa6bb856ec0f3fa3d43",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "9b45ccd691e6437ca8e827fadd6f5465",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "952700aae1694b65bc56d9e3b44d4b50",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "9a6c3dd983e249fcb43eb0a08ebbfc31",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "849d95827fac458e8e72f04b66a56df5",
+      "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
+      "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
+    },
+    {
+      "ID": "6523b78c861b465faddeed3109db4763",
       "Type": "Celezt.DialogueSystem.Editor.DialogueNode",
       "Binder": "Celezt.DialogueSystem.DialogueInterpreter"
     }
@@ -4142,26 +4177,6 @@
     },
     {
       "OutputPort": {
-        "NodeID": "44e7e6a25bee4703a14d081809e40d02",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "4542622c158a454b981037f130f0faec",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "4542622c158a454b981037f130f0faec",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "40bcd1b68dab45dea44799a9e01d82ef",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
         "NodeID": "40bcd1b68dab45dea44799a9e01d82ef",
         "PortNumber": 0
       },
@@ -4177,26 +4192,6 @@
       },
       "InputPort": {
         "NodeID": "afb2fc1f5dbe46d0aef1d48fa1c5db7c",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "afb2fc1f5dbe46d0aef1d48fa1c5db7c",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "e1cb3edd7e1143c9aca7a236e95f4807",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "e1cb3edd7e1143c9aca7a236e95f4807",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "d968c3a1037a47bd9e65d26f2116303f",
         "PortNumber": 0
       }
     },
@@ -4228,16 +4223,6 @@
       "InputPort": {
         "NodeID": "2b13ffc0eb8547ec9e41951c80473141",
         "PortNumber": 1
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "50d501d783eb4867a9f35171ed2e94be",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "8bc4f9cc24a24f88b6ab86d3e531cb00",
-        "PortNumber": 0
       }
     },
     {
@@ -4277,36 +4262,6 @@
       },
       "InputPort": {
         "NodeID": "2c7202c5289f442aa3118ece07e403f2",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "52bba2d1436d46129d6cfe215d906848",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "e7c819b557b74c80b7c685663876ac5d",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "74aff6ae11594dcdaec9c1d4accc32d4",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "e7c819b557b74c80b7c685663876ac5d",
-        "PortNumber": 1
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "c974979ecee34b3b9e6cb273d6bfa7c9",
-        "PortNumber": 1
-      },
-      "InputPort": {
-        "NodeID": "e1b71c0613944effb59c75c95352d23a",
         "PortNumber": 0
       }
     },
@@ -4492,36 +4447,6 @@
     },
     {
       "OutputPort": {
-        "NodeID": "9fa4ae7a8c594b118ae4b14f85865112",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "8f18d3c22f0a430c86ba742f7604903f",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "754f6de23cab4a88a192b87cc9c16dd4",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "8f18d3c22f0a430c86ba742f7604903f",
-        "PortNumber": 1
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "8f18d3c22f0a430c86ba742f7604903f",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "028f8c54b9f34e1a9c1d031bccf2c4dd",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
         "NodeID": "028f8c54b9f34e1a9c1d031bccf2c4dd",
         "PortNumber": 0
       },
@@ -4577,16 +4502,6 @@
       },
       "InputPort": {
         "NodeID": "56f8a33ebc724404a59047d93a8900aa",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "56f8a33ebc724404a59047d93a8900aa",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "952700aae1694b65bc56d9e3b44d4b50",
         "PortNumber": 0
       }
     },
@@ -4822,16 +4737,6 @@
     },
     {
       "OutputPort": {
-        "NodeID": "8bc4f9cc24a24f88b6ab86d3e531cb00",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "6d79aef3b40343ac8865d7c1017cd1e4",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
         "NodeID": "9d25fe27370243c6a5e0521cd6480a53",
         "PortNumber": -2
       },
@@ -4848,26 +4753,6 @@
       "InputPort": {
         "NodeID": "2e3e14eefc6d48ca9b3a2ef0f98c38af",
         "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "0d3b77fe032443379c4147cbbf5e1a9f",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "cd6aa18a51dd4112b59ba0d631342263",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "e65f0497ed5a4f4fa6bdb0eb4d6cd4df",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "cd6aa18a51dd4112b59ba0d631342263",
-        "PortNumber": 1
       }
     },
     {
@@ -5038,56 +4923,6 @@
       "InputPort": {
         "NodeID": "895bc448ea8049d7be49438a827971bc",
         "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "c974979ecee34b3b9e6cb273d6bfa7c9",
-        "PortNumber": 4
-      },
-      "InputPort": {
-        "NodeID": "7776625af97d42769dfc112d8d67ea58",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "c974979ecee34b3b9e6cb273d6bfa7c9",
-        "PortNumber": 3
-      },
-      "InputPort": {
-        "NodeID": "58871383f01c41aea25cc920076c2eef",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "c974979ecee34b3b9e6cb273d6bfa7c9",
-        "PortNumber": 2
-      },
-      "InputPort": {
-        "NodeID": "e77132e14a0340ccbb5e8a8bbded4ff0",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "e7c819b557b74c80b7c685663876ac5d",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "c974979ecee34b3b9e6cb273d6bfa7c9",
-        "PortNumber": 3
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "cd6aa18a51dd4112b59ba0d631342263",
-        "PortNumber": 0
-      },
-      "InputPort": {
-        "NodeID": "c974979ecee34b3b9e6cb273d6bfa7c9",
-        "PortNumber": 4
       }
     },
     {
@@ -6702,16 +6537,6 @@
     },
     {
       "OutputPort": {
-        "NodeID": "950a053a6b794efa9cdfc38135ed9643",
-        "PortNumber": 1
-      },
-      "InputPort": {
-        "NodeID": "50d501d783eb4867a9f35171ed2e94be",
-        "PortNumber": 0
-      }
-    },
-    {
-      "OutputPort": {
         "NodeID": "e5dd9613832a4274b87a51fc63887f1c",
         "PortNumber": 0
       },
@@ -6849,6 +6674,476 @@
         "NodeID": "0b3a1544b7284546ba752a421524f5dc",
         "PortNumber": 0
       }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "e1d715bb5a3446cb8fd10a144729283d",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "ebb80d0872374a41bf62b0fe1c398377",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "20039ee48dd4474996838bdbd6d169ce",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "ebb80d0872374a41bf62b0fe1c398377",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "265d9522f1d34deba0f7f3760da04ced",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "ebb80d0872374a41bf62b0fe1c398377",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "76781ff0d7f4416a8e98d70c79337e8f",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "ebb80d0872374a41bf62b0fe1c398377",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "ebb80d0872374a41bf62b0fe1c398377",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "0b3a1544b7284546ba752a421524f5dc",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "ebb80d0872374a41bf62b0fe1c398377",
+        "PortNumber": 1
+      },
+      "InputPort": {
+        "NodeID": "a35765f311754fccb43b7c062d642b22",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "44e7e6a25bee4703a14d081809e40d02",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "40bcd1b68dab45dea44799a9e01d82ef",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "afb2fc1f5dbe46d0aef1d48fa1c5db7c",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "4cf9f915fb9e4a958b3a1ad1b72797de",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "4cf9f915fb9e4a958b3a1ad1b72797de",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "d968c3a1037a47bd9e65d26f2116303f",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "134d8837762246e087e2bce7acc8be21",
+        "PortNumber": 1
+      },
+      "InputPort": {
+        "NodeID": "40b17258db7a4d0f8003f4b1893435e7",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "40b17258db7a4d0f8003f4b1893435e7",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "2ea36e7df1374683930d06eb160c6298",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "2ea36e7df1374683930d06eb160c6298",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "6d79aef3b40343ac8865d7c1017cd1e4",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "950a053a6b794efa9cdfc38135ed9643",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "3631bf73928145aeacdbaa00dd53eb8f",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "3631bf73928145aeacdbaa00dd53eb8f",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "20039ee48dd4474996838bdbd6d169ce",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "c974979ecee34b3b9e6cb273d6bfa7c9",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "88429d512af0488ab38dd264cbf20685",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "88429d512af0488ab38dd264cbf20685",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "e1b71c0613944effb59c75c95352d23a",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "88429d512af0488ab38dd264cbf20685",
+        "PortNumber": 1
+      },
+      "InputPort": {
+        "NodeID": "e77132e14a0340ccbb5e8a8bbded4ff0",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "88429d512af0488ab38dd264cbf20685",
+        "PortNumber": 2
+      },
+      "InputPort": {
+        "NodeID": "58871383f01c41aea25cc920076c2eef",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "88429d512af0488ab38dd264cbf20685",
+        "PortNumber": 3
+      },
+      "InputPort": {
+        "NodeID": "7776625af97d42769dfc112d8d67ea58",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "c974979ecee34b3b9e6cb273d6bfa7c9",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "408fe7511316422bae3c9875d8b2cf78",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "408fe7511316422bae3c9875d8b2cf78",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "88429d512af0488ab38dd264cbf20685",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "408fe7511316422bae3c9875d8b2cf78",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "eaf60dea4d2a48d3b507fba5b6253285",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "eaf60dea4d2a48d3b507fba5b6253285",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "88429d512af0488ab38dd264cbf20685",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "eaf60dea4d2a48d3b507fba5b6253285",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "498fb3593d02459c834ef3da854b2e68",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "9fa4ae7a8c594b118ae4b14f85865112",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "028f8c54b9f34e1a9c1d031bccf2c4dd",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "028f8c54b9f34e1a9c1d031bccf2c4dd",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "ab2275e9187a4804bfe239722890d71e",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "9fa4ae7a8c594b118ae4b14f85865112",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "ab2275e9187a4804bfe239722890d71e",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "da0d7b7869894b21b616b11001b23772",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "ab2275e9187a4804bfe239722890d71e",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "1c722ed24f774b6a881ebb12331764b6",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "ab2275e9187a4804bfe239722890d71e",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "ab2275e9187a4804bfe239722890d71e",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "60bf83fbbe4b49a58c1ad637f8ab4159",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "60bf83fbbe4b49a58c1ad637f8ab4159",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "95bf878f2dbd4ae8b5c3b29145b0eedb",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "56f8a33ebc724404a59047d93a8900aa",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "b4284976d7cd4c9889fd73d4c1db8f48",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "5cc1046ff3ad471c85ef3007b0ce5a37",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "b4284976d7cd4c9889fd73d4c1db8f48",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "a3ee63c9e7cd480e979c0d48aa66b6c7",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "b4284976d7cd4c9889fd73d4c1db8f48",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "56f8a33ebc724404a59047d93a8900aa",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "6523b78c861b465faddeed3109db4763",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "6523b78c861b465faddeed3109db4763",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "b4284976d7cd4c9889fd73d4c1db8f48",
+        "PortNumber": -1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "d08c8b233bdd43f4970cf2115f9bab4a",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "4506c321bb2040bab68c97f7b4980fed",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "4506c321bb2040bab68c97f7b4980fed",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "9a6c3dd983e249fcb43eb0a08ebbfc31",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "4f82b7fea17c4bac9ae697b7ebccda63",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "4506c321bb2040bab68c97f7b4980fed",
+        "PortNumber": 1
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "9a6c3dd983e249fcb43eb0a08ebbfc31",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "33b6c830a7d247fe8ff9c4e0d7244bd7",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "33b6c830a7d247fe8ff9c4e0d7244bd7",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "a35765f311754fccb43b7c062d642b22",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "b4284976d7cd4c9889fd73d4c1db8f48",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "33a92b27b08249ada2fba3659a1293ad",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "33a92b27b08249ada2fba3659a1293ad",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "d08c8b233bdd43f4970cf2115f9bab4a",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "b4284976d7cd4c9889fd73d4c1db8f48",
+        "PortNumber": 1
+      },
+      "InputPort": {
+        "NodeID": "952700aae1694b65bc56d9e3b44d4b50",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "6523b78c861b465faddeed3109db4763",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "849d95827fac458e8e72f04b66a56df5",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "849d95827fac458e8e72f04b66a56df5",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "0b3a1544b7284546ba752a421524f5dc",
+        "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "100e57f8f0f842a59ed7ed3f21c72351",
+        "PortNumber": 0
+      },
+      "InputPort": {
+        "NodeID": "1e50fe0341a94e64bbcb8e07f89fbe88",
+        "PortNumber": 0
+      }
     }
   ],
   "Positions": [
@@ -6941,14 +7236,6 @@
       "y": 1081
     },
     {
-      "x": 24112,
-      "y": 1532
-    },
-    {
-      "x": 23811,
-      "y": 1357
-    },
-    {
       "x": 22903,
       "y": 1720
     },
@@ -7037,84 +7324,12 @@
       "y": 3441
     },
     {
-      "x": 27366,
-      "y": 3460
-    },
-    {
-      "x": 27110,
-      "y": 3274
-    },
-    {
-      "x": 25035,
-      "y": 2837
-    },
-    {
-      "x": 24830,
-      "y": 2864
-    },
-    {
-      "x": 24871,
-      "y": 2906
-    },
-    {
-      "x": 25047,
-      "y": 2976
-    },
-    {
-      "x": 24857,
-      "y": 3013
-    },
-    {
-      "x": 24920,
-      "y": 3070
-    },
-    {
       "x": 26464,
       "y": 2900
     },
     {
       "x": 26774,
       "y": 2900
-    },
-    {
-      "x": 23719,
-      "y": 2465
-    },
-    {
-      "x": 24057,
-      "y": 2465
-    },
-    {
-      "x": 24383,
-      "y": 2465
-    },
-    {
-      "x": 24702,
-      "y": 2465
-    },
-    {
-      "x": 23282,
-      "y": 2496
-    },
-    {
-      "x": 23232,
-      "y": 2990
-    },
-    {
-      "x": 22966,
-      "y": 2809
-    },
-    {
-      "x": 23369,
-      "y": 2903
-    },
-    {
-      "x": 22406,
-      "y": 2127
-    },
-    {
-      "x": 22738,
-      "y": 2127
     },
     {
       "x": 22584,
@@ -7141,10 +7356,6 @@
       "y": 1447
     },
     {
-      "x": 25201,
-      "y": 2696
-    },
-    {
       "x": 25570,
       "y": 2540
     },
@@ -7161,66 +7372,6 @@
       "y": 1903
     },
     {
-      "x": 24228,
-      "y": 1429
-    },
-    {
-      "x": 24335,
-      "y": 980
-    },
-    {
-      "x": 24671,
-      "y": 980
-    },
-    {
-      "x": 24446,
-      "y": 1358
-    },
-    {
-      "x": 24784,
-      "y": 1358
-    },
-    {
-      "x": 25078,
-      "y": 1358
-    },
-    {
-      "x": 25410,
-      "y": 1358
-    },
-    {
-      "x": 26343,
-      "y": 1425
-    },
-    {
-      "x": 26518,
-      "y": 1358
-    },
-    {
-      "x": 26214,
-      "y": 1681
-    },
-    {
-      "x": 25984,
-      "y": 1358
-    },
-    {
-      "x": 25731,
-      "y": 1358
-    },
-    {
-      "x": 27472,
-      "y": 3338
-    },
-    {
-      "x": 27648,
-      "y": 3274
-    },
-    {
-      "x": 27928,
-      "y": 3274
-    },
-    {
       "x": 28206,
       "y": 3274
     },
@@ -7229,19 +7380,11 @@
       "y": 3274
     },
     {
-      "x": 29484,
-      "y": 3274
-    },
-    {
       "x": 28458,
       "y": 3274
     },
     {
       "x": 28794,
-      "y": 3274
-    },
-    {
-      "x": 29758,
       "y": 3274
     },
     {
@@ -7283,22 +7426,6 @@
     {
       "x": 31889,
       "y": 2018
-    },
-    {
-      "x": 29246,
-      "y": 2587
-    },
-    {
-      "x": 28984,
-      "y": 2587
-    },
-    {
-      "x": 30088,
-      "y": 3274
-    },
-    {
-      "x": 30422,
-      "y": 3274
     },
     {
       "x": 30144,
@@ -8325,44 +8452,12 @@
       "y": 1846
     },
     {
-      "x": 22966,
-      "y": 2496
-    },
-    {
-      "x": 22441,
-      "y": 2606
-    },
-    {
-      "x": 28707,
-      "y": 2587
-    },
-    {
       "x": 21030,
       "y": 2619
     },
     {
-      "x": 21941,
-      "y": 2676
-    },
-    {
-      "x": 22064,
-      "y": 2537
-    },
-    {
-      "x": 21661,
-      "y": 2610
-    },
-    {
       "x": 23420,
       "y": 1365
-    },
-    {
-      "x": 23050,
-      "y": 980
-    },
-    {
-      "x": 23399,
-      "y": 980
     },
     {
       "x": 21167,
@@ -8403,6 +8498,234 @@
     {
       "x": 24281,
       "y": 1786
+    },
+    {
+      "x": 23870,
+      "y": 2170
+    },
+    {
+      "x": 23807,
+      "y": 1426
+    },
+    {
+      "x": 24129,
+      "y": 1426
+    },
+    {
+      "x": 24085,
+      "y": 1182
+    },
+    {
+      "x": 24201,
+      "y": 1079
+    },
+    {
+      "x": 24403,
+      "y": 1019
+    },
+    {
+      "x": 24697,
+      "y": 1019
+    },
+    {
+      "x": 25029,
+      "y": 1019
+    },
+    {
+      "x": 25314,
+      "y": 1019
+    },
+    {
+      "x": 25652,
+      "y": 1019
+    },
+    {
+      "x": 26125,
+      "y": 1086
+    },
+    {
+      "x": 26300,
+      "y": 1019
+    },
+    {
+      "x": 23784,
+      "y": 1007
+    },
+    {
+      "x": 26003,
+      "y": 1261
+    },
+    {
+      "x": 22882,
+      "y": 639
+    },
+    {
+      "x": 23216,
+      "y": 639
+    },
+    {
+      "x": 23456,
+      "y": 639
+    },
+    {
+      "x": 23204,
+      "y": 2480
+    },
+    {
+      "x": 23542,
+      "y": 2480
+    },
+    {
+      "x": 23868,
+      "y": 2480
+    },
+    {
+      "x": 24187,
+      "y": 2480
+    },
+    {
+      "x": 22767,
+      "y": 2511
+    },
+    {
+      "x": 22717,
+      "y": 3005
+    },
+    {
+      "x": 22451,
+      "y": 2824
+    },
+    {
+      "x": 22854,
+      "y": 2918
+    },
+    {
+      "x": 21891,
+      "y": 2142
+    },
+    {
+      "x": 22223,
+      "y": 2142
+    },
+    {
+      "x": 22451,
+      "y": 2511
+    },
+    {
+      "x": 21926,
+      "y": 2621
+    },
+    {
+      "x": 21588,
+      "y": 2703
+    },
+    {
+      "x": 21711,
+      "y": 2564
+    },
+    {
+      "x": 21308,
+      "y": 2637
+    },
+    {
+      "x": 24518,
+      "y": 2698
+    },
+    {
+      "x": 24555,
+      "y": 3126
+    },
+    {
+      "x": 25081,
+      "y": 2698
+    },
+    {
+      "x": 24836,
+      "y": 2698
+    },
+    {
+      "x": 28710,
+      "y": 2774
+    },
+    {
+      "x": 28985,
+      "y": 2774
+    },
+    {
+      "x": 27363,
+      "y": 3274
+    },
+    {
+      "x": 27025,
+      "y": 3703
+    },
+    {
+      "x": 27110,
+      "y": 3274
+    },
+    {
+      "x": 27928,
+      "y": 3274
+    },
+    {
+      "x": 27381,
+      "y": 3692
+    },
+    {
+      "x": 29484,
+      "y": 3274
+    },
+    {
+      "x": 29787,
+      "y": 3636
+    },
+    {
+      "x": 30064,
+      "y": 3636
+    },
+    {
+      "x": 29246,
+      "y": 2587
+    },
+    {
+      "x": 30307,
+      "y": 3863
+    },
+    {
+      "x": 30403,
+      "y": 3704
+    },
+    {
+      "x": 30912,
+      "y": 3636
+    },
+    {
+      "x": 29427,
+      "y": 3883
+    },
+    {
+      "x": 30099,
+      "y": 3965
+    },
+    {
+      "x": 30433,
+      "y": 3965
+    },
+    {
+      "x": 29769,
+      "y": 3965
+    },
+    {
+      "x": 30581,
+      "y": 3636
+    },
+    {
+      "x": 30003,
+      "y": 3274
+    },
+    {
+      "x": 29742,
+      "y": 3274
     }
   ],
   "Specialization": [
@@ -8534,17 +8857,6 @@
       "_endOffset": 1.5
     },
     {
-      "_type": "System.Single",
-      "_value": 0.4
-    },
-    {
-      "_actorID": "You",
-      "_text": "Could I have some time to think about it?",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 1.2
-    },
-    {
       "_actorID": "You",
       "_text": "but I’d rather not get involved. ",
       "_choices": [],
@@ -8647,7 +8959,7 @@
     },
     {
       "_actorID": "You",
-      "_text": "Before I answer, I have a question for Charles.",
+      "_text": "Before I answer, I have a question for Charles.\r",
       "_choices": [],
       "_speed": 1.2,
       "_endOffset": 0.8
@@ -8663,37 +8975,6 @@
       "_value": 0.4
     },
     {
-      "_type": "System.Single",
-      "_value": 0.6
-    },
-    {
-      "_actorID": "Charles Bug",
-      "_text": "I’m terribl–",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 0.8
-    },
-    {
-      "currentComparison": 3
-    },
-    {
-      "_propertyID": "3705dfc1c2064c1b93466c9c81adb14f"
-    },
-    {
-      "_type": "System.Int32",
-      "_value": 2
-    },
-    {
-      "currentComparison": 5
-    },
-    {
-      "_propertyID": "b67690be6b3345329b7c3e2f76fb605b"
-    },
-    {
-      "_type": "System.Int32",
-      "_value": 4
-    },
-    {
       "_actorID": "You",
       "_text": "By looking at the way you treat Charles, ",
       "_choices": [],
@@ -8706,67 +8987,6 @@
       "_choices": [],
       "_speed": 1.3,
       "_endOffset": 2.0
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "The kingdom lackssh the neceshsary etiquette and eleganshe.",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 1.0
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "I yearn for the day when all the citishenss of thiss kingdom…",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 0.6
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "can reach even just a dusht of grassefulnesh as mysself.",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 1.5
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "I would have hoped, of all people, you would at leasst undersstand me.",
-      "_choices": [],
-      "_speed": 0.8,
-      "_endOffset": 1.4
-    },
-    {
-      "_actorID": "You",
-      "_text": "I do wish you the best of luck.",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 0.6
-    },
-    {
-      "_type": "System.Single",
-      "_value": 0.8
-    },
-    {
-      "_actorID": "You",
-      "_text": "Sure, I will listen to what you...",
-      "_choices": [],
-      "_speed": 1.1,
-      "_endOffset": 0.6
-    },
-    {},
-    {
-      "_actorID": "Madam",
-      "_text": "Then hear me out before you make your decisshion,",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 1.0
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "These matterssh are of great importance!",
-      "_choices": [],
-      "_speed": 0.8,
-      "_endOffset": 1.0
     },
     {
       "_actorID": "You",
@@ -8811,26 +9031,6 @@
       "_endOffset": 1.0
     },
     {
-      "_actorID": "Madam",
-      "_text": "I mussht have missundersstood your eleganshe for ssomething elshe. ",
-      "_choices": [
-        {
-          "Text": "ACCEPT OFFER"
-        },
-        {
-          "Text": "KIND REJECTION"
-        },
-        {
-          "Text": "LASH OUT"
-        },
-        {
-          "Text": "CHARLES DECIDE"
-        }
-      ],
-      "_speed": 0.9,
-      "_endOffset": 1.0
-    },
-    {
       "_actorID": "You",
       "_text": "I’m sorry, I already have too many troubles and being...",
       "_choices": [],
@@ -8849,90 +9049,6 @@
       "_value": 0.8
     },
     {},
-    {},
-    {
-      "_actorID": "You",
-      "_text": "Your vision is very interesting, you got my support",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 1.0
-    },
-    {
-      "_actorID": "You",
-      "_text": "I’m looking forward to the country that you will create.",
-      "_choices": [],
-      "_speed": 1.2,
-      "_endOffset": 1.5
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "Of coursshe you don’t need to resshpond now, ",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 0.8
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "as long ash you consshider it I’m happy.",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 1.0
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "This has rather been a pleassant day hassn’t it Charlessh?",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 0.7
-    },
-    {
-      "_actorID": "Charles Bug",
-      "_text": "It certainly has Lady Madam, m- may I speak further?",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 1.3
-    },
-    {},
-    {
-      "_actorID": "Madam",
-      "_text": "OH MY! ",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 2.0
-    },
-    {
-      "_type": "System.Single",
-      "_value": 0.6
-    },
-    {
-      "_actorID": "Charles Bug",
-      "_text": "Lady Madam’s next appointment is soon due.",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 0.8
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "Go on Charlessh.",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 1.0
-    },
-    {},
-    {
-      "_actorID": "You",
-      "_text": "No it’s nothing of that kind.",
-      "_choices": [],
-      "_speed": 1.2,
-      "_endOffset": 1.5
-    },
-    {
-      "_actorID": "You",
-      "_text": "Charles, ",
-      "_choices": [],
-      "_speed": 0.5,
-      "_endOffset": 1.0
-    },
     {
       "_actorID": "Charles Bug",
       "_text": "Y-Yes?",
@@ -8942,17 +9058,10 @@
     },
     {
       "_actorID": "Charles Bug",
-      "_text": "Lady Madam.. to let someone as incompetent as myself",
+      "_text": "Lady Madam.. to let someone as incompetent as myself…",
       "_choices": [],
       "_speed": 0.8,
       "_endOffset": 0.8
-    },
-    {
-      "_actorID": "Charles Bug",
-      "_text": "serve her… ",
-      "_choices": [],
-      "_speed": 0.6,
-      "_endOffset": 1.5
     },
     {
       "_actorID": "You",
@@ -8963,17 +9072,10 @@
     },
     {
       "_actorID": "Charles Bug",
-      "_text": "I-It has been a bliss. I am eternally grateful for...",
+      "_text": "I-It has been a bliss. I am eternally grateful for… ",
       "_choices": [],
       "_speed": 0.8,
       "_endOffset": 0.8
-    },
-    {
-      "_actorID": "You",
-      "_text": "If Charles says that it is bliss working with you, then",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 1.0
     },
     {
       "_actorID": "Madam",
@@ -9040,34 +9142,6 @@
     },
     {
       "_id": "output"
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "I won’t forget this! Not even willing to listen!",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 0.8
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "Outrageoussh! ",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 1.2
-    },
-    {
-      "_actorID": "You",
-      "_text": "It would be a shame to let this opportunity go.",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 1.5
-    },
-    {
-      "_actorID": "You",
-      "_text": "You got my support!",
-      "_choices": [],
-      "_speed": 1.4,
-      "_endOffset": 2.0
     },
     {
       "_actorID": "Charles Bug",
@@ -9401,7 +9475,7 @@
       "_text": "...",
       "_choices": [],
       "_speed": 0.4,
-      "_endOffset": 0.7
+      "_endOffset": 4.0
     },
     {
       "_actorID": "Madam",
@@ -10547,30 +10621,6 @@
       "_value": 1.0
     },
     {
-      "_actorID": "You",
-      "_text": "I’ll have to respectfully decline your offer…",
-      "_choices": [],
-      "_speed": 1.1,
-      "_endOffset": 0.6
-    },
-    {
-      "_choices": [
-        {
-          "Text": "KIND REJECT"
-        },
-        {
-          "Text": "TELL MORE"
-        }
-      ]
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "I- I.",
-      "_choices": [],
-      "_speed": 0.3,
-      "_endOffset": 1.2
-    },
-    {
       "_choices": [
         {
           "Text": "NO I DONT"
@@ -10581,18 +10631,6 @@
       ]
     },
     {
-      "_type": "System.Single",
-      "_value": 0.8
-    },
-    {},
-    {
-      "_actorID": "You",
-      "_text": "I do bu-",
-      "_choices": [],
-      "_speed": 0.4,
-      "_endOffset": 0.6
-    },
-    {
       "_choices": [
         {
           "Text": "*UNSURE*"
@@ -10601,24 +10639,6 @@
           "Text": "*ACCEPT*"
         }
       ]
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "Sso what do you think about the proposshal?",
-      "_choices": [],
-      "_speed": 1.0,
-      "_endOffset": 2.0
-    },
-    {
-      "_actorID": "Madam",
-      "_text": "...",
-      "_choices": [
-        {
-          "Text": "ACCEPT"
-        }
-      ],
-      "_speed": 0.3,
-      "_endOffset": 1.0
     },
     {
       "_actorID": "Madam",
@@ -10689,6 +10709,378 @@
       "_choices": [],
       "_speed": 0.4,
       "_endOffset": 3.0
+    },
+    {
+      "_choices": [
+        {
+          "Text": "YES"
+        },
+        {
+          "Text": "NO"
+        }
+      ]
+    },
+    {
+      "_actorID": "You",
+      "_text": "Your vision is very interesting, you got my support.",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "You",
+      "_text": "I’m looking forward to the country that you will create.",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.0
+    },
+    {
+      "_type": "System.Single",
+      "_value": 0.4
+    },
+    {},
+    {
+      "_actorID": "Madam",
+      "_text": "As long ash you consshider it I’m happy.",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "This has rather been a pleassant day hassn’t it Charlessh?",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 0.7
+    },
+    {
+      "_actorID": "Charles Bug",
+      "_text": "It certainly has Lady Madam.",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.3
+    },
+    {
+      "_actorID": "Charles Bug",
+      "_text": "Sorry to intrude but Lady Madam’s… ",
+      "_choices": [],
+      "_speed": 0.8,
+      "_endOffset": 0.6
+    },
+    {
+      "_actorID": "Charles Bug",
+      "_text": "next appointment is soon due.",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 0.8
+    },
+    {},
+    {
+      "_actorID": "Madam",
+      "_text": "OH MY! ",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 2.0
+    },
+    {
+      "_actorID": "You",
+      "_text": "Could I have some time to think about it?",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.2
+    },
+    {
+      "_type": "System.Single",
+      "_value": 0.6
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "Sso what do you think about the proposshal?",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 2.0
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "...",
+      "_choices": [],
+      "_speed": 0.3,
+      "_endOffset": 2.0
+    },
+    {
+      "_actorID": "You",
+      "_text": "...",
+      "_choices": [],
+      "_speed": 0.3,
+      "_endOffset": 2.0
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "The kingdom lackssh the neceshsary etiquette and eleganshe.",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "I yearn for the day when all the citishenss of thiss kingdom…",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 0.6
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "can reach even just a dusht of grassefulnesh as mysself.",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.5
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "I would have hoped, of all people, you would at leasst undersstand me.",
+      "_choices": [],
+      "_speed": 0.8,
+      "_endOffset": 1.4
+    },
+    {
+      "_actorID": "You",
+      "_text": "I do wish you the best of luck.",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 0.6
+    },
+    {
+      "_type": "System.Single",
+      "_value": 0.8
+    },
+    {
+      "_actorID": "You",
+      "_text": "Sure, I will listen to what you...",
+      "_choices": [],
+      "_speed": 1.1,
+      "_endOffset": 0.6
+    },
+    {},
+    {
+      "_actorID": "Madam",
+      "_text": "Then hear me out before you make your decisshion,",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "These matterssh are of great importance!",
+      "_choices": [],
+      "_speed": 0.8,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "You",
+      "_text": "I’ll have to respectfully decline your offer…",
+      "_choices": [],
+      "_speed": 1.1,
+      "_endOffset": 0.6
+    },
+    {
+      "_choices": [
+        {
+          "Text": "KIND REJECT"
+        },
+        {
+          "Text": "TELL MORE"
+        }
+      ]
+    },
+    {
+      "_type": "System.Single",
+      "_value": 0.8
+    },
+    {},
+    {
+      "_actorID": "You",
+      "_text": "I do bu-",
+      "_choices": [],
+      "_speed": 0.4,
+      "_endOffset": 0.6
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "I mussht have missundersstood your eleganshe for ssomething elshe. ",
+      "_choices": [],
+      "_speed": 0.9,
+      "_endOffset": 3.0
+    },
+    {
+      "_choices": [
+        {
+          "Text": "ACCEPT OFFER"
+        },
+        {
+          "Text": "KIND REJECTION"
+        },
+        {
+          "Text": "LASH OUT"
+        },
+        {
+          "Text": "TALK CHARLES"
+        }
+      ]
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "It seems to me that I was right.",
+      "_choices": [],
+      "_speed": 0.8,
+      "_endOffset": 1.5
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "…",
+      "_choices": [],
+      "_speed": 0.4,
+      "_endOffset": 2.0
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "I- I.",
+      "_choices": [],
+      "_speed": 0.3,
+      "_endOffset": 1.2
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "Outrageoussh! ",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.2
+    },
+    {
+      "_actorID": "You",
+      "_text": "I hope you can forgive me for my errors!",
+      "_choices": [],
+      "_speed": 1.2,
+      "_endOffset": 1.5
+    },
+    {
+      "_choices": [
+        {
+          "Text": "*DE-ESCALATE*"
+        }
+      ]
+    },
+    {
+      "_actorID": "Charles Bug",
+      "_text": "I’m terribly sorry!",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 0.8
+    },
+    {
+      "_actorID": "You",
+      "_text": "Charles, ",
+      "_choices": [],
+      "_speed": 0.5,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "Charles Bug",
+      "_text": "No it’s nothing of that kind.",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 0.8
+    },
+    {
+      "_actorID": "Charles Bug",
+      "_text": "serve he.",
+      "_choices": [],
+      "_speed": 0.6,
+      "_endOffset": 2.0
+    },
+    {
+      "_actorID": "You",
+      "_text": "Lady Madam is not treating you right..",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "You",
+      "_text": "You deserve better!",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "I won’t forget this! Not even willing to listen!",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 0.8
+    },
+    {
+      "_type": "System.Single",
+      "_value": 1.0
+    },
+    {},
+    {
+      "_actorID": "You",
+      "_text": "You deserve better!",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.0
+    },
+    {
+      "_choices": [
+        {
+          "Text": "*POACH CHARLES*"
+        },
+        {
+          "Text": "*SUPPORT MADAM*"
+        }
+      ]
+    },
+    {
+      "_actorID": "You",
+      "_text": "it would be a shame to let this opportunity go.",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.5
+    },
+    {
+      "_actorID": "You",
+      "_text": "You got my support!",
+      "_choices": [],
+      "_speed": 1.4,
+      "_endOffset": 2.0
+    },
+    {
+      "_actorID": "You",
+      "_text": "If Charles says that it is bliss working with you, then…",
+      "_choices": [],
+      "_speed": 1.0,
+      "_endOffset": 1.0
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "What nonsshense are you ssspouting!    ",
+      "_choices": [],
+      "_speed": 1.2,
+      "_endOffset": 0.6
+    },
+    {
+      "_actorID": "Madam",
+      "_text": "…",
+      "_choices": [],
+      "_speed": 0.4,
+      "_endOffset": 2.0
+    },
+    {
+      "_actorID": "Charles Bug",
+      "_text": "...",
+      "_choices": [],
+      "_speed": 0.4,
+      "_endOffset": 2.0
     }
   ]
 }
