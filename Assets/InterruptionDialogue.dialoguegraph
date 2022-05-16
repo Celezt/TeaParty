@@ -4266,16 +4266,6 @@
         "PortNumber": -2
       },
       "InputPort": {
-        "NodeID": "13e0a744cb7c49fe8fdd2e8f3963dcac",
-        "PortNumber": -1
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "17f1ef0b92be432cae8631967fc5aef5",
-        "PortNumber": -2
-      },
-      "InputPort": {
         "NodeID": "134d8837762246e087e2bce7acc8be21",
         "PortNumber": -1
       }
@@ -6572,16 +6562,6 @@
     },
     {
       "OutputPort": {
-        "NodeID": "17f1ef0b92be432cae8631967fc5aef5",
-        "PortNumber": -2
-      },
-      "InputPort": {
-        "NodeID": "13e0a744cb7c49fe8fdd2e8f3963dcac",
-        "PortNumber": -1
-      }
-    },
-    {
-      "OutputPort": {
         "NodeID": "77295abc18784a4a8fd463411f87395f",
         "PortNumber": -2
       },
@@ -6633,16 +6613,6 @@
     {
       "OutputPort": {
         "NodeID": "950a053a6b794efa9cdfc38135ed9643",
-        "PortNumber": -2
-      },
-      "InputPort": {
-        "NodeID": "13e0a744cb7c49fe8fdd2e8f3963dcac",
-        "PortNumber": -1
-      }
-    },
-    {
-      "OutputPort": {
-        "NodeID": "17f1ef0b92be432cae8631967fc5aef5",
         "PortNumber": -2
       },
       "InputPort": {
@@ -7258,6 +7228,16 @@
       "InputPort": {
         "NodeID": "a35765f311754fccb43b7c062d642b22",
         "PortNumber": 0
+      }
+    },
+    {
+      "OutputPort": {
+        "NodeID": "17f1ef0b92be432cae8631967fc5aef5",
+        "PortNumber": -2
+      },
+      "InputPort": {
+        "NodeID": "13e0a744cb7c49fe8fdd2e8f3963dcac",
+        "PortNumber": -1
       }
     }
   ],
@@ -11014,7 +10994,7 @@
       "_endOffset": 1.2
     },
     {
-      "_actorID": "You",
+      "_actorID": "Charles Bug",
       "_text": "I hope you can forgive me for my errors!",
       "_choices": [],
       "_speed": 1.2,
