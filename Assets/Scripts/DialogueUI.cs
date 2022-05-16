@@ -36,9 +36,10 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private AudioSource[] _audioSource;
     [SerializeField] private SerializableDictionary<string, SpriteRenderer> _sprites = new SerializableDictionary<string, SpriteRenderer>();
 
+    private int[] _oldVisibleCharacterCounts;
+    private bool[] _eventVisibleCharacterCounts;
+
     private bool _isInitialized;
-    private int _oldTopVisibleCharacterCount;
-    private int _oldBottomVisibleCharacterCount;
 
     public void Clear()
     {
@@ -78,6 +79,12 @@ public class DialogueUI : MonoBehaviour
         _binder.OnProcessDialogueClip.AddListener(OnProcessClip);
         _binder.OnExitDialogueClip.AddListener(OnExitClip);
         _binder.OnDeleteTimeline.AddListener(Refresh);
+    }
+
+    private void Start()
+    {
+        _oldVisibleCharacterCounts = new int[_audioSource.Length + 1];
+        _eventVisibleCharacterCounts = new bool[_audioSource.Length + 1];
     }
 
     private void Update()
@@ -147,25 +154,14 @@ public class DialogueUI : MonoBehaviour
                 int visibleCharacterCount = Mathf.CeilToInt(_bottomText.textInfo.characterCount * percentage);
                 _bottomText.maxVisibleCharacters = visibleCharacterCount;
 
-
-                if (visibleCharacterCount != _oldBottomVisibleCharacterCount)
-                {
-                    _audioSource[1].PlayOneShot(_audioSource[1].clip);
-                }
-
-                _oldBottomVisibleCharacterCount = visibleCharacterCount;
+                PlayTextAudio(asset.Actor, visibleCharacterCount);
             }
             else
             {
                 int visibleCharacterCount = Mathf.CeilToInt(_topText.textInfo.characterCount * percentage);
                 _topText.maxVisibleCharacters = visibleCharacterCount;
 
-                if (visibleCharacterCount != _oldTopVisibleCharacterCount)
-                {
-                    _audioSource[1].PlayOneShot(_audioSource[0].clip);
-                }
-
-                _oldTopVisibleCharacterCount = visibleCharacterCount;
+                PlayTextAudio(asset.Actor, visibleCharacterCount);
             }
         }
     }
@@ -184,5 +180,51 @@ public class DialogueUI : MonoBehaviour
             _topText.text = null;
             _topActor.text = null;
         }
+    }
+
+    private void PlayTextAudio(string actor, int visibleCharacterCount)
+    {
+        switch (actor)
+        {
+            case "Madam":
+                if (visibleCharacterCount != _oldVisibleCharacterCounts[0])
+                {
+                    if (_eventVisibleCharacterCounts[0] == false)
+                    {
+                        _audioSource[0].PlayOneShot(_audioSource[0].clip);
+                        _eventVisibleCharacterCounts[0] = true;
+                    }
+                    else
+                        _eventVisibleCharacterCounts[0] = false;
+                }
+                _oldVisibleCharacterCounts[0] = visibleCharacterCount;
+                break;
+            case "Charles Bug":
+                if (visibleCharacterCount != _oldVisibleCharacterCounts[1])
+                {
+                    if (_eventVisibleCharacterCounts[1] == false)
+                    {
+                        _audioSource[1].PlayOneShot(_audioSource[1].clip);
+                        _eventVisibleCharacterCounts[1] = true;
+                    }
+                    else
+                        _eventVisibleCharacterCounts[1] = false;
+                }
+                _oldVisibleCharacterCounts[1] = visibleCharacterCount;
+                break;
+            case "You":
+                if (visibleCharacterCount != _oldVisibleCharacterCounts[2])
+                {
+                    if (_eventVisibleCharacterCounts[2] == false)
+                    {
+                        _audioSource[2].PlayOneShot(_audioSource[0].clip);
+                        _eventVisibleCharacterCounts[2] = true;
+                    }
+                    else
+                        _eventVisibleCharacterCounts[2] = false;
+                }
+                _oldVisibleCharacterCounts[2] = visibleCharacterCount;
+                break;
+        };
     }
 }
